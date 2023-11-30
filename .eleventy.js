@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("media");
     
     eleventyConfig.addPassthroughCopy("admin");
 
@@ -11,15 +11,15 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addCollection("media_one", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("src/images/*");
+        return collectionApi.getFilteredByGlob("src/media/*");
     });
 
     eleventyConfig.addCollection("media_two_beginning", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("src/images/*");
+        return collectionApi.getFilteredByGlob("src/media/*");
     });
 
     eleventyConfig.addCollection("media_two_ending", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("src/images/*");
+        return collectionApi.getFilteredByGlob("src/media/*");
     });
 
     eleventyConfig.addCollection("allMediums", function (collection) {

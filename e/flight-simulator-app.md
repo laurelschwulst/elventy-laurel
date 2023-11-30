@@ -5,7 +5,7 @@ subtitle: app and “ode to airplane mode”
 publisher: Soft Works
 description: Testing 123
 date: 2019-02-02
-featured_image: /assets/images/fs02.png
+featured_image: /assets/media/fs02.png
 type: project
 medium:
   - interactive
@@ -14,19 +14,19 @@ collaborator: ["Soft"]
 year: ["2019"]
 media_one:
   - media:
-      path: /assets/images/fs02.png
+      path: /assets/media/fs02.png
       type: image
       size: extra-large
       solar: non-solar
       alt: TBD
   - media:
-      path: /assets/images/fs03.png
+      path: /assets/media/fs03.png
       type: image
       size: extra-large
       solar: non-solar
       alt: TBD
   - media:
-      path: /assets/images/fs01.png
+      path: /assets/media/fs01.png
       type: image
       size: extra-large
       solar: non-solar
@@ -34,13 +34,13 @@ media_one:
       caption: lorem ipsum
 media_two_ending:
   - media:
-      path: /assets/images/fs-left-01.png
+      path: /assets/media/fs-left-01.png
       type: image
   - media:
-      path: /assets/images/fs-left-02.png
+      path: /assets/media/fs-left-02.png
       type: image
   - media:
-      path: /assets/images/fs-left-03.png
+      path: /assets/media/fs-left-03.png
       type: image
 ---
 

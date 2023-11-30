@@ -267,37 +267,37 @@
   }
 
   .blocks a.block.bird .image {
-    background: url('../images/project-bird.png');
+    background: url('../media/project-bird.png');
     background-size: cover;
     background-position: center;
   }
 
   .blocks a.block.flight .image {
-    background: url('../images/project-flight.jpg');
+    background: url('../media/project-flight.jpg');
     background-size: cover;
     background-position: center;
   }
 
   .blocks a.block.as .image {
-    background: url('../images/project-as.jpg');
+    background: url('../media/project-as.jpg');
     background-size: cover;
     background-position: center;
   }
 
   .blocks a.block.publishing .image {
-    background: url('../images/project-onion.png');
+    background: url('../media/project-onion.png');
     background-size: cover;
     background-position: center;
   }
 
   .blocks a.block.teaching .image {
-    background: url('../images/project-pm.png');
+    background: url('../media/project-pm.png');
     background-size: cover;
     background-position: center;
   }
 
   .blocks a.block.commissions .image {
-    background: url('../images/project-as-pins.jpg');
+    background: url('../media/project-as-pins.jpg');
     background-size: cover;
     background-position: center;
   }
