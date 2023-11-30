@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allYears
+  size: 1
+  alias: year
+permalink: "year/{{ year | slugify }}/"
+---
+
+<div id="regular-content">
+
+  <h1>year: {{ year }}</h1>
+
+  <div class="grid">
+
+    {% for post in collections.all %}
+      {% if post.data.year and post.data.year.includes(year) %}
+      <div class="grid-item">
+        <a href="{{ post.url }}">
+          <figure class="image">
+              <img src="{{ post.data.featured_image }}">
+          </figure>
+        </a>
+        <a href="{{ post.url }}">
+          <div class="title">
+              {{ post.data.title }}
+          </div>
+        </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div>

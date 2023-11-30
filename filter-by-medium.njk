@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allMediums
+  size: 1
+  alias: medium
+permalink: "medium/{{ medium | slugify }}/"
+---
+
+<div id="regular-content">
+
+  <h1>medium: {{ medium }}</h1>
+
+  <div class="grid">
+
+    {% for post in collections.all %}
+      {% if post.data.medium and post.data.medium.includes(medium) %}
+      <div class="grid-item">
+        <a href="{{ post.url }}">
+          <figure class="image">
+              <img src="{{ post.data.featured_image }}">
+          </figure>
+        </a>
+        <a href="{{ post.url }}">
+          <div class="title">
+              {{ post.data.title }}
+          </div>
+        </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div>

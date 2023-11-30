@@ -1,0 +1,25 @@
+---
+site_title: Laurel Schwulst
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <meta property="og:title" content="{{ title }}">
+        <meta property="og:description" content="{{ description or 'Default site description' }}">
+        <meta property="og:image" content="{{ domain }}{{ featured_image | url }}">
+        <meta property="og:url" content="{{ domain }}{{ page.url }}">
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </head>
+    <body>
+        <a href="/" id="home">{{ site_title }}</a>
+        {{ content | safe }}
+        <footer>
+            &bull;
+        </footer>
+    </body>
+</html>

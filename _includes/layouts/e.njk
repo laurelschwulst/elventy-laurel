@@ -1,0 +1,171 @@
+---
+layout: layouts/base.njk
+---
+
+{% set currentIndex = -1 %}
+{% for item in collections.everything %}
+  {% if item.url === page.url %}
+    {% set currentIndex = loop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if currentIndex != -1 %}
+  {% set prevPost = collections.everything[currentIndex - 1] %}
+  {% set nextPost = collections.everything[currentIndex + 1] %}
+{% endif %}
+
+<nav id="lateral">
+
+  {% if currentIndex > 0 %}
+    <a href="{{ prevPost.url }}" class="prev">←</a>
+  {% endif %}
+
+  {% if currentIndex < collections.everything.length - 1 %}
+    <a href="{{ nextPost.url }}" class="next">→</a>
+  {% endif %}
+</nav>
+
+{% if type == "writing" %}
+
+<div id="container-everything">
+
+  <div id="metadata">
+
+    {# <a href="home.html" class="invisible">laurel schwulst</a><br> #}
+
+    <span class="essential-metadata" style="margin-top: 1.25em;"><date>{{ date_season }}, {{ subtitle }}</date></span>
+
+    <div class="context-simple">
+      This is an adapted mirror of an <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">article</a> ↗ which was originally commissioned & published for Buffy's Soft Space, Summer 2019.
+    </div>
+
+  </div>
+
+  <div class="container" id="flex">
+
+    <div id="title">
+      <h1>
+        {{title}}
+      </h1>
+
+      <div id="metadata-mobile">
+
+        <a href="home.html" class="invisible">laurel schwulst</a><br>
+    
+        <span class="essential-metadata"><date>summer 2019</date></span>
+    
+        <div class="context-simple">
+          This is an adapted mirror of an <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">article</a> ↗ which was originally commissioned & published for Buffy's Soft Space, Summer 2019.
+        </div>
+    
+      </div>
+
+      <div id="bottom-title">
+        {{ bottom_title | safe }}
+      </div>
+    </div>
+
+    <div id="title-space"></div>
+
+    <div id="content">
+
+        <p>{{ content | safe }}</p>
+
+        <p class="gray" style="margin-top: 2em; margin-bottom: 4em;">
+            {{ date_season }}
+        </p>
+
+        <footer class="small">
+            {{ footer | safe }}
+        </footer>
+
+    </div>
+
+</div>
+
+{% else %}
+
+<div id="regular-content">
+
+    <h1>{{title}}</h1>
+
+    <div class="one-column">
+        <div class="project-images {{ media_one_type }}">
+            {% for item in media_one %}
+                {% if item.media.type == "image" %}
+                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                        <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
+                        <figcaption>{{ item.media.caption }}</figcaption>
+                    </figure>
+                {% elif item.media.type == "video" %}
+                    <video playsinline autoplay loop muted>
+                        <source src="{{ item.media.path }}" type="video/mp4">
+                    </video>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="two-columns">
+
+        <div class="project-images beginning">
+            {% for item in media_two_beginning %}
+                {% if item.media.type == "image" %}
+                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                        <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
+                        <figcaption>{{ item.media.caption }}</figcaption>
+                    </figure>
+                {% elif item.media.type == "video" %}
+                    <video playsinline autoplay loop muted>
+                        <source src="{{ item.media.path }}" type="video/mp4">
+                    </video>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="project-metadata">
+
+            <b>{{ title }}</b>
+
+            <p>
+                {% for y in year %}
+                    <a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}
+                {% endfor %}
+
+                <br>
+
+                {% for m in medium %}
+                    <a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}
+                {% endfor %}
+
+                {# <br><br>
+                
+                with:<br>
+                {% for collab in collaborator %}
+                    <a href="/with/{{ collab | slugify }}/">{{ collab }}</a>{{ "," if not loop.last else "" }}
+                {% endfor %} #}
+            </p>
+
+            {{ content | safe }}
+
+        </div>
+
+        <div class="project-images ending">
+            {% for item in media_two_ending %}
+                {% if item.media.type == "image" %}
+                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                        <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
+                        <figcaption>{{ item.media.caption }}</figcaption>
+                    </figure>
+                {% elif item.media.type == "video" %}
+                    <video playsinline autoplay loop muted>
+                        <source src="{{ item.media.path }}" type="video/mp4">
+                    </video>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+{% endif %}

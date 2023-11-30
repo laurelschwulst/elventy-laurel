@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allCollaborators
+  size: 1
+  alias: collaborator
+permalink: "with/{{ collaborator | slugify }}/"
+---
+
+<div id="regular-content">
+
+  <h1 style="margin-bottom: 0;">collaborator: {{ collaborator }}</h1>
+
+  {% set collaboratorData = {} %}
+  {% for person in collaborators %}
+    {% if person.name == collaborator %}
+      {% set collaboratorData = person -%}
+    {% endif %}
+  {% endfor %}
+
+  <p style="margin-bottom: 3.5em;"><a href="{{ collaboratorData.link }}">{{ collaboratorData.link }}</a></p>
+
+  <div class="grid">
+
+    {% for post in collections.all %}
+      {% if post.data.collaborator and post.data.collaborator.includes(collaborator) %}
+      <div class="grid-item">
+        <a href="{{ post.url }}">
+          <figure class="image">
+              <img src="{{ post.data.featured_image }}">
+          </figure>
+        </a>
+        <a href="{{ post.url }}">
+          <div class="title">
+              {{ post.data.title }}
+          </div>
+        </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div>
