@@ -6,8 +6,8 @@ media_folder: "_site/media/uploads"
 public_folder: "/media/uploads"
 
 collections:
-  - name: "e"
-    label: "e"
+  - name: "everything"
+    label: "Everything"
     folder: "e"
     create: true
     slug: "{{slug}}"
