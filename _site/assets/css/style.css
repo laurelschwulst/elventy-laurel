@@ -20,13 +20,16 @@
   }
 
   video {
-    clip-path: inset(2px 2px);
+    /* clip-path: inset(2px 2px); */
+    max-width: 100%;
+    display: block;
   }
 
   nav#lateral {
     position: absolute;
     top: 2em;
     right: 2em;
+    z-index: 7;
   }
   
   nav#lateral a {
@@ -124,11 +127,11 @@
     text-decoration: none;
     border-bottom: 1px solid rgba(0,0,0,0.15);
     background-color: transparent;
-    transition: border-color 0.15s ease-out;
+    /* transition: border-color 0.15s ease-out; */
   }
 
   a:hover {
-    border-bottom: 1px solid rgba(0,0,0,0.35);
+    /* border-bottom: 1px solid rgba(0,0,0,0.35); */
   }
 
   #container-everything {
@@ -140,6 +143,7 @@
     top: 0;
     left: 0;
     max-width: 300px;
+    /* max-width: 285px; */
     font-size: 0.98em;
   }
 
@@ -183,18 +187,19 @@
     opacity: 1;
   } */
 
-  footer {
-    color: #3f3e3e;
-    opacity: 1;
-    transition: opacity 0.15s ease-out;
+  .video-mask,
+  img {
+    border-radius: 12px;
   }
 
+  .video-mask {
+    overflow: hidden;
+  }
+  
   img,
   video {
-    /* filter: grayscale(100%); */
     opacity: 0.9;
     mix-blend-mode: multiply;
-    border-radius: 12px;
   }
 
   figure.non-solar img,
@@ -402,7 +407,7 @@ a {
   text-decoration: none;
   border-bottom: 1px solid rgba(0,0,0,0.15);
   background-color: transparent;
-  transition: border-color 0.15s ease-out;
+  /* transition: border-color 0.15s ease-out; */
 }
 
 /* a:hover {
@@ -448,8 +453,13 @@ figcaption {
 
 footer {
   color: #3f3e3e;
-  opacity: 0.5;
-  transition: opacity 0.15s ease-out;
+  margin-top: -2.5em;
+  margin-bottom: 1em;
+}
+
+footer a {
+  color: #3f3e3e;
+  border-bottom: 0;
 }
 
 img {
@@ -469,13 +479,20 @@ img {
 
 .context-simple {
   font-size: 0.75em;
-  margin-top: 1em;
+  margin-top: 1.75em;
+  line-height: 1.35;
 }
 
 .context-simple,
 .context-simple a {
   color: rgba(0,0,0,0.35);
   /* color: #3f3e3e; */
+}
+
+.context-simple a:hover {
+  /* background: rgba(0,0,0,0.15);
+  border-color: transparent;
+  color: black; */
 }
 
 .essential-metadata {
@@ -664,7 +681,7 @@ nav#expanded h2 {
   position: relative;
 }
 
-.grid .grid-item video {
+.grid .grid-item .video-mask {
   max-width: 100%;
   margin: 2.5em 0;
   padding: 0;
@@ -673,7 +690,7 @@ nav#expanded h2 {
 
 #regular-content .grid .grid-item figure,
 .grid .grid-item figure,
-.grid .grid-item video {
+.grid .grid-item .video-mask {
   margin-bottom: 1em;
 }
 
@@ -735,7 +752,7 @@ nav#expanded h2 {
 }
 
 .project-images figure,
-.project-images video {
+.project-images .video-mask {
   max-width: calc(100% - 28px);
   margin: 0 14px 24px 14px;
   padding: 0;
@@ -785,22 +802,22 @@ nav#expanded h2 {
 }
 
 figure.extra-large,
-video.extra-large {
+.video-mask.extra-large {
   max-width: 1200px;
 }
 
 figure.large,
-video.large {
+.video-mask.large {
   max-width: 875px;
 }
 
 figure.medium,
-video.medium {
+.video-mask.medium {
   max-width: 400px;
 }
 
 figure.small,
-video.small {
+.video-mask.small {
   max-width: 325px;
 }
 
@@ -809,11 +826,47 @@ figure figcaption {
   margin-bottom: 1em;
 }
 
-footer {
-  text-align: center;
-  font-size: 0.7em;
-  margin-top: 5em;
+footer.small {
+  text-align: left;
+  font-size: 0.75em;
+  margin-top: 7.5em;
   opacity: 1;
+  color: rgba(0,0,0,0.35);
+  color: black;
+  margin-bottom: 0;
+}
+
+footer.small a,
+footer a {
+  color: rgba(0,0,0,0.35);
+  border-bottom: 1px solid rgba(0,0,0,0.35);
+}
+
+.end-space {
+  height: 2.5em;
+}
+
+.filters,
+.filters a {
+  color: rgba(0,0,0,0.35);
+}
+
+.filters {
+  position: absolute;
+  bottom: 1.25em;
+}
+
+.year-medium-simple {
+  /* color: rgba(0,0,0,0.35); */
+}
+
+.year-medium a {
+  /* background: rgba(0,0,0,0.08);
+  background: #E6E6DB;
+  border-bottom: 1px solid #E6E6DB; */
+  /* border-bottom: 0; */
+  /* color: rgba(0,0,0,0.35); */
+  /* border-bottom: 1px solid black; */
 }
 
 iframe.arena-iframe {
@@ -872,7 +925,7 @@ iframe.arena-iframe {
     column-gap: 14px;
   }
   .project-images figure,
-  .project-images video {
+  .project-images .video-mask {
     max-width: calc(100% - 28px);
     margin: 0 14px 14px 14px !important;
   }
@@ -893,7 +946,7 @@ iframe.arena-iframe {
     column-gap: 14px;
   }
   .project-images figure,
-  .project-images video {
+  .project-images .video-mask {
     max-width: calc(100% - 28px);
     margin: 4px 14px 14px 14px !important;
   }
@@ -910,6 +963,15 @@ iframe.arena-iframe {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #regular-content .grid,
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
   }
 }

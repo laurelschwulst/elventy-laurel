@@ -52,6 +52,28 @@ module.exports = function (eleventyConfig) {
         return [...yearsSet];
     });
 
+    eleventyConfig.addCollection("selected", function(collectionApi) {
+        return collectionApi.getAll().filter(item => item.data.selected === true);
+    });
+
+    eleventyConfig.addFilter("shuffle", function(array) {
+        // Copy the array to avoid modifying the original
+        const shuffledArray = array.slice();
+
+        // Fisher-Yates shuffle algorithm
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+        }
+
+        return shuffledArray;
+    });
+
+    eleventyConfig.addCollection("selected_shuffled", function(collectionApi) {
+        const selected = collectionApi.getAll().filter(item => item.data.selected_project === true);
+        return eleventyConfig.getFilter("shuffle")(selected);
+    });
+
     eleventyConfig.addCollection("everything", function(collectionApi) {
     return collectionApi.getAll().sort((a, b) => {
         // Assuming 'date' is a Date object

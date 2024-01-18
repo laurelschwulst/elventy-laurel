@@ -8,7 +8,14 @@ date: 2023-07-28
 date_season: Summer 2023
 featured_image: /assets/media/takete-maluma.png
 type: writing
-footer: 'TK'
+medium:
+  - writing
+year: ["2023"]
+selected: true
+context: 'This is an adapted mirror of an <a href="https://www.nytimes.com/interactive/2023/06/28/arts/kiki-bouba-effect.html" target="_blank">article</a> ↗ in the form of an interactive quiz which was originally commissioned and published for The New York Times, June 28, 2023.'
+footer: 'Special thanks to the Surfacing team at the Times — Tala Safie, Josephine Sedgewick, Alicia DeSantis, Alice Fang, and Amanda Webster. And to Kelly McCormick, Aditya Shukla, Mami Nakanishi, Max Bittker, and Meg Miller.'
+related_projects:
+  - how-to-build-a-bird-kite.md
 ---
 
 Maybe you’ve heard of the “kiki/bouba” effect — it’s a classic psycho-linguistics experiment that explores the relationship between nonsense words and abstract shapes.

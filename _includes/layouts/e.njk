@@ -33,10 +33,14 @@ layout: layouts/base.njk
 
     {# <a href="home.html" class="invisible">laurel schwulst</a><br> #}
 
-    <span class="essential-metadata" style="margin-top: 1.25em;"><date>{{ date_season }}, {{ subtitle }}</date></span>
+    <span class="essential-metadata" style="margin-top: 1.25em;">
+        <date>{{ date_season }}, {{ subtitle }}</date>
+    </span>
 
     <div class="context-simple">
-      This is an adapted mirror of an <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">article</a> ↗ which was originally commissioned & published for Buffy's Soft Space, Summer 2019.
+      <p style="margin-top: 0;">
+        {{ context | safe }}
+      </p>
     </div>
 
   </div>
@@ -52,10 +56,10 @@ layout: layouts/base.njk
 
         <a href="home.html" class="invisible">laurel schwulst</a><br>
     
-        <span class="essential-metadata"><date>summer 2019</date></span>
+        <span class="essential-metadata"><date>{{ date_season }}</date></span>
     
         <div class="context-simple">
-          This is an adapted mirror of an <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">article</a> ↗ which was originally commissioned & published for Buffy's Soft Space, Summer 2019.
+          {{ context | safe }}
         </div>
     
       </div>
@@ -77,11 +81,24 @@ layout: layouts/base.njk
 
         <footer class="small">
             {{ footer | safe }}
+            {# <p style="margin-top: 1.25em;" class="filters">
+                Filtered under:
+                {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %},
+                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}.
+            </p> #}
         </footer>
 
     </div>
 
 </div>
+
+{# START: FOR THE REAL VERSION
+<p class="small filters">
+    Filtered under:
+    {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %},
+    {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}.
+</p>
+END: FOR THE REAL VERSION #}
 
 {% else %}
 
@@ -98,9 +115,11 @@ layout: layouts/base.njk
                         <figcaption>{{ item.media.caption }}</figcaption>
                     </figure>
                 {% elif item.media.type == "video" %}
-                    <video playsinline autoplay loop muted>
-                        <source src="{{ item.media.path }}" type="video/mp4">
-                    </video>
+                    <div class="video-mask">
+                        <video playsinline autoplay loop muted>
+                            <source src="{{ item.media.path }}" type="video/mp4">
+                        </video>
+                    </div>
                 {% endif %}
             {% endfor %}
         </div>
@@ -116,9 +135,11 @@ layout: layouts/base.njk
                         <figcaption>{{ item.media.caption }}</figcaption>
                     </figure>
                 {% elif item.media.type == "video" %}
-                    <video playsinline autoplay loop muted>
-                        <source src="{{ item.media.path }}" type="video/mp4">
-                    </video>
+                    <div class="video-mask">
+                        <video playsinline autoplay loop muted>
+                            <source src="{{ item.media.path }}" type="video/mp4">
+                        </video>
+                    </div>
                 {% endif %}
             {% endfor %}
         </div>
@@ -127,16 +148,24 @@ layout: layouts/base.njk
 
             <b>{{ title }}</b>
 
-            <p>
-                {% for y in year %}
-                    <a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}
-                {% endfor %}
+            <p class="year-medium">
 
-                <br>
+                <div class="year-medium-simple">
+                    {% for y in year %}{{ y }}{{ "," if not loop.last else "" }}{% endfor %}<br>
+                    {% for m in medium %}{{ m }}{{ "," if not loop.last else "" }} {% endfor %}
+                </div>
 
-                {% for m in medium %}
-                    <a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}
-                {% endfor %}
+                {# START: FILTERS FOR REAL VERSION #}
+                    {# {% for y in year %}
+                        <a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}
+                    {% endfor %}
+
+                    <br>
+
+                    {% for m in medium %}
+                        <a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}
+                    {% endfor %} #}
+                {# END: FILTERS FOR REAL VERSION #}
 
                 {# <br><br>
                 
@@ -158,6 +187,25 @@ layout: layouts/base.njk
                         <figcaption>{{ item.media.caption }}</figcaption>
                     </figure>
                 {% elif item.media.type == "video" %}
+                    <div class="video-mask">
+                        <video playsinline autoplay loop muted>
+                            <source src="{{ item.media.path }}" type="video/mp4">
+                        </video>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="one-column">
+        <div class="project-images">
+            {% for item in media_three %}
+                {% if item.media.type == "image" %}
+                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                        <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
+                        {% if item.media.caption.length > 0 %}<figcaption>{{ item.media.caption }}</figcaption>{% endif %}
+                    </figure>
+                {% elif item.media.type == "video" %}
                     <video playsinline autoplay loop muted>
                         <source src="{{ item.media.path }}" type="video/mp4">
                     </video>
@@ -169,3 +217,38 @@ layout: layouts/base.njk
 </div>
 
 {% endif %}
+
+{% if related_projects.length > 0 %}
+
+<hr>
+
+<h2>Related</h2>
+
+<div class="grid">
+  {% for related_path in related_projects %}
+    {% for project in collections.all %}
+      {% if project.inputPath.endsWith(related_path) %}
+        <div class="grid-item">
+            <a href="{{ project.url }}">
+                <figure class="image">
+                    <img src="{{ project.data.featured_image }}">
+                </figure>
+            </a>
+            <a href="{{ project.url }}">
+                <div class="title">
+                    {{ project.data.title }}
+                </div>
+            </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+{% else %}
+
+<div class="end-space"></div>
+
+{% endif %}
+
+</div>
+

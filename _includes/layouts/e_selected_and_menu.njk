@@ -1,0 +1,29 @@
+<div class="grid">
+  
+  <div class="grid-item">
+    <h1>projects<br>
+writing<br>
+websites<br>
+teaching<br>
+news<br>
+shop<br>
+about<br>
+contact</h1>
+</div>
+  {% for e in e_selected %}
+    <div class="grid-item">
+      <a href="{{ e.url }}">
+        <figure class="image">
+            <img src="{{ e.data.featured_image }}">
+        </figure>
+      </a>
+      <a href="{{ e.url }}">
+        <div class="title">
+            {{ e.data.title }}
+            <div class="gray">{{ e.data.subtitle }}</div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+
+</div>
