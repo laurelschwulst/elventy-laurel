@@ -4,11 +4,13 @@
   
   {% for e in e_selected %}
     <div class="grid-item">
-      <a href="{{ e.url }}">
-        <figure class="image">
-            <img src="{{ e.data.featured_image }}">
-        </figure>
-      </a>
+      {% if e.data.featured_image.length > 0 %}
+        <a href="{{ e.url }}">
+          <figure class="image">
+              <img src="{{ e.data.featured_image }}">
+          </figure>
+        </a>
+      {% endif %}
       <a href="{{ e.url }}">
         <div class="title">
             {{ e.data.title }}
