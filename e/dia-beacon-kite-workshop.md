@@ -1,12 +1,9 @@
 ---
-title: kites at dia art foundation
 featured_image: /assets/media/dia03.jpg
 layout: layouts/e.njk
+related_projects:
+  - how-to-build-a-bird-kite.md
 date: 2023-07-23
-type: project
-medium:
-  - event
-year: ["2023"]
 media_two_beginning:
   - media:
       path: /assets/media/dia01.jpg
@@ -22,7 +19,13 @@ media_two_ending:
       type: image
       alt: TBD
       caption: Photos by Mollie McKinley
-related_projects: [how-to-build-a-bird-kite.md]
+medium:
+  - event
+title: Kites at DIA Art Foundation
+subtitle: Testing 123
+type: project
+year:
+  - "2023"
 ---
 
 "A meditation on wind and lightness, Laurel Schwulst’s Activations program How to Build a Bird Kite transposes her interactive digital piece of the same name into the physical, communal space. First published by the New York Times in 2021 amid social distancing measures, How to Build a Bird Kite proposes that readily available materials and natural resources—such as wind—are enough to provide a sense of calm and levity in difficult times. For this in-person iteration, participants are invited to build and fly their own kites, joining Schwulst in the practice of everyday ingenuity and intentional craft." 
