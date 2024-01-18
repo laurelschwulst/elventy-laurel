@@ -11,7 +11,9 @@ collections:
     folder: "e"
     create: true
     slug: "{{slug}}"
+    preview_path: "_includes/layouts/preview.html"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/e.njk" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Related Projects", name: "related_projects", widget: "list"}
