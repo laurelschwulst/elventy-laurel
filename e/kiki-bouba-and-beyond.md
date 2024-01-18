@@ -1,6 +1,6 @@
 ---
 title: Kiki, Bouba, and Beyond
-subtitle: interactive feature
+subtitle: essay
 publisher: The New York Times
 layout: layouts/e.njk
 description: Testing 123
@@ -11,7 +11,6 @@ type: writing
 medium:
   - writing
 year: ["2023"]
-selected: true
 context: 'This is an adapted mirror of an <a href="https://www.nytimes.com/interactive/2023/06/28/arts/kiki-bouba-effect.html" target="_blank">article</a> ↗ in the form of an interactive quiz which was originally commissioned and published for The New York Times, June 28, 2023.'
 footer: 'Special thanks to the Surfacing team at the Times — Tala Safie, Josephine Sedgewick, Alicia DeSantis, Alice Fang, and Amanda Webster. And to Kelly McCormick, Aditya Shukla, Mami Nakanishi, Max Bittker, and Meg Miller.'
 related_projects:

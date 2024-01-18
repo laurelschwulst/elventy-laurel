@@ -53,10 +53,8 @@ layout: layouts/base.njk
       </h1>
 
       <div id="metadata-mobile">
-
-        <a href="home.html" class="invisible">laurel schwulst</a><br>
     
-        <span class="essential-metadata"><date>{{ date_season }}</date></span>
+        {# <span class="essential-metadata"><date>{{ date_season }}</date></span> #}
     
         <div class="context-simple">
           {{ context | safe }}
@@ -110,7 +108,7 @@ END: FOR THE REAL VERSION #}
         <div class="project-images {{ media_one_type }}">
             {% for item in media_one %}
                 {% if item.media.type == "image" %}
-                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                    <figure class="{{ item.media.size }} {{ item.media.solar }} {{ item.media.border }}">
                         <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
                         <figcaption>{{ item.media.caption }}</figcaption>
                     </figure>
@@ -130,7 +128,7 @@ END: FOR THE REAL VERSION #}
         <div class="project-images beginning">
             {% for item in media_two_beginning %}
                 {% if item.media.type == "image" %}
-                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                    <figure class="{{ item.media.size }} {{ item.media.solar }} {{ item.media.border }}">
                         <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
                         <figcaption>{{ item.media.caption }}</figcaption>
                     </figure>
@@ -151,8 +149,8 @@ END: FOR THE REAL VERSION #}
             <p class="year-medium">
 
                 <div class="year-medium-simple">
-                    {% for y in year %}{{ y }}{{ "," if not loop.last else "" }}{% endfor %}<br>
-                    {% for m in medium %}{{ m }}{{ "," if not loop.last else "" }} {% endfor %}
+                    {% for y in year %}{{ y }}{{ "," if not loop.last else "" }} {% endfor %}<br>
+                    {{ subtitle }}
                 </div>
 
                 {# START: FILTERS FOR REAL VERSION #}
@@ -182,7 +180,7 @@ END: FOR THE REAL VERSION #}
         <div class="project-images ending">
             {% for item in media_two_ending %}
                 {% if item.media.type == "image" %}
-                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                    <figure class="{{ item.media.size }} {{ item.media.solar }} {{ item.media.border }}">
                         <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
                         <figcaption>{{ item.media.caption }}</figcaption>
                     </figure>
@@ -198,10 +196,11 @@ END: FOR THE REAL VERSION #}
     </div>
 
     <div class="one-column">
+        {{ media_three_code | safe }}
         <div class="project-images">
             {% for item in media_three %}
                 {% if item.media.type == "image" %}
-                    <figure class="{{ item.media.size }} {{ item.media.solar }}">
+                    <figure class="{{ item.media.size }} {{ item.media.solar }} {{ item.media.border }}">
                         <img src="{{ item.media.path }}" alt="{{ item.media.alt }}">
                         {% if item.media.caption.length > 0 %}<figcaption>{{ item.media.caption }}</figcaption>{% endif %}
                     </figure>

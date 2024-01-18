@@ -1,8 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Flight Simulator Pins
-subtitle: generative artwork for Flight Simulator
-description: Testing 123
+subtitle: enamel pins
 date: 2019-02-02
 featured_image: /assets/media/fs-pins.jpg
 type: project
@@ -28,9 +27,15 @@ related_projects: [flight-simulator.md]
 
 ---
 
-For physical events and exhibitions, special commemorative enamel pins were created.
+[Flight Simulator](/e/flight-simulator) is an app for iOS and Android and an "ode to airplane mode." users put their phone in airplane mode for the duration of a real flight in order to "travel" to this location and earn pins for each airport visited.
 
-<div class="small">
+Aarati Akkapeddi was commissioned for the pin designs. They explain: "I created code to generate 500 pin designs based on data around the airports such as climate, timezone, number of routes, and altitude. The shape of the pins are according to the altitude (the spikier the higher), the color is a combination of different aspects of the climate, the bubbles on the outer edge symbolize the number of routes, and the size of the center bubble represents the timezone."
+
+Pins are algorithmic artwork by Aarati Akkapeddi, 2018
+
+These enamel versions were selected & produced by Laurel Schwulst, 2019
+
+<!-- <div class="small">
 
 March 2, 2019<br>
 New York City, US<br>
@@ -47,4 +52,4 @@ Good Night Flight at Archive Bomm
 September 7, 2019<br>
 Den Haag, Netherlands<br>
 [Left Gallery: Rite of Acccess](https://www.stroom.nl/activiteiten/tentoonstelling.php?t_id=5546871)
-</div>
+</div> -->

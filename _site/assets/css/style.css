@@ -351,6 +351,7 @@ img {
 
 .container {
   max-width: 555px;
+  /* max-width: 475px; */
   margin: 0.25em auto 0;
 }
 
@@ -931,6 +932,12 @@ iframe.arena-iframe {
   }
 }
 
+@media screen and (max-width: 850px) {
+  h1 {
+    margin-top: 1em;
+  }
+}
+
 @media screen and (max-width: 750px) {
   h1 {
     /* margin-top: 1em; */
@@ -956,9 +963,6 @@ iframe.arena-iframe {
 }
 
 @media screen and (max-width: 450px) {
-  h1 {
-    margin-top: 1em;
-  }
   #regular-content .grid,
   .grid {
     display: grid;
