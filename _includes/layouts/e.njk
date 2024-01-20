@@ -40,10 +40,7 @@ layout: layouts/base.njk
 
     <div class="context-simple">
       <p style="margin-top: 0;">
-        {{ context | safe }}<br><br>
-        Filtered under:
-        {# {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}, #}
-        {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+        {{ context | safe }}
       </p>
     </div>
 
@@ -62,10 +59,6 @@ layout: layouts/base.njk
     
         <div class="context-simple">
           {{ context | safe }}
-          <br><br>
-                Filtered under:
-                {# {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}, #}
-                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
         </div>
     
       </div>
@@ -86,7 +79,11 @@ layout: layouts/base.njk
         </p>
 
         <footer class="small">
-            {{ footer | safe }}
+            {{ footer | safe }}<br><br>
+            <div class="gray">
+                Filtered under:
+                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+            </div>
         </footer>
 
     </div>
@@ -221,6 +218,7 @@ END: FOR THE REAL VERSION #}
                 {% endif %}
             {% endfor %}
         </div>
+        {{ media_three_code_after | safe }}
     </div>
 
 </div>

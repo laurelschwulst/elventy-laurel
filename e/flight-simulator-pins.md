@@ -23,6 +23,10 @@ media_three:
       size: extra-large
       solar: solar
       alt: TBD
+media_three_code_after: '<iframe 
+        class="arena-iframe" 
+        src="https://www.are.na/laurel-schwulst/flight-simulator-pins-in-the-wild">
+      </iframe>'
 related_projects: [flight-simulator.md]
 
 ---

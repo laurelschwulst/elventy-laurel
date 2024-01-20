@@ -44,9 +44,9 @@ related_projects: [flight-simulator-pins.md]
 
 Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with Soft. Pins are generative algorithmic artwork by Aarati Akkapeddi.
 
-[Download for iOS](https://itunes.apple.com/us/app/flight-simulator/id1146329517)<br>
-[Download for Android](https://play.google.com/store/apps/details?id=com.soft.flightsimulator)<br>
-[Visit project website](https://flightsimulator.soft.works)
+[Download for iOS](https://itunes.apple.com/us/app/flight-simulator/id1146329517) ↗<br>
+[Download for Android](https://play.google.com/store/apps/details?id=com.soft.flightsimulator) ↗<br>
+[Visit project website](https://flightsimulator.soft.works) ↗
 
 <!-- [Soft](/with/soft) -->
 

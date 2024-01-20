@@ -865,7 +865,7 @@ iframe.arena-iframe {
   border: 2px solid rgba(0,0,0,0.15);
   border-radius: 12px;
   opacity: 0.9;
-    mix-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
 @media screen and (max-width: 1250px) {
@@ -923,13 +923,24 @@ iframe.arena-iframe {
 
 @media screen and (max-width: 850px) {
   h1 {
+    margin-top: 0;
+  }
+  #title h1 {
     margin-top: 1em;
+  }
+  iframe.arena-iframe {
+    height: 560px !important;
+    width: auto;
+    border: 2px solid rgba(0,0,0,0.15);
+    border-radius: 12px;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
   }
 }
 
 @media screen and (max-width: 750px) {
-  h1 {
-    /* margin-top: 1em; */
+  .large-image {
+    margin: 2em 0;
   }
   #regular-content .grid,
   .grid {

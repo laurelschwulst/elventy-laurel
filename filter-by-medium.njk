@@ -27,6 +27,9 @@ permalink: "medium/{{ medium | slugify }}/"
         <a href="{{ post.url }}">
           <div class="title">
               {{ post.data.title }}
+              <div class="gray">
+                {{ post.data.publisher }}
+              </div>
           </div>
         </a>
       </div>
