@@ -26,6 +26,8 @@ media_two_ending:
       type: image
       size: small
       alt: TBD
+related_projects:
+    - gemini-mix-visualizer.md
 
 ---
 

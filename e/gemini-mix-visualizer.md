@@ -1,7 +1,6 @@
 ---
 layout: layouts/e.njk
 title: Gemini Mix Visualizer
-selected: true
 subtitle: artwork and video
 publisher: Sharp Type
 date: 2021-05-21
@@ -10,16 +9,23 @@ type: project
 medium:
   - video
 year: ["2023"]
-media_two_beginning:
+media_one:
   - media:
       path: /assets/media/gemini01.png
       type: image
       alt: TBD
-      size: small
+      size: medium
+      solar: non-solar
+media_two_beginning:
+  - media:
+      path: /assets/media/gemini13.png
+      type: image
+      alt: TBD
+      size: large
       solar: non-solar
 media_two_ending:
   - media:
-      path: /assets/media/gemini14.png
+      path: /assets/media/gemini04.png
       type: image
       alt: TBD
       solar: non-solar
@@ -27,6 +33,7 @@ media_two_ending:
       path: /assets/media/gemini-vid3.mp4
       type: video
       solar: non-solar
+      controls: controls
       alt: TBD
   - media:
       path: /assets/media/gemini03.png
@@ -61,6 +68,8 @@ media_three:
       type: video
       alt: TBD
       size: large
+related_projects:
+    - seasons-in-pentameter.md
 
 ---
 

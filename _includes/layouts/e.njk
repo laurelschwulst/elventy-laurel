@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-
+{# 
 {% set currentIndex = -1 %}
 {% for item in collections.everything %}
   {% if item.url === page.url %}
@@ -23,7 +23,8 @@ layout: layouts/base.njk
   {% if currentIndex < collections.everything.length - 1 %}
     <a href="{{ nextPost.url }}" class="next">→</a>
   {% endif %}
-</nav>
+  
+</nav> #}
 
 {% if type == "writing" %}
 
@@ -39,7 +40,10 @@ layout: layouts/base.njk
 
     <div class="context-simple">
       <p style="margin-top: 0;">
-        {{ context | safe }}
+        {{ context | safe }}<br><br>
+        Filtered under:
+        {# {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}, #}
+        {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
       </p>
     </div>
 
@@ -58,6 +62,10 @@ layout: layouts/base.njk
     
         <div class="context-simple">
           {{ context | safe }}
+          <br><br>
+                Filtered under:
+                {# {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}, #}
+                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
         </div>
     
       </div>
@@ -79,11 +87,6 @@ layout: layouts/base.njk
 
         <footer class="small">
             {{ footer | safe }}
-            {# <p style="margin-top: 1.25em;" class="filters">
-                Filtered under:
-                {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %},
-                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}.
-            </p> #}
         </footer>
 
     </div>
@@ -114,7 +117,7 @@ END: FOR THE REAL VERSION #}
                     </figure>
                 {% elif item.media.type == "video" %}
                     <div class="video-mask">
-                        <video playsinline autoplay loop muted>
+                        <video playsinline autoplay loop muted class="{{ item.media.solar }}">
                             <source src="{{ item.media.path }}" type="video/mp4">
                         </video>
                     </div>
@@ -173,7 +176,14 @@ END: FOR THE REAL VERSION #}
                 {% endfor %} #}
             </p>
 
+            <div class="small">
             {{ content | safe }}
+            </div>
+
+            {# <p class="small gray">
+                Filtered under:
+                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }} {% endfor %}
+            </p> #}
 
         </div>
 

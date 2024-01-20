@@ -10,7 +10,6 @@ featured_image: /assets/media/kite.png
 type: project
 medium:
   - interactive
-collaborator: ["John Doe"]
 year: ["2021"]
 media_two_beginning:
   - media:
@@ -31,17 +30,22 @@ media_three:
       path: /assets/media/3kites-output3.jpg
       type: image
       alt: TBD
-      caption: Still from video by Elliott Cost
+      # caption: Still from video by Elliott Cost
+#   - media:
+#       path: /assets/media/diagram1.png
+#       type: image
+#       size: medium
+#       alt: TBD
   - media:
       path: /assets/media/kite-03.png
       type: image
       size: medium
       alt: TBD
-  - media:
-      path: /assets/media/kite-gather.png
-      type: image
-      size: medium
-      alt: TBD
+  # - media:
+  #     path: /assets/media/kite-gather.png
+  #     type: image
+  #     size: medium
+  #     alt: TBD
   - media:
       path: /assets/media/kite-09.png
       type: image
@@ -71,11 +75,6 @@ media_three:
   #     path: /assets/media/diagram2.png
   #     type: image
   #     size: small
-  #     alt: TBD
-  # - media:
-  #     path: /assets/media/diagram1.png
-  #     type: image
-  #     size: medium
   #     alt: TBD
   # - media:
   #     path: /assets/media/kite.png

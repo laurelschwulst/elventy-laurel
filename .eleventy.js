@@ -1,3 +1,5 @@
+const { DateTime } = require("luxon");
+
 module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("media");
@@ -80,6 +82,17 @@ module.exports = function (eleventyConfig) {
         return a.date - b.date;
     });
     });
+
+    eleventyConfig.addNunjucksFilter("push", function(arr, value) {
+        arr.push(value);
+        return arr;
+    });
+
+    // Other configurations...
+
+    return {
+        // Your other Eleventy configurations...
+    };
 
 };
 
