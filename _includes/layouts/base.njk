@@ -13,10 +13,61 @@ site_title: Laurel Schwulst
         <meta property="og:description" content="{{ description or 'Default site description' }}">
         <meta property="og:image" content="{{ domain }}{{ featured_image | url }}">
         <meta property="og:url" content="{{ domain }}{{ page.url }}">
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
         <a href="/" id="home">{{ site_title }}</a>
+        <nav id="top-right">
+            <span id="menu-click">☰</span>
+            
+            {# projects&nbsp;&nbsp;&nbsp;
+
+writing&nbsp;&nbsp;&nbsp;
+
+websites&nbsp;&nbsp;&nbsp;
+
+teaching&nbsp;&nbsp;&nbsp;
+
+news&nbsp;&nbsp;&nbsp;
+
+shop&nbsp;&nbsp;&nbsp;
+
+about&nbsp;&nbsp;&nbsp;
+
+<a href="/l/contact">contact</a>&nbsp;&nbsp;&nbsp; #}
+
+        </nav>
+        <div id="menu-itself">
+
+            <div class="grid">
+                <div class="grid-item">
+                    {# projects<br> #}
+                    <a href="/medium/writing">writing</a><br>
+                    {# websites<br>
+                    teaching<br>
+                    news<br>
+                    shop<br> #}
+                    <a href="/about">about</a><br>
+                    {# contact #}
+                </div>
+                <div class="grid-item">
+                    asdf
+                </div>
+                <div class="grid-item">
+                    asdf
+                </div>
+                <div class="grid-item">
+                    asdf
+                </div>
+            </div>
+
+            {# <a href="/l/laurel-schwulst">Laurel Schwulst</a><br>
+            <a href="/l/contact">Contact</a><br>
+            <a href="/l/presentations">Presentations</a><br>
+            <a href="/l/presentations">Publications</a> #}
+        </div>
         {{ content | safe }}
         {# <footer>
             <a href="#top">↑</a>

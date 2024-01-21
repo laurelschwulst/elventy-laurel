@@ -25,6 +25,13 @@ video {
   display: block;
 }
 
+blockquote {
+  border-left: 1px solid rgba(0,0,0,0.15);
+  padding-left: 2.75em;
+  margin-left: 0;
+  margin: 1.5em 0;
+}
+
 nav#lateral {
   position: absolute;
   top: 2em;
@@ -554,8 +561,9 @@ h2 {
 
 nav#top-right {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 2em;
+  right: 2em;
+  z-index: 30000;
 }
 
 nav#top-right .menu {
@@ -868,6 +876,10 @@ iframe.arena-iframe {
   mix-blend-mode: multiply;
 }
 
+/* h1 {
+  margin-top: 0.75em;
+} */
+
 @media screen and (max-width: 1250px) {
   #metadata {
     position: static !important;
@@ -966,6 +978,11 @@ iframe.arena-iframe {
   body {
     padding: 1em;
   }
+  nav#top-right {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
   nav#lateral {
     top: 1em;
     right: 1em;
@@ -997,4 +1014,13 @@ a#home {
 
 .grid figure {
   margin-top: 0;
+}
+
+#menu-click {
+  cursor: pointer;
+}
+
+#menu-itself {
+  display: none;
+  margin: 3em 0 0;
 }

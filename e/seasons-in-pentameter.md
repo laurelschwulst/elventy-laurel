@@ -5,7 +5,8 @@ selected: true
 subtitle: website
 publisher: Occupant Fonts
 date: 2022-05-09
-featured_image: /assets/media/penta01.png
+# featured_image: /assets/media/penta01.png
+featured_image: https://penta-proxy.herokuapp.com/image
 type: project
 medium:
   - website
