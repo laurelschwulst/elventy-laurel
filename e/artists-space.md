@@ -1,13 +1,16 @@
 ---
 layout: layouts/e.njk
 title: Artists Space
-subtitle: website
+selected_section: true
+subtitle: website with multiple entrances
 publisher: Artists Space
+collaborator:
+- Taichi Wi
+- Mark Beasley
 date: 2019-10-30
 featured_image: /assets/media/artists-space-01.png
 type: project
 medium:
-  - interactive
   - website
 year: ["2019"]
 media_one:
@@ -48,7 +51,7 @@ related_projects:
 
 ---
 
-Artists Space is a historic arts nonprofit in NYC. Its website, inspired by its updated physical location, provides multiple entrances and an accessible interface to its cultural programming and 50-year avant-garde archive. In collaboration with Taichi Wi and Mark Beasley.
+Artists Space is a historic arts nonprofit in NYC. Its website, inspired by its updated physical location, provides multiple entrances and an accessible interface to its cultural programming and 50-year avant-garde archive. In collaboration with <a href="/with/taichi-wi" class="collaborator">Taichi Wi</a> and <a href="/with/mark-beasley" class="collaborator">Mark Beasley</a>.
 
 <a href="https://artistsspace.org" target="_blank">Visit artistsspace.org</a> ↗<br>
 <a href="https://artistsspace.org/about-this-website" target="_blank">About this website</a> ↗

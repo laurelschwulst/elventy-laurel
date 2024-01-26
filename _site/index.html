@@ -10,51 +10,58 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content=".">
         <meta property="og:url" content="/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
+        
+        
+        <div class="grid" style="position: absolute; top: 2em; left: 2em; right: 2em;">
+            <div class="grid-item">
+                <a href="/" id="home">Laurel Schwulst</a>
             </div>
-
-            
+            <div class="grid-item">
+                <select id="project-navigator">
+                    <option value="" disabled selected>projects</option>
+                    <option value="/index.html">projects / selected</option>
+                    <option value="/e/index.html">projects / every</option>
+                    <option value="/medium/writing/index.html">writing</option>
+                    <option value="/medium/website/index.html">websites</option>
+                </select>
+            </div>
+            <div class="grid-item">
+                <a href="/i/laurel-schwulst/index.html">information</a>
+            </div>
+            <div class="grid-item">
+                shop
+            </div>
         </div>
+        
+        
         
 <div id="regular-content">
 
     
-    <h1>selected projects & writing</h1>
+    
+    <h1>Selected Projects</h1>
 
 <div class="grid">
-
   
   
+    <div class="grid-item">
+      
+        <a href="/e/arena-gift-shop/">
+          <figure class="image">
+              <img src="/assets/media/catalogue-6up.png">
+          </figure>
+        </a>
+      
+      <a href="/e/arena-gift-shop/">
+        <div class="title">
+            Are.na Gift Shop
+            <div class="gray">gifts, conversations, events</div>
+        </div>
+      </a>
+    </div>
   
     <div class="grid-item">
       
@@ -74,22 +81,6 @@
   
     <div class="grid-item">
       
-        <a href="/e/my-website-is-a-shifting-house/">
-          <figure class="image">
-              <img src="/assets/media/writing-website-flock.png">
-          </figure>
-        </a>
-      
-      <a href="/e/my-website-is-a-shifting-house/">
-        <div class="title">
-            My website is a shifting house next to a river of knowledge. What could yours be?
-            <div class="gray">essay</div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="grid-item">
-      
         <a href="/e/how-to-build-a-bird-kite/">
           <figure class="image">
               <img src="/assets/media/kite.png">
@@ -100,6 +91,54 @@
         <div class="title">
             How to Build a Bird Kite
             <div class="gray">interactive feature</div>
+        </div>
+      </a>
+    </div>
+  
+    <div class="grid-item">
+      
+        <a href="/e/my-website-is-a-shifting-house/">
+          <figure class="image">
+              <img src="/assets/media/writing-website-flock.png">
+          </figure>
+        </a>
+      
+      <a href="/e/my-website-is-a-shifting-house/">
+        <div class="title">
+            My website is a shifting house ...
+            <div class="gray">essay</div>
+        </div>
+      </a>
+    </div>
+  
+    <div class="grid-item">
+      
+        <a href="/e/perfume-area-book/">
+          <figure class="image">
+              <img src="/assets/media/perfume-area-02.jpg">
+          </figure>
+        </a>
+      
+      <a href="/e/perfume-area-book/">
+        <div class="title">
+            Perfume Area
+            <div class="gray">book of fragrance reviews</div>
+        </div>
+      </a>
+    </div>
+  
+    <div class="grid-item">
+      
+        <a href="/e/seasons-in-pentameter/">
+          <figure class="image">
+              <img src="https://penta-proxy.herokuapp.com/image">
+          </figure>
+        </a>
+      
+      <a href="/e/seasons-in-pentameter/">
+        <div class="title">
+            Seasons in Pentameter
+            <div class="gray">time-sensitive website</div>
         </div>
       </a>
     </div>
@@ -136,64 +175,16 @@
       </a>
     </div>
   
-    <div class="grid-item">
-      
-        <a href="/e/perfume-area/">
-          <figure class="image">
-              <img src="/assets/media/perfume-area-02.jpg">
-          </figure>
-        </a>
-      
-      <a href="/e/perfume-area/">
-        <div class="title">
-            Perfume Area
-            <div class="gray">book</div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="grid-item">
-      
-        <a href="/e/arena-gift-shop/">
-          <figure class="image">
-              <img src="/assets/media/catalogue-6up.png">
-          </figure>
-        </a>
-      
-      <a href="/e/arena-gift-shop/">
-        <div class="title">
-            Are.na Gift Shop
-            <div class="gray">gifts, conversations, events</div>
-        </div>
-      </a>
-    </div>
-  
-    <div class="grid-item">
-      
-        <a href="/e/seasons-in-pentameter/">
-          <figure class="image">
-              <img src="https://penta-proxy.herokuapp.com/image">
-          </figure>
-        </a>
-      
-      <a href="/e/seasons-in-pentameter/">
-        <div class="title">
-            Seasons in Pentameter
-            <div class="gray">website</div>
-        </div>
-      </a>
-    </div>
-  
 
 </div>
 
-
-
 <footer class="small">
-  This website is gradually evolving. It was last updated on January 19, 2024.
+  This website is an expanding index, forever in the making, etc.
 </footer>
 
 </div>
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

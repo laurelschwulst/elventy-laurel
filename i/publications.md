@@ -1,5 +1,5 @@
 ---
-layout: layouts/l.njk
+layout: layouts/i.njk
 title: Publications
 
 ---

@@ -34,8 +34,12 @@ layout: layouts/base.njk
 
     {# <a href="home.html" class="invisible">laurel schwulst</a><br> #}
 
-    <span class="essential-metadata" style="margin-top: 1.25em;">
-        <date>{{ date_season }}, {{ subtitle }}</date>
+    <span class="essential-metadata">
+        <date>
+            {% for y in year %}<a href="/year/{{ y | slugify }}/" class="gray">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+            <span class="gray">{{ season }}, </span>
+            {% for m in medium %}<a href="/medium/{{ m | slugify }}/" class="gray">{{ subtitle }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+        </date>
     </span>
 
     <div class="context-simple">
@@ -46,47 +50,57 @@ layout: layouts/base.njk
 
   </div>
 
-  <div class="container" id="flex">
+  <div class="container">
 
-    <div id="title">
-      <h1>
-        {{title}}
-      </h1>
+    <div class="empty"></div>
 
-      <div id="metadata-mobile">
-    
-        {# <span class="essential-metadata"><date>{{ date_season }}</date></span> #}
-    
-        <div class="context-simple">
-          {{ context | safe }}
-        </div>
-    
-      </div>
+    <div class="star"><div class="writing">
+        <div id="title">
+        <h1 style="margin-top: 0;">
+            {% if title_full %}
+                {{title_full}}
+            {% else %}
+                {{title}}
+            {% endif %}
+        </h1>
 
-      <div id="bottom-title">
-        {{ bottom_title | safe }}
-      </div>
-    </div>
-
-    <div id="title-space"></div>
-
-    <div id="content">
-
-        <p>{{ content | safe }}</p>
-
-        <p class="gray" style="margin-top: 2em; margin-bottom: 4em;">
-            {{ date_season }}
-        </p>
-
-        <footer class="small">
-            {{ footer | safe }}<br><br>
-            <div class="gray">
-                Filtered under:
-                {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+        <div id="metadata-mobile">
+                
+            <div class="context-simple">
+            {{ context | safe }}
             </div>
-        </footer>
+        
+        </div>
+
+        <div id="bottom-title">
+            {{ bottom_title | safe }}
+        </div>
+        </div>
+
+        <div id="title-space"></div>
+
+        <div id="content">
+
+            <p>{{ content | safe }}</p>
+
+            <p class="gray" style="margin-top: 2em; margin-bottom: 4em;">
+                {{ date_season }}
+            </p>
+
+            <footer class="small">
+                {{ footer | safe }}
+                {# <br><br> #}
+                {# <div class="gray">
+                    Filtered under:
+                    {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+                </div> #}
+            </footer>
+
+        </div></div>
 
     </div>
+
+    <div class="empty"></div>
 
 </div>
 
@@ -102,7 +116,20 @@ END: FOR THE REAL VERSION #}
 
 <div id="regular-content">
 
-    <h1>{{title}}</h1>
+    <div class="grid">
+        <div class="grid-item double">
+            <h1 style="margin-bottom: 0.5em;">{{title}}</h1>
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            {{ subtitle }}
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            {# {{ year }}<br> #}
+            {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}<br>
+            {# {{ medium }} #}
+            {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+        </div>
+    </div>
 
     <div class="one-column">
         <div class="project-images {{ media_one_type }}">
@@ -144,14 +171,14 @@ END: FOR THE REAL VERSION #}
 
         <div class="project-metadata">
 
-            <b>{{ title }}</b>
+            {# <b>{{ title }}</b> #}
 
-            <p class="year-medium">
+            {# <p class="year-medium"> #}
 
-                <div class="year-medium-simple">
+                {# <div class="year-medium-simple">
                     {% for y in year %}{{ y }}{{ "," if not loop.last else "" }} {% endfor %}<br>
                     {{ subtitle }}
-                </div>
+                </div> #}
 
                 {# START: FILTERS FOR REAL VERSION #}
                     {# {% for y in year %}
@@ -171,11 +198,11 @@ END: FOR THE REAL VERSION #}
                 {% for collab in collaborator %}
                     <a href="/with/{{ collab | slugify }}/">{{ collab }}</a>{{ "," if not loop.last else "" }}
                 {% endfor %} #}
-            </p>
+            {# </p> #}
 
-            <div class="small">
+            {# <div class="small"> #}
             {{ content | safe }}
-            </div>
+            {# </div> #}
 
             {# <p class="small gray">
                 Filtered under:
@@ -244,6 +271,9 @@ END: FOR THE REAL VERSION #}
             <a href="{{ project.url }}">
                 <div class="title">
                     {{ project.data.title }}
+                </div>
+                <div class="gray">
+                    {{ project.data.subtitle }}
                 </div>
             </a>
         </div>

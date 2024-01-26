@@ -10,48 +10,59 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content="https://penta-proxy.herokuapp.com/image">
         <meta property="og:url" content="/e/seasons-in-pentameter/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
+        
+        
+            <div id="menu-itself">
+                <div class="grid">
+                    <div class="grid-item">
+                        <a href="/" id="home">home</a>
+                    </div>
+                    <div class="grid-item">
+                        <select id="project-navigator">
+                            <option value="" disabled selected>projects</option>
+                            <option value="/index.html">projects / selected</option>
+                            <option value="/e/index.html">projects / every</option>
+                            <option value="/medium/writing/index.html">writing</option>
+                            <option value="/medium/website/index.html">websites</option>
+                        </select>
+                    </div>
+                    <div class="grid-item">
+                        <a href="/i/laurel-schwulst/index.html">information</a>
+                    </div>
+                    <div class="grid-item">
+                        shop
+                    </div>
                 </div>
             </div>
-
-            
-        </div>
+            <a href="/" id="home">Laurel Schwulst</a>
+            <nav id="top-right">
+                <span id="menu-click">☰</span>
+            </nav>
+        
+        
         
 
 
 
 <div id="regular-content">
 
-    <h1>Seasons in Pentameter</h1>
+    <div class="grid">
+        <div class="grid-item double">
+            <h1 style="margin-bottom: 0.5em;">Seasons in Pentameter</h1>
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            time-sensitive website
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            
+            <a href="/year/2022/">2022</a><br>
+            
+            <a href="/medium/website/">website</a>
+        </div>
+    </div>
 
     <div class="one-column">
         <div class="project-images ">
@@ -74,26 +85,23 @@
 
         <div class="project-metadata">
 
-            <b>Seasons in Pentameter</b>
+            
 
-            <p class="year-medium">
+            
 
-                <div class="year-medium-simple">
-                    2022 <br>
-                    website
-                </div>
+                
 
                 
                     
                 
 
                 
-            </p>
+            
 
-            <div class="small">
+            
             <p>Asdf</p>
 
-            </div>
+            
 
             
 
@@ -164,6 +172,14 @@
       
     
       
+    
+      
+    
+      
+    
+      
+    
+      
         <div class="grid-item">
             <a href="/e/gemini-mix-visualizer/">
                 <figure class="image">
@@ -174,16 +190,11 @@
                 <div class="title">
                     Gemini Mix Visualizer
                 </div>
+                <div class="gray">
+                    artwork and video
+                </div>
             </a>
         </div>
-      
-    
-      
-    
-      
-    
-      
-    
       
     
       
@@ -223,6 +234,8 @@
 </div>
 
 
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

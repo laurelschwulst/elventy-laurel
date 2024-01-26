@@ -9,24 +9,41 @@ permalink: "year/{{ year | slugify }}/"
 
 <div id="regular-content">
 
-  <h1>year: {{ year }}</h1>
+  <h1>
+    {# year:  #}
+    {{ year }}
+  </h1>
 
   <div class="grid">
 
-    {% for post in collections.all %}
-      {% if post.data.year and post.data.year.includes(year) %}
-      <div class="grid-item">
-        <a href="{{ post.url }}">
-          <figure class="image">
-              <img src="{{ post.data.featured_image }}">
-          </figure>
-        </a>
-        <a href="{{ post.url }}">
-          <div class="title">
-              {{ post.data.title }}
-          </div>
-        </a>
-      </div>
+    {% for e in collections.all %}
+      {% if e.data.draft == true %}
+        <div class="grid-item">
+            <div class="title">
+                {{ e.data.title }}
+            </div>
+            <div class="gray">
+                {{ e.data.subtitle }}
+            </div>
+        </div>
+      {% else %}
+        {% if e.data.year and e.data.year.includes(year) %}
+        <div class="grid-item">
+          <a href="{{ e.url }}">
+            <figure class="image">
+                <img src="{{ e.data.featured_image }}">
+            </figure>
+          </a>
+          <a href="{{ e.url }}">
+            <div class="title">
+                {{ e.data.title }}
+            </div>
+            <div class="gray">
+                {{ e.data.subtitle }}
+            </div>
+          </a>
+        </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
 

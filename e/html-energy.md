@@ -1,13 +1,13 @@
 ---
 layout: layouts/e.njk
 title: HTML Energy
-subtitle: movement and interview series
-publisher: HTML Energy
+subtitle: movement and podcast
+publisher: Elliott Cost
 date: 2019-12-02
 featured_image: /assets/media/html-blue.png
 type: project
 medium:
-  - podcast
+  - world
 year: ["2019"]
 media_two_beginning:
   - media:

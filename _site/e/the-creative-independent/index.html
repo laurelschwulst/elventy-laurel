@@ -10,48 +10,59 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content="/assets/media/tci-spiral.png">
         <meta property="og:url" content="/e/the-creative-independent/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
+        
+        
+            <div id="menu-itself">
+                <div class="grid">
+                    <div class="grid-item">
+                        <a href="/" id="home">home</a>
+                    </div>
+                    <div class="grid-item">
+                        <select id="project-navigator">
+                            <option value="" disabled selected>projects</option>
+                            <option value="/index.html">projects / selected</option>
+                            <option value="/e/index.html">projects / every</option>
+                            <option value="/medium/writing/index.html">writing</option>
+                            <option value="/medium/website/index.html">websites</option>
+                        </select>
+                    </div>
+                    <div class="grid-item">
+                        <a href="/i/laurel-schwulst/index.html">information</a>
+                    </div>
+                    <div class="grid-item">
+                        shop
+                    </div>
                 </div>
             </div>
-
-            
-        </div>
+            <a href="/" id="home">Laurel Schwulst</a>
+            <nav id="top-right">
+                <span id="menu-click">☰</span>
+            </nav>
+        
+        
         
 
 
 
 <div id="regular-content">
 
-    <h1>The Creative Independent</h1>
+    <div class="grid">
+        <div class="grid-item double">
+            <h1 style="margin-bottom: 0.5em;">The Creative Independent</h1>
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            platform &amp; growing resource
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            
+            <a href="/year/2016/">2016</a><br>
+            
+            <a href="/medium/identity/">identity</a>
+        </div>
+    </div>
 
     <div class="one-column">
         <div class="project-images ">
@@ -74,29 +85,26 @@
 
         <div class="project-metadata">
 
-            <b>The Creative Independent</b>
+            
 
-            <p class="year-medium">
+            
 
-                <div class="year-medium-simple">
-                    2016, 2017 <br>
-                    digital platform
-                </div>
+                
 
                 
                     
                 
 
                 
-            </p>
+            
 
-            <div class="small">
+            
             <p>In 2016, I joined Kickstarter to launch “The Creative Independent,” a unique digital platform serving creative professionals.</p>
 <p>As creative director, I was involved in everything — from establishing our principles, to designing the site, to building with code &amp; copy, to growing an aligned team and process. The vision was a “Wikipedia of the creative process,” a networked resource that was radically readable and evergreen.</p>
 <p>I built the site with evolution in mind — it’s constructed to grow every day and be gardened over time. The site has continued to grow and evolve like a living organism and today is a network of over 1500 interviews: a rich database of thought from writers, musicians, designers, visual artists, and others in six languages.</p>
 <p><a href="https://thecreativeindependent.com" target="_blank">Visit thecreativeindependent.com</a> ↗</p>
 
-            </div>
+            
 
             
 
@@ -153,6 +161,12 @@
       
     
       
+    
+      
+    
+      
+    
+      
         <div class="grid-item">
             <a href="/e/my-website-is-a-shifting-house/">
                 <figure class="image">
@@ -161,16 +175,13 @@
             </a>
             <a href="/e/my-website-is-a-shifting-house/">
                 <div class="title">
-                    My website is a shifting house next to a river of knowledge. What could yours be?
+                    My website is a shifting house ...
+                </div>
+                <div class="gray">
+                    essay
                 </div>
             </a>
         </div>
-      
-    
-      
-    
-      
-    
       
     
       
@@ -226,6 +237,8 @@
 </div>
 
 
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

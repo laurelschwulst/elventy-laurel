@@ -2,14 +2,19 @@
 layout: layouts/e.njk
 title: How to Build a Bird Kite
 selected: true
+selected_section: true
 subtitle: interactive feature
 publisher: The New York Times
 description: Testing 123
 date: 2021-05-21
+collaborator:
+- Tracy Ma
+- Austin Wade Smith
+- Meg Miller
 featured_image: /assets/media/kite.png
 type: project
 medium:
-  - interactive
+  - publication
 year: ["2021"]
 media_two_beginning:
   - media:
@@ -94,6 +99,6 @@ related_projects:
 
 Craft tutorial and meditation on how to build a kite in interactive story format for The New York Times.
 
-It’s part pragmatic how to and part meanderings on “the wind.” The format is an “interactive story” — you can click through the steps to get the essential information. Or let the whole tutorial play, and it’s a 46 minute film of creating a kite in real-time. Special thanks to Tracy Ma, Natalie Shutler, Austin Wade Smith, Elliott Cost, and Meg Miller.
+It’s part pragmatic how to and part meanderings on “the wind.” The format is an “interactive story” — you can click through the steps to get the essential information. Or let the whole tutorial play, and it’s a 46 minute film of creating a kite in real-time. Special thanks to <a href="/with/tracy-ma" class="collaborator">Tracy Ma</a>, Natalie Shutler, <a href="/with/austin-wade-smith" class="collaborator">Austin Wade Smith</a>, Elliott Cost, and <a href="/with/meg-miller" class="collaborator">Meg Miller</a>.
 
 <a href="https://www.nytimes.com/interactive/2021/05/19/style/how-to-build-a-bird-kite.html" target="_blank">Visit Project on nytimes.com</a> ↗

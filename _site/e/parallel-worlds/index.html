@@ -10,41 +10,39 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content="/assets/media/magazine-parallel.png">
         <meta property="og:url" content="/e/parallel-worlds/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
+        
+        
+            <div id="menu-itself">
+                <div class="grid">
+                    <div class="grid-item">
+                        <a href="/" id="home">home</a>
+                    </div>
+                    <div class="grid-item">
+                        <select id="project-navigator">
+                            <option value="" disabled selected>projects</option>
+                            <option value="/index.html">projects / selected</option>
+                            <option value="/e/index.html">projects / every</option>
+                            <option value="/medium/writing/index.html">writing</option>
+                            <option value="/medium/website/index.html">websites</option>
+                        </select>
+                    </div>
+                    <div class="grid-item">
+                        <a href="/i/laurel-schwulst/index.html">information</a>
+                    </div>
+                    <div class="grid-item">
+                        shop
+                    </div>
                 </div>
             </div>
-
-            
-        </div>
+            <a href="/" id="home">Laurel Schwulst</a>
+            <nav id="top-right">
+                <span id="menu-click">☰</span>
+            </nav>
+        
+        
         
 
 
@@ -55,8 +53,12 @@
 
     
 
-    <span class="essential-metadata" style="margin-top: 1.25em;">
-        <date>Fall 2014, essay</date>
+    <span class="essential-metadata">
+        <date>
+            <a href="/year/2014/" class="gray">2014</a>
+            <span class="gray">Fall, </span>
+            <a href="/medium/writing/" class="gray">essay</a>
+        </date>
     </span>
 
     <div class="context-simple">
@@ -67,33 +69,36 @@
 
   </div>
 
-  <div class="container" id="flex">
+  <div class="container">
 
-    <div id="title">
-      <h1>
-        Parallel Worlds
-      </h1>
+    <div class="empty"></div>
 
-      <div id="metadata-mobile">
-    
+    <div class="star"><div class="writing">
+        <div id="title">
+        <h1 style="margin-top: 0;">
+            
+                Parallel Worlds
+            
+        </h1>
+
+        <div id="metadata-mobile">
+                
+            <div class="context-simple">
+            This is an adapted mirror ... published in October 2014 print edition
+            </div>
         
-    
-        <div class="context-simple">
-          This is an adapted mirror ... published in October 2014 print edition
         </div>
-    
-      </div>
 
-      <div id="bottom-title">
-        
-      </div>
-    </div>
+        <div id="bottom-title">
+            
+        </div>
+        </div>
 
-    <div id="title-space"></div>
+        <div id="title-space"></div>
 
-    <div id="content">
+        <div id="content">
 
-        <p><!-- ## Does every graphic design create a parallel world? -->
+            <p><!-- ## Does every graphic design create a parallel world? -->
 <p>The assignment was straightforward: I asked students in my interactive design class at Yale to follow someone on Twitter and then create text-and-image versions of 60 of that someone's tweets.</p>
 <p>Among the hundreds of these &quot;visual tweets&quot; I received, three illuminated the same enigmatic phrase: &quot;Your muscles are responsible.&quot;</p>
 <p>The line came from the infamous @horse_ebooks, a hugely popular Twitter account that spewed random fragments apparently culled from a trove of digitized literature. (Until the humans behind it revealed themselves last year, the account was widely believed to be a spambot gone haywire.) One student superimposed the seemingly computer-generated text onto a background of computer-generated abstract imagery, another used the assignment as a chance to practice traditional calligraphy skills, and the third rendered the text in the visual idiom of Internet memes.</p>
@@ -117,19 +122,21 @@
 </figure> -->
 </p>
 
-        <p class="gray" style="margin-top: 2em; margin-bottom: 4em;">
-            Fall 2014
-        </p>
+            <p class="gray" style="margin-top: 2em; margin-bottom: 4em;">
+                Fall 2014
+            </p>
 
-        <footer class="small">
-            Special thanks to ...<br><br>
-            <div class="gray">
-                Filtered under:
-                <a href="/medium/writing/">writing</a>
-            </div>
-        </footer>
+            <footer class="small">
+                Thanks to Will Smith for editing.
+                
+                
+            </footer>
+
+        </div></div>
 
     </div>
+
+    <div class="empty"></div>
 
 </div>
 
@@ -146,6 +153,8 @@
 </div>
 
 
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

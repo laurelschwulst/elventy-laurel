@@ -10,48 +10,59 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content="/assets/media/ultralight-seal.png">
         <meta property="og:url" content="/e/fruitful-school/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
+        
+        
+            <div id="menu-itself">
+                <div class="grid">
+                    <div class="grid-item">
+                        <a href="/" id="home">home</a>
+                    </div>
+                    <div class="grid-item">
+                        <select id="project-navigator">
+                            <option value="" disabled selected>projects</option>
+                            <option value="/index.html">projects / selected</option>
+                            <option value="/e/index.html">projects / every</option>
+                            <option value="/medium/writing/index.html">writing</option>
+                            <option value="/medium/website/index.html">websites</option>
+                        </select>
+                    </div>
+                    <div class="grid-item">
+                        <a href="/i/laurel-schwulst/index.html">information</a>
+                    </div>
+                    <div class="grid-item">
+                        shop
+                    </div>
                 </div>
             </div>
-
-            
-        </div>
+            <a href="/" id="home">Laurel Schwulst</a>
+            <nav id="top-right">
+                <span id="menu-click">☰</span>
+            </nav>
+        
+        
         
 
 
 
 <div id="regular-content">
 
-    <h1>Fruitful School</h1>
+    <div class="grid">
+        <div class="grid-item double">
+            <h1 style="margin-bottom: 0.5em;">Fruitful School</h1>
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            workshop series
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            
+            <a href="/year/2020/">2020</a><br>
+            
+            <a href="/medium/world/">world</a>
+        </div>
+    </div>
 
     <div class="one-column">
         <div class="project-images ">
@@ -74,28 +85,25 @@
 
         <div class="project-metadata">
 
-            <b>Fruitful School</b>
+            
 
-            <p class="year-medium">
+            
 
-                <div class="year-medium-simple">
-                    2020 <br>
-                    workshop series
-                </div>
+                
 
                 
                     
                 
 
                 
-            </p>
+            
 
-            <div class="small">
+            
             <p>“Artists often struggle in presenting themselves and their work on the web. Fruitful school teaches artists how to create websites as a vital tool in their practice — not only for presenting existing work, but for generating entirely new work, inspiring original ways of publishing to the world wide web.”</p>
 <p>Fruitful.school is an independently-run workshop series founded in 2020. In collaboration with John Provencher.</p>
 <p><a href="https://fruitful.school" target="_blank">Visit fruitful.school</a> ↗</p>
 
-            </div>
+            
 
             
 
@@ -148,6 +156,14 @@
       
     
       
+    
+      
+    
+      
+    
+      
+    
+      
         <div class="grid-item">
             <a href="/e/html-energy/">
                 <figure class="image">
@@ -158,16 +174,11 @@
                 <div class="title">
                     HTML Energy
                 </div>
+                <div class="gray">
+                    movement and podcast
+                </div>
             </a>
         </div>
-      
-    
-      
-    
-      
-    
-      
-    
       
     
       
@@ -211,6 +222,8 @@
 </div>
 
 
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

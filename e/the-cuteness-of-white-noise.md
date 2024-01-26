@@ -2,18 +2,20 @@
 title: The cuteness of white noise
 subtitle: essay
 selected: true
+selected_section: true
 publisher: Soft–Space
 layout: layouts/e.njk
 description: Testing 123
-date: 2023-09-23
+date: 2019-09-23
 date_season: Summer 2019
+season: Summer
 featured_image: /assets/media/02.png
 type: writing
 medium:
   - writing
 year: ["2019"]
 bottom_title: '<figure style="margin-top: 0;"><img src="/assets/media/leaves.jpg" style="width: 100px; border-radius: 0;"></figure>'
-context: 'This is an adapted mirror of an <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">article</a> ↗ which was originally commissioned and published for the comforter company Buffy’s blog, Soft–Space, and published on July 9, 2019.'
+context: 'This is an adapted mirror of an article which was originally commissioned and published for the comforter company Buffy’s blog, <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">Soft–Space</a> ↗, published on July 9, 2019.'
 footer: 'Special thanks to Carson Salter for asking me to write about this. And to Meg Miller, Toby Shorin, and Dan Brewster for offering insight on previous drafts. Originally published July 2019 on <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">Soft–Space</a>, the blog of the comforter company Buffy. Photos by Todd Midler.'
 ---
 

@@ -6,11 +6,11 @@ module.exports = function (eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy("admin");
 
-    eleventyConfig.addCollection("writing", function(collection) {
-        return collection.getAllSorted().filter(function(item) {
-        return "type" in item.data && item.data.type === "writing";
-        });
-    });
+    // eleventyConfig.addCollection("writing", function(collection) {
+    //     return collection.getAllSorted().filter(function(item) {
+    //     return "type" in item.data && item.data.type === "writing";
+    //     });
+    // });
 
     eleventyConfig.addCollection("media_one", function (collectionApi) {
         return collectionApi.getFilteredByGlob("src/media/*");
@@ -58,6 +58,15 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getAll().filter(item => item.data.selected === true);
     });
 
+    eleventyConfig.addCollection("selected_section", function(collectionApi) {
+        return collectionApi.getAll().filter(item => item.data.selected_section === true);
+    });
+
+    eleventyConfig.addCollection("selected_section_shuffled", function(collectionApi) {
+        const selected = collectionApi.getAll().filter(item => item.data.selected_section === true);
+        return eleventyConfig.getFilter("shuffle")(selected);
+    });
+
     eleventyConfig.addFilter("shuffle", function(array) {
         // Copy the array to avoid modifying the original
         const shuffledArray = array.slice();
@@ -71,17 +80,22 @@ module.exports = function (eleventyConfig) {
         return shuffledArray;
     });
 
-    eleventyConfig.addCollection("selected_shuffled", function(collectionApi) {
-        const selected = collectionApi.getAll().filter(item => item.data.selected_project === true);
-        return eleventyConfig.getFilter("shuffle")(selected);
+    eleventyConfig.addCollection("everything", function(collectionApi) {
+        const sortedCollection = collectionApi.getAll().sort((a, b) => {
+            const dateA = new Date(a.date);
+            const dateB = new Date(b.date);
+            console.log(dateA, dateB); // Output the dates for debugging
+            return dateB - dateA;
+        });
+    
+        return sortedCollection;
     });
 
-    eleventyConfig.addCollection("everything", function(collectionApi) {
-    return collectionApi.getAll().sort((a, b) => {
-        // Assuming 'date' is a Date object
-        return a.date - b.date;
-    });
-    });
+    module.exports = function(eleventyConfig) {
+        eleventyConfig.addGlobalData("layout", function() {
+          return this.page.data.layout;
+        });
+      };
 
     eleventyConfig.addNunjucksFilter("push", function(arr, value) {
         arr.push(value);

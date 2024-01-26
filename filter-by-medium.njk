@@ -10,31 +10,108 @@ permalink: "medium/{{ medium | slugify }}/"
 <div id="regular-content">
 
   <h1>
-    {# medium:  #}
-    {{ medium }}
+    {# <span class="gray">medium:</span> #}
+    {% if medium == "website" %}
+      websites
+    {% elseif medium == "world" %}
+      worlds
+    {% elseif medium == "publication" %}
+      publications
+    {% elseif medium == "object" %}
+      objects
+    {% elseif medium == "event" %}
+      events
+    {% elseif medium == "identity" %}
+      identities
+    {% else %}
+      {{ medium }}
+    {% endif %}
   </h1>
 
   <div class="grid">
 
-    {% for post in collections.all %}
-      {% if post.data.medium and post.data.medium.includes(medium) %}
-      <div class="grid-item">
-        <a href="{{ post.url }}">
-          <figure class="image">
-              <img src="{{ post.data.featured_image }}">
-          </figure>
-        </a>
-        <a href="{{ post.url }}">
-          <div class="title">
-              {{ post.data.title }}
-              <div class="gray">
-                {{ post.data.publisher }}
+    {% for e in collections.selected_section_shuffled %}
+      {% if e.data.draft == true %}
+      {% else %}
+        {% if e.layout == "layouts/base.njk" %}
+        {% else %}
+          {% if e.data.medium and e.data.medium.includes(medium) %}
+          <div class="grid-item">
+            <a href="{{ e.url }}">
+              <figure class="image">
+                  <img src="{{ e.data.featured_image }}">
+              </figure>
+            </a>
+            <a href="{{ e.url }}">
+              <div class="title">
+                  {{ e.data.title }}
+                  <div class="gray">
+                    {% if medium == "writing" %}
+                      {{ e.data.publisher }}
+                    {% else %}
+                      {{ e.data.subtitle }}
+                    {% endif %}
+                  </div>
               </div>
+            </a>
           </div>
-        </a>
-      </div>
+          {% endif %}
+        {% endif %}
       {% endif %}
     {% endfor %}
+
+  </div>
+
+  <hr>
+
+  <h2>Every {{ medium }}</h2>
+
+    <div id="table-list">
+
+      {% for e in collections.all | reverse %}
+          {% if e.data.medium and e.data.medium.includes(medium) %}
+            {% if e.data.draft == true %}
+              <div class="list-item draft">
+            {% else %}
+              <a href="{{ e.url }}" class="list-item">
+            {% endif %}
+              {% if e.data.medium == "writing" %}
+                <div class="year-seasons">
+                  {{ e.data.year }} {{ e.data.season }}
+                </div>
+              {% else %}
+                <div class="year">
+                  {{ e.data.year }}
+                </div>
+              {% endif %}
+              <div class="featured">
+                {% if e.data.selected_section == true %}
+                  &bull;
+                {% elseif e.data.draft == true %}
+                  -
+                {% endif %}
+              </div>
+              <div class="title">
+                {{ e.data.title }}
+              </div>
+              <div class="type gray">
+                {{ e.data.medium }}
+              </div>
+              <div class="short-description">
+                {{ e.data.subtitle }}
+              </div>
+              <div class="venue">
+                {{ e.data.publisher }}
+              </div>
+            {% if e.data.draft == true %}
+              </div>
+            {% else %}
+              </a>
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    </div>
 
   </div>
 

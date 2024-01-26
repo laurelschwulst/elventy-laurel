@@ -10,26 +10,49 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content=".">
         <meta property="og:url" content="/about/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
+        <div class="grid">
+                <div class="grid-item">
+                    <a href="/" id="home">Laurel Schwulst</a>
+                </div>
+                <div class="grid-item">
+                    <select id="project-navigator">
+                        <option value="" disabled selected>projects</option>
+                        <option value="/index.html">projects / selected</option>
+                        
+                        
+                        <option value="/e/index.html">projects / complete</option>
+                        <option value="/medium/writing/index.html">writing</option>
+                        <option value="/medium/website/index.html">websites</option>
+                    </select>
+                </div>
+                <div class="grid-item">
+                    <a href="/i/laurel-schwulst/index.html">information</a>
+                </div>
+                <div class="grid-item">
+                    shop
+                </div>
+            </div>
+        
             
 
-        </nav>
+        
         <div id="menu-itself">
 
             <div class="grid">
                 <div class="grid-item">
+                    <span style="background: rgba(0,0,0,0.05);">projects / selected</span><br>
+                    projects / complete<br>
+                    writing<br>
+                    websites<br>
+                    teaching<br>
+                    presentations
                     
-                    <a href="/medium/writing">writing</a><br>
                     
-                    <a href="/about">about</a><br>
+                    
+                    
                     
                 </div>
                 <div class="grid-item">
@@ -80,5 +103,8 @@ January 2024
 
 
         
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

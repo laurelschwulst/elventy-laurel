@@ -8,17 +8,24 @@ permalink: "with/{{ collaborator | slugify }}/"
 ---
 
 <div id="regular-content">
-
-  <h1 style="margin-bottom: 0;">collaborator: {{ collaborator }}</h1>
-
-  {% set collaboratorData = {} %}
-  {% for person in collaborators %}
-    {% if person.name == collaborator %}
-      {% set collaboratorData = person -%}
-    {% endif %}
-  {% endfor %}
-
-  <p style="margin-bottom: 3.5em;"><a href="{{ collaboratorData.link }}">{{ collaboratorData.link }}</a></p>
+  
+  <div class="grid">
+    <div class="grid-item double">
+      <h1 style="margin-bottom: 0.5em;">
+        <span class="gray">with:</span>
+        {{ collaborator }}
+      </h1>
+    </div>
+    <div class="grid-item">
+      {% set collaboratorData = {} %}
+      {% for person in collaborators %}
+        {% if person.name == collaborator %}
+          {% set collaboratorData = person -%}
+        {% endif %}
+      {% endfor %}
+      <p><a href="{{ collaboratorData.link }}" style="border-bottom: 1px solid rgba(0,0,0,0.15)">{{ collaboratorData.link }}</a> ↗</p>
+    </div>
+  </div>
 
   <div class="grid">
 

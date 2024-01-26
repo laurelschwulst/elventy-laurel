@@ -1,71 +1,31 @@
 ---
 layout: layouts/e.njk
 title: Perfume Area
-selected: true
-subtitle: book
-publisher: Ambient Works
-description: Testing 123
-date: 2015-05-19
-featured_image: /assets/media/perfume-area-02.jpg
+draft: true
+subtitle: fragrance review project
+date: 2013-09-26
+featured_image: /assets/media/
 type: project
+publisher: Perfume Area
 medium:
-  - book
-collaborator: ["Sydney Shen"]
-year: ["2019"]
-media_two_beginning:
-  - media:
-      path: /assets/media/perfume-area-02.jpg
-      type: image
-      solar: non-solar
-      alt: TBD
+  - world
+year: ["2013"]
+media_one:
+  # - media:
+  #     path: /assets/media/tci-logo.png
+  #     type: image
+  #     size: large
+  #     alt: TBD
 media_two_ending:
-  - media:
-      path: /assets/media/perfume-area-01.jpg
-      type: image
-      solar: non-solar
-      alt: TBD
-#   - media:
-#       path: /assets/media/perfume-area-03.jpg
-#       type: image
-#       solar: non-solar
-#       alt: TBD
-media_three:
-  - media:
-      path: /assets/media/perfume-area-07.jpg
-      type: image
-      solar: non-solar
-      size: extra-large
-      alt: TBD
-  - media:
-      path: /assets/media/perfume-area-04.jpg
-      type: image
-      size: extra-large
-      solar: non-solar
-      alt: TBD
-  - media:
-      path: /assets/media/perfume-area-05.jpg
-      type: image
-      size: extra-large
-      solar: non-solar
-      alt: TBD
-  - media:
-      path: /assets/media/perfume-area-06.jpg
-      type: image
-      size: extra-large
-      solar: non-solar
-      alt: TBD
-# related_projects: [flight-simulator-pins.md]
+  # - media:
+  #     path: /assets/media/tci-spiral.png
+  #     type: image
+  #     size: large
+  #     alt: TBD
+  #     caption: Inspirations for spiral identity
+related_projects:
+    # - my-website-is-a-shifting-house.md
 
 ---
 
-Perfume Area is a collaborative fragrance review project. Its book contains thirty-six prose poetry fragrance reviews. 4.25 × 7", 84 pages, perfect bound with gatefold map and bookmark. Published by Ambient Works in an edition of 300 and designed by Bryce Wilner. In the collection of the Yale University Library. Project in collaboration with Sydney Shen.
-
-[Visit project website](https://perfume-area.com) ↗
-
-<!-- [Soft](/with/soft) -->
-
-<!-- “I love that this lets me use my phone less and experience something beautiful. The details of what you see out of the window, raindrops and the pins you collect all are great.” — su.b3
-
-“it’s like @Headspace without the guidance”
-
-“Flight Simulator, an iOS app that doesn’t let you fly the plane... you just start a trip and stare peacefully out the window” — kottke.org -->
+To come

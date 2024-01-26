@@ -1,19 +1,44 @@
-<div class="grid">
+<div id="table-list">
 
-  {% for e in e_all %}
-    <div class="grid-item">
-      <a href="{{ e.url }}">
-        <figure class="image">
-            <img src="{{ e.data.featured_image }}">
-        </figure>
+  {% for e in e_all | reverse %}
+    {% if e.data.draft == true %}
+      <div class="list-item draft">
+    {% else %}
+      <a href="{{ e.url }}" class="list-item">
+    {% endif %}
+      <div class="year">
+        {{ e.data.year }}
+      </div>
+      <div class="featured">
+        {% if e.data.selected == true %}
+          &bull;
+        {% elseif e.data.draft == true %}
+          -
+        {% endif %}
+      </div>
+      <div class="title">
+        {{ e.data.title }}
+      </div>
+      <div class="type gray">
+        {{ e.data.medium }}
+      </div>
+      <div class="short-description">
+        {{ e.data.subtitle }}
+      </div>
+      <div class="venue">
+        {{ e.data.publisher }}
+      </div>
+    {% if e.data.draft == true %}
+      </div>
+    {% else %}
       </a>
-      <a href="{{ e.url }}">
-        <div class="title">
-            {{ e.data.title }}
-            <div class="gray">{{ e.data.subtitle }}</div>
-        </div>
-      </a>
-    </div>
+    {% endif %}
   {% endfor %}
 
 </div>
+
+<p style="margin-top: 2.5em;">
+  Key:<br><br>
+  &bull; Selected project<br>
+  - Still filling out this project
+</p>

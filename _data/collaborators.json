@@ -1,14 +1,42 @@
 [
     {
-        "name": "John Doe",
-        "link": "https://johndoe.com"
+        "name": "Taichi Wi",
+        "link": "https://taichi.pink"
     },
     {
-        "name": "Jane Smith",
-        "link": "https://janesmith.com"
+        "name": "Mark Beasley",
+        "link": "https://mark-beasley.com"
     },
     {
         "name": "Soft",
         "link": "https://soft.works"
+    },
+    {
+        "name": "Sydney Shen",
+        "link": "https://sydneyshen.info"
+    },
+    {
+        "name": "Bryce Wilner",
+        "link": "http://brycewilner.com"
+    },
+    {
+        "name": "Stephen Kwok",
+        "link": "http://kwokstephen.com"
+    },
+    {
+        "name": "Tracy Ma",
+        "link": "https://www.tracyma.com"
+    },
+    {
+        "name": "Meg Miller",
+        "link": "http://megmiller.world"
+    },
+    {
+        "name": "Austin Wade Smith",
+        "link": "http://www.austinwadesmith.com"
+    },
+    {
+        "name": "Aarati Akkapeddi",
+        "link": "https://aarati.online"
     }
 ]

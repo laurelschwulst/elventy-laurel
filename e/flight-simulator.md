@@ -2,15 +2,18 @@
 layout: layouts/e.njk
 title: Flight Simulator
 selected: true
+selected_section: true
 subtitle: app for iOS and Android
-publisher: Soft Works
+publisher: Soft
 description: Testing 123
 date: 2019-02-02
 featured_image: /assets/media/fs02.png
 type: project
 medium:
-  - interactive
-collaborator: ["Soft"]
+  - publication
+collaborator:
+- Soft
+- Aarati Akkapeddi
 year: ["2019"]
 media_one:
   - media:
@@ -42,7 +45,7 @@ related_projects: [flight-simulator-pins.md]
 
 ---
 
-Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with Soft. Pins are generative algorithmic artwork by Aarati Akkapeddi.
+Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with <a href="/with/soft" class="collaborator">Soft</a>. Pins are generative algorithmic artwork by <a href="/with/aarati-akkapeddi" class="collaborator">Aarati Akkapeddi</a>.
 
 [Download for iOS](https://itunes.apple.com/us/app/flight-simulator/id1146329517) ↗<br>
 [Download for Android](https://play.google.com/store/apps/details?id=com.soft.flightsimulator) ↗<br>

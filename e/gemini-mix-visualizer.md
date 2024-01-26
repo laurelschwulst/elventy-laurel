@@ -7,7 +7,7 @@ date: 2021-05-21
 featured_image: /assets/media/gemini09.png
 type: project
 medium:
-  - video
+  - object
 year: ["2023"]
 media_one:
   - media:

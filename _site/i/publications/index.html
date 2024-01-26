@@ -9,42 +9,34 @@
         <meta property="og:title" content="Publications">
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content=".">
-        <meta property="og:url" content="/l/publications/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
+        <meta property="og:url" content="/i/publications/">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
+        
+        
+        <div class="grid" style="position: absolute; top: 2em; left: 2em; right: 2em;">
+            <div class="grid-item">
+                <a href="/" id="home">Laurel Schwulst</a>
             </div>
-
-            
+            <div class="grid-item">
+                <select id="project-navigator">
+                    <option value="" disabled selected>projects</option>
+                    <option value="/index.html">projects / selected</option>
+                    <option value="/e/index.html">projects / every</option>
+                    <option value="/medium/writing/index.html">writing</option>
+                    <option value="/medium/website/index.html">websites</option>
+                </select>
+            </div>
+            <div class="grid-item">
+                <a href="/i/laurel-schwulst/index.html">information</a>
+            </div>
+            <div class="grid-item">
+                shop
+            </div>
         </div>
+        
+        
         
 <div id="regular-content">
 
@@ -97,6 +89,8 @@
 </div>
 
 
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

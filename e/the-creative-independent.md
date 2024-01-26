@@ -1,19 +1,16 @@
 ---
 layout: layouts/e.njk
 title: The Creative Independent
+selected_section: true
 # selected: true
-subtitle: digital platform
+subtitle: platform & growing resource
 publisher: Kickstarter
 date: 2016-09-26
 featured_image: /assets/media/tci-spiral.png
 type: project
 medium:
   - identity
-  - interactive
-  - website
-year:
-- 2016
-- 2017
+year: ["2016"]
 media_one:
   - media:
       path: /assets/media/tci-logo.png

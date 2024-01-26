@@ -1,11 +1,13 @@
 ---
 title: Kiki, Bouba, and Beyond
-subtitle: essay
+subtitle: article
+selected_section: true
 publisher: The New York Times
 layout: layouts/e.njk
 description: Testing 123
 date: 2023-07-28
 date_season: Summer 2023
+season: Summer
 featured_image: /assets/media/takete-maluma.png
 type: writing
 medium:

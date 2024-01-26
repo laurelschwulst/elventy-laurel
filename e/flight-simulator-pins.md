@@ -1,12 +1,14 @@
 ---
 layout: layouts/e.njk
 title: Flight Simulator Pins
+selected_section: true
 subtitle: enamel pins
 date: 2019-02-02
 featured_image: /assets/media/fs-pins.jpg
 type: project
 medium:
   - object
+publisher: Soft
 collaborator: ["Soft", "Aarati Akkapeddi"]
 year: ["2019"]
 media_two_beginning:

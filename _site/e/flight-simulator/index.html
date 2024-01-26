@@ -10,48 +10,59 @@
         <meta property="og:description" content="Testing 123">
         <meta property="og:image" content="/assets/media/fs02.png">
         <meta property="og:url" content="/e/flight-simulator/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
-        <div id="menu-itself">
-
-            <div class="grid">
-                <div class="grid-item">
-                    
-                    <a href="/medium/writing">writing</a><br>
-                    
-                    <a href="/about">about</a><br>
-                    
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
-                </div>
-                <div class="grid-item">
-                    asdf
+        
+        
+            <div id="menu-itself">
+                <div class="grid">
+                    <div class="grid-item">
+                        <a href="/" id="home">home</a>
+                    </div>
+                    <div class="grid-item">
+                        <select id="project-navigator">
+                            <option value="" disabled selected>projects</option>
+                            <option value="/index.html">projects / selected</option>
+                            <option value="/e/index.html">projects / every</option>
+                            <option value="/medium/writing/index.html">writing</option>
+                            <option value="/medium/website/index.html">websites</option>
+                        </select>
+                    </div>
+                    <div class="grid-item">
+                        <a href="/i/laurel-schwulst/index.html">information</a>
+                    </div>
+                    <div class="grid-item">
+                        shop
+                    </div>
                 </div>
             </div>
-
-            
-        </div>
+            <a href="/" id="home">Laurel Schwulst</a>
+            <nav id="top-right">
+                <span id="menu-click">☰</span>
+            </nav>
+        
+        
         
 
 
 
 <div id="regular-content">
 
-    <h1>Flight Simulator</h1>
+    <div class="grid">
+        <div class="grid-item double">
+            <h1 style="margin-bottom: 0.5em;">Flight Simulator</h1>
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            app for iOS and Android
+        </div>
+        <div class="grid-item gray" style="margin-top: 1em;">
+            
+            <a href="/year/2019/">2019</a><br>
+            
+            <a href="/medium/publication/">publication</a>
+        </div>
+    </div>
 
     <div class="one-column">
         <div class="project-images ">
@@ -88,24 +99,21 @@
 
         <div class="project-metadata">
 
-            <b>Flight Simulator</b>
+            
 
-            <p class="year-medium">
+            
 
-                <div class="year-medium-simple">
-                    2019 <br>
-                    app for iOS and Android
-                </div>
+                
 
                 
                     
                 
 
                 
-            </p>
+            
 
-            <div class="small">
-            <p>Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with Soft. Pins are generative algorithmic artwork by Aarati Akkapeddi.</p>
+            
+            <p>Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with <a href="/with/soft" class="collaborator">Soft</a>. Pins are generative algorithmic artwork by <a href="/with/aarati-akkapeddi" class="collaborator">Aarati Akkapeddi</a>.</p>
 <p><a href="https://itunes.apple.com/us/app/flight-simulator/id1146329517">Download for iOS</a> ↗<br>
 <a href="https://play.google.com/store/apps/details?id=com.soft.flightsimulator">Download for Android</a> ↗<br>
 <a href="https://flightsimulator.soft.works">Visit project website</a> ↗</p>
@@ -115,7 +123,7 @@
 “it’s like @Headspace without the guidance”
 
 “Flight Simulator, an iOS app that doesn’t let you fly the plane... you just start a trip and stare peacefully out the window” — kottke.org -->
-            </div>
+            
 
             
 
@@ -174,6 +182,12 @@
       
     
       
+    
+      
+    
+      
+    
+      
         <div class="grid-item">
             <a href="/e/flight-simulator-pins/">
                 <figure class="image">
@@ -184,14 +198,11 @@
                 <div class="title">
                     Flight Simulator Pins
                 </div>
+                <div class="gray">
+                    enamel pins
+                </div>
             </a>
         </div>
-      
-    
-      
-    
-      
-    
       
     
       
@@ -245,6 +256,8 @@
 </div>
 
 
-        
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

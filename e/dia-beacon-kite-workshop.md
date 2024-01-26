@@ -1,7 +1,13 @@
 ---
+title: Kites at DIA Art Foundation
+selected_section: true
+subtitle: Workshop
 featured_image: /assets/media/dia03.jpg
 layout: layouts/e.njk
 date: 2023-07-23
+publisher: DIA Art Foundation
+collaborator:
+- Stephen Kwok
 media_two_beginning:
   - media:
       path: /assets/media/dia01.jpg
@@ -19,8 +25,6 @@ media_two_ending:
       caption: Photos by Mollie McKinley
 medium:
   - event
-title: Kites at DIA Art Foundation
-subtitle: Workshop
 type: project
 year:
   - "2023"
@@ -33,10 +37,12 @@ related_projects:
 
 <a href="https://www.diaart.org/program/calendar/activations-how-to-build-a-bird-kite-learning-program-09172023" target="_blank">More on diaart.org</a> ↗
 
+<div class="small">
 July 28, 2023<br>
-Dia Beacon, for teenagers
+Dia Beacon, for teenagers<br><br>
 
 September 17, 2023<br>
 Park Avenue Armory, open to public
 
-Special thanks to Stephen Kwok and Angel Barba.
+Special thanks to <a href="/with/stephen-kwok" class="collaborator">Stephen Kwok</a> and Angel Barba.
+</div>

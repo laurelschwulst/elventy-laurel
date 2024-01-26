@@ -1,10 +1,12 @@
 ---
 title: "(+.+) & ‹*_*›: The Evolving Designs of Sulki Min"
+selected_section: true
 subtitle: essay
 publisher: Art in America
 layout: layouts/e.njk
 date: 2017-08-28
 date_season: Summer 2017
+season: Summer
 featured_image: /assets/media/writing-sulki-min-invisibility3.jpg
 type: writing
 medium:
@@ -28,6 +30,7 @@ The note inspired me to return regularly to see how the redesign was progressing
 
 <figure>
     <img src="/assets/media/writing-sulki-min-invisibility2.png" alt="TBD">
+    <img src="/assets/media/writing-sulki-min-invisibility3.jpg" alt="TBD">
 </figure>
 
 Their first collaboration, the [invitation](https://www.sulki-min.com/wp/yale-graphic-design-thesis-show-2002-announcement/) and [website](https://www.sulki-min.com/wp/yale-graphic-design-thesis-show-2002-website) for the 2002 Yale graphic design MFA thesis show, paired Sulki's love of diagrams and Min's obsession with invisibility. How does one diagram the invisible? The invitation-as-newspaper catalogued every to-be-exhibited work. However, in place of thumbnail reproductions of the works, relatively scaled black boxes were provided. The sea of placeholders monumentalized the more certain text, encouraging readers to imagine their own version of each work. (This direction may have also been a pragmatic one: perhaps the works had not yet been completely realized by the ambitious graduate students and so were "invisible.")

@@ -10,26 +10,47 @@
         <meta property="og:description" content="Default site description">
         <meta property="og:image" content=".">
         <meta property="og:url" content="/medium/interactive/">
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/script.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
-        <a href="/" id="home">Laurel Schwulst</a>
-        <nav id="top-right">
-            <span id="menu-click">☰</span>
-            
-            
-
-        </nav>
+        
+        <div class="grid">
+                <div class="grid-item">
+                    <a href="/" id="home">Laurel Schwulst</a>
+                </div>
+                <div class="grid-item">
+                    <select id="project-navigator">
+                        <option value="" disabled selected>projects</option>
+                        <option value="/index.html">projects / selected</option>
+                        
+                        
+                        <option value="/e/index.html">projects / complete</option>
+                        <option value="/medium/writing/index.html">writing</option>
+                        <option value="/medium/website/index.html">websites</option>
+                    </select>
+                </div>
+                <div class="grid-item">
+                    <a href="/i/laurel-schwulst/index.html">information</a>
+                </div>
+                <div class="grid-item">
+                    shop
+                </div>
+            </div>
+        
         <div id="menu-itself">
 
             <div class="grid">
                 <div class="grid-item">
+                    <span style="background: rgba(0,0,0,0.05);">projects / selected</span><br>
+                    projects / complete<br>
+                    writing<br>
+                    websites<br>
+                    teaching<br>
+                    presentations
                     
-                    <a href="/medium/writing">writing</a><br>
                     
-                    <a href="/about">about</a><br>
+                    
+                    
                     
                 </div>
                 <div class="grid-item">
@@ -50,11 +71,14 @@
 
   <h1>
     
-    interactive
+      interactive
+    
   </h1>
 
   <div class="grid">
 
+    
+      
     
       
     
@@ -82,144 +106,103 @@
     
       
     
+
+  </div>
+
+  <hr>
+
+  <h2>Every interactive </h2>
+
+    <div id="table-list">
+
       
-    
+        
       
-    
+        
       
-      <div class="grid-item">
-        <a href="/e/flight-simulator/">
-          <figure class="image">
-              <img src="/assets/media/fs02.png">
-          </figure>
-        </a>
-        <a href="/e/flight-simulator/">
-          <div class="title">
-              Flight Simulator
-              <div class="gray">
-                Soft Works
-              </div>
-          </div>
-        </a>
-      </div>
+        
       
-    
+        
       
-      <div class="grid-item">
-        <a href="/e/artists-space/">
-          <figure class="image">
-              <img src="/assets/media/artists-space-01.png">
-          </figure>
-        </a>
-        <a href="/e/artists-space/">
-          <div class="title">
-              Artists Space
-              <div class="gray">
-                Artists Space
-              </div>
-          </div>
-        </a>
-      </div>
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-      <div class="grid-item">
-        <a href="/e/alt-text-as-poetry/">
-          <figure class="image">
-              <img src="/assets/media/atap.webp">
-          </figure>
-        </a>
-        <a href="/e/alt-text-as-poetry/">
-          <div class="title">
-              Alt Text as Poetry
-              <div class="gray">
-                Finnegan Shannon &amp; Bojana Coklyat
-              </div>
-          </div>
-        </a>
-      </div>
+        
       
-    
+        
       
-    
+        
       
-      <div class="grid-item">
-        <a href="/e/how-to-build-a-bird-kite/">
-          <figure class="image">
-              <img src="/assets/media/kite.png">
-          </figure>
-        </a>
-        <a href="/e/how-to-build-a-bird-kite/">
-          <div class="title">
-              How to Build a Bird Kite
-              <div class="gray">
-                The New York Times
-              </div>
-          </div>
-        </a>
-      </div>
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-      <div class="grid-item">
-        <a href="/medium/interactive/">
-          <figure class="image">
-              <img src="">
-          </figure>
-        </a>
-        <a href="/medium/interactive/">
-          <div class="title">
+        
+      
+        
+      
+        
+      
+        
+          <a href="/e/the-creative-independent/" class="list-item">
+            <div class="year">
+              2016
+            </div>
+            <div class="featured">
               
-              <div class="gray">
-                
-              </div>
-          </div>
-        </a>
-      </div>
+                &bull;
+              
+            </div>
+            <div class="title">
+              The Creative Independent
+            </div>
+            <div class="type">
+              digital platform
+            </div>
+            <div class="venue">
+              Kickstarter
+            </div>
+          </a>
+        
       
-    
+        
       
-    
+        
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+
+    </div>
 
   </div>
 
 </div>
         
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/script.js"></script>
     </body>
 </html>

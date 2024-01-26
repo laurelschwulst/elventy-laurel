@@ -5,13 +5,14 @@ publisher: Art in America
 layout: layouts/e.njk
 date: 2014-10-01
 date_season: Fall 2014
+season: Fall
 featured_image: /assets/media/magazine-parallel.png
 type: writing
 medium:
   - writing
 year: ["2014"]
 context: 'This is an adapted mirror ... published in October 2014 print edition'
-footer: 'Special thanks to ...'
+footer: 'Thanks to Will Smith for editing.'
 # related_projects:
 #   - how-to-build-a-bird-kite.md
 ---

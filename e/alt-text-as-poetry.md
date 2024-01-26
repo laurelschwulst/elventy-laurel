@@ -2,13 +2,13 @@
 layout: layouts/e.njk
 title: Alt Text as Poetry
 # selected: true
-subtitle: website
+selected_section: true
+subtitle: accessible, one-page website
 publisher: Finnegan Shannon & Bojana Coklyat
 date: 2020-06-04
 featured_image: /assets/media/atap.webp
 type: project
 medium:
-  - interactive
   - website
 year: ["2020"]
 media_two_beginning:
