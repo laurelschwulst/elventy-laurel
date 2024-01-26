@@ -4,7 +4,9 @@ title: Alt Text as Poetry
 # selected: true
 selected_section: true
 subtitle: accessible, one-page website
-publisher: Finnegan Shannon & Bojana Coklyat
+publisher: Alt Text as Poetry
+collaborator:
+- Taichi Wi
 date: 2020-06-04
 featured_image: /assets/media/atap.webp
 type: project

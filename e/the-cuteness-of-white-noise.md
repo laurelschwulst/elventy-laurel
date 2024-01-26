@@ -9,6 +9,10 @@ description: Testing 123
 date: 2019-09-23
 date_season: Summer 2019
 season: Summer
+collaborator:
+- Meg Miller
+- Toby Shorin
+- Soft
 featured_image: /assets/media/02.png
 type: writing
 medium:

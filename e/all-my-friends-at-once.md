@@ -1,9 +1,9 @@
 ---
 layout: layouts/e.njk
-title: When All of My Friends are On At Once
+title: When All My Friends are On At Once
 draft: true
 subtitle: website anthology
-publisher: When All of My Friends are On At Once
+publisher: When All My Friends are On At Once
 date: 2013-12-26
 featured_image: /assets/media/
 type: project

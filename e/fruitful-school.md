@@ -3,10 +3,12 @@ layout: layouts/e.njk
 title: Fruitful School
 # selected: true
 subtitle: workshop series
-publisher: John Provencher
+publisher: Fruitful School
 date: 2019-12-02
 featured_image: /assets/media/ultralight-seal.png
 type: project
+collaborator:
+- John Provencher
 medium:
   - world
 year: ["2020"]

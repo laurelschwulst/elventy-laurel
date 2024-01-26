@@ -4,7 +4,11 @@ title: Are.na Gift Shop
 selected: true
 selected_section: true
 subtitle: gifts, conversations, events
-publisher: Cab Broskoski, Meg Miller, Daniel Pianetti
+publisher: Are.na
+collaborator:
+- Cab Broskoski
+- Meg Miller
+- Daniel Pianetti
 date: 2022-10-09
 featured_image: /assets/media/catalogue-6up.png
 type: project

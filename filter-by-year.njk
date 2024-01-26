@@ -17,17 +17,17 @@ permalink: "year/{{ year | slugify }}/"
   <div class="grid">
 
     {% for e in collections.all %}
-      {% if e.data.draft == true %}
-        <div class="grid-item">
-            <div class="title">
-                {{ e.data.title }}
-            </div>
-            <div class="gray">
-                {{ e.data.subtitle }}
-            </div>
-        </div>
-      {% else %}
         {% if e.data.year and e.data.year.includes(year) %}
+        {% if e.data.draft == true %}
+          <div class="grid-item">
+              <div class="title">
+                  {{ e.data.title }}
+              </div>
+              <div class="gray">
+                  {{ e.data.subtitle }}
+              </div>
+          </div>
+        {% else %}
         <div class="grid-item">
           <a href="{{ e.url }}">
             <figure class="image">

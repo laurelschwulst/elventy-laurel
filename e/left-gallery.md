@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: Left Gallery
 draft: true
 subtitle: platform for digital objects
-publisher: Harm van den Dorpel
+publisher: Left Gallery
 date: 2015-09-26
 featured_image: /assets/media/
 type: project
