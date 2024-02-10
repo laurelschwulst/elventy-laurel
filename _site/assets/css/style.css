@@ -1177,7 +1177,8 @@ iframe.arena-iframe {
   .project-metadata {
     margin: 1.25em 0 2.25em;
   }
-  #table-list .short-description {
+  #table-list .short-description,
+  .filter-by-medium #table-list .season {
     display: none;
   }
 }

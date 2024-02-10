@@ -86,7 +86,7 @@ permalink: "medium/{{ medium | slugify }}/"
                 {% endif %}
                 {% if medium == "writing" %}
                   <div class="year-seasons">
-                    {{ e.data.year }} {{ e.data.season }}
+                    {{ e.data.year }} <span class="season">{{ e.data.season }}</span>
                   </div>
                 {% else %}
                   <div class="year">

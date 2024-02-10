@@ -8,7 +8,7 @@ hide_title: true
 <div class="grid" id="double">
     <div class="grid-item">
         <h2>Short Bio</h2>
-        Laurel Schwulst is a writer, designer, and educator.
+        Laurel Schwulst is a designer, writer, and educator.
     </div>
     <div class="grid-item">
         <h2>Longer Bio</h2>
