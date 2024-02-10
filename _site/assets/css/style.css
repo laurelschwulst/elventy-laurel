@@ -1140,7 +1140,7 @@ iframe.arena-iframe {
 @media screen and (max-width: 750px) {
   a#back-to-top {
     position: static !important;
-    margin-top: 1em;
+    margin-bottom: 1em;
     border: 1px solid rgba(0,0,0,0.15) !important;
   }
   footer.home div {
