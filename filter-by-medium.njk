@@ -121,7 +121,7 @@ permalink: "medium/{{ medium | slugify }}/"
                   {% elseif medium == "talk" %}
                     {{ e.data.venue }}
                   {% elseif medium == "website" %}
-                    {{ e.data.hyperlink }}
+                    http://{{ e.data.hyperlink }}
                   {% else %}
                     {{ e.data.publisher }}
                   {% endif %}
