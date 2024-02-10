@@ -14,28 +14,45 @@
     </head>
     <body>
         
-        
-        <div class="grid" style="position: absolute; top: 2em; left: 2em; right: 2em;">
-            <div class="grid-item">
-                <a href="/" id="home">Laurel Schwulst</a>
+            <div id="menu-itself">
+                <div class="grid">
+                    <div class="grid-item">
+                        <a href="/" id="home-menu">Laurel Schwulst</a>
+                    </div>
+                    <div class="grid-item">
+                        
+
+                        
+                        
+                        <a href="/medium/writing/">writing</a><br>
+                        <a href="/medium/website/">websites</a><br>
+                        
+                        <a href="/medium/teaching/">teaching</a><br>
+                        <a href="/medium/talk/">talks</a><br>
+                        <a href="/e/">everything</a>
+
+                        
+                        
+                    </div>
+                    <div class="grid-item">
+                        <a href="/i/index.html">information</a>
+                        
+                    </div>
+                    <div class="grid-item">
+                        
+                        <a href="https://laurelsletter.substack.com" target="_blank">newsletter</a>
+                        
+                        <br>
+                        <a href="https://www.are.na/laurel-schwulst" target="_blank">✶✶</a>
+                        
+                        
+                    </div>
+                </div>
             </div>
-            <div class="grid-item">
-                <select id="project-navigator">
-                    <option value="" disabled selected>projects</option>
-                    <option value="/index.html">projects / selected</option>
-                    <option value="/e/index.html">projects / every</option>
-                    <option value="/medium/writing/index.html">writing</option>
-                    <option value="/medium/website/index.html">websites</option>
-                </select>
-            </div>
-            <div class="grid-item">
-                <a href="/i/laurel-schwulst/index.html">information</a>
-            </div>
-            <div class="grid-item">
-                shop
-            </div>
-        </div>
-        
+            <a href="/" id="home">Laurel Schwulst</a>
+            <nav id="top-right">
+                <span id="menu-click">☰</span>
+            </nav>
         
         
 <div id="regular-content">
@@ -105,7 +122,16 @@
       
     
       
-    
+      
+        <div class="grid-item">
+            <div class="title">
+                Flight Simulator
+            </div>
+            <div class="gray">
+                app and technique
+            </div>
+        </div>
+      
       
     
       
@@ -115,48 +141,77 @@
       
     
       
-      <div class="grid-item">
-        <a href="/e/flight-simulator-pins/">
-          <figure class="image">
-              <img src="/assets/media/fs-pins.jpg">
-          </figure>
-        </a>
-        <a href="/e/flight-simulator-pins/">
-          <div class="title">
-              Flight Simulator Pins
-          </div>
-        </a>
-      </div>
+    
       
     
       
-      <div class="grid-item">
-        <a href="/e/flight-simulator/">
-          <figure class="image">
-              <img src="/assets/media/fs02.png">
-          </figure>
-        </a>
-        <a href="/e/flight-simulator/">
-          <div class="title">
-              Flight Simulator
-          </div>
-        </a>
-      </div>
+    
+      
+      
+        <div class="grid-item">
+          <a href="/e/flight-simulator-app/">
+            <figure class="image">
+                <img src="/assets/media/fs02.png">
+            </figure>
+          </a>
+          <a href="/e/flight-simulator-app/">
+            <div class="title">
+                Flight Simulator
+            </div>
+            <div class="gray">
+                app for iOS and Android
+            </div>
+          </a>
+        </div>
+        
       
     
       
-      <div class="grid-item">
-        <a href="/e/the-cuteness-of-white-noise/">
-          <figure class="image">
-              <img src="/assets/media/02.png">
-          </figure>
-        </a>
-        <a href="/e/the-cuteness-of-white-noise/">
-          <div class="title">
-              The cuteness of white noise
-          </div>
-        </a>
-      </div>
+      
+        <div class="grid-item">
+          <a href="/e/flight-simulator-pins/">
+            <figure class="image">
+                <img src="/assets/media/fs-pins.jpg">
+            </figure>
+          </a>
+          <a href="/e/flight-simulator-pins/">
+            <div class="title">
+                Flight Simulator Pins
+            </div>
+            <div class="gray">
+                enamel pins
+            </div>
+          </a>
+        </div>
+        
+      
+    
+      
+      
+        <div class="grid-item">
+          <a href="/e/the-cuteness-of-white-noise/">
+            <figure class="image">
+                <img src="/assets/media/02.png">
+            </figure>
+          </a>
+          <a href="/e/the-cuteness-of-white-noise/">
+            <div class="title">
+                The cuteness of white noise
+            </div>
+            <div class="gray">
+                essay
+            </div>
+          </a>
+        </div>
+        
+      
+    
+      
+    
+      
+    
+      
+    
       
     
       
@@ -213,6 +268,14 @@
     
 
   </div>
+
+  <footer class="home">
+  <div class="small-text">
+    Today is <date id="todays-date"></date>.
+    This is the website of Laurel Schwulst, who last updated it <span id="on">on </span><date id="last-updated-date">February 10, 2024</date>. Thank you for visiting.
+  </div>
+  <a id="back-to-top" href="#top">↑</a>
+</footer>
 
 </div>
 

@@ -2,11 +2,16 @@
 layout: layouts/base.njk
 ---
 
-<div id="regular-content">
+<div id="regular-content" class="information">
 
-    <h1>{{ title }}</h1>
+    {% if hide_title === true %}
+    {% else %}
+        <h2>{{ title }}</h2>
+    {% endif %}
 
     {{ content | safe }}
+
+    {% include "layouts/footer.njk" %}
 
 </div>
 

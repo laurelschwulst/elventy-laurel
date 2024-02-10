@@ -8,32 +8,44 @@
         <link rel="stylesheet" href="/assets/css/style.css">
         <meta property="og:title" content="Seasons in Pentameter">
         <meta property="og:description" content="Default site description">
-        <meta property="og:image" content="https://penta-proxy.herokuapp.com/image">
+        <meta property="og:image" content="/assets/media/penta01.png">
         <meta property="og:url" content="/e/seasons-in-pentameter/">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
         
-        
             <div id="menu-itself">
                 <div class="grid">
                     <div class="grid-item">
-                        <a href="/" id="home">home</a>
+                        <a href="/" id="home-menu">Laurel Schwulst</a>
                     </div>
                     <div class="grid-item">
-                        <select id="project-navigator">
-                            <option value="" disabled selected>projects</option>
-                            <option value="/index.html">projects / selected</option>
-                            <option value="/e/index.html">projects / every</option>
-                            <option value="/medium/writing/index.html">writing</option>
-                            <option value="/medium/website/index.html">websites</option>
-                        </select>
+                        
+
+                        
+                        
+                        <a href="/medium/writing/">writing</a><br>
+                        <a href="/medium/website/">websites</a><br>
+                        
+                        <a href="/medium/teaching/">teaching</a><br>
+                        <a href="/medium/talk/">talks</a><br>
+                        <a href="/e/">everything</a>
+
+                        
+                        
                     </div>
                     <div class="grid-item">
-                        <a href="/i/laurel-schwulst/index.html">information</a>
+                        <a href="/i/index.html">information</a>
+                        
                     </div>
                     <div class="grid-item">
-                        shop
+                        
+                        <a href="https://laurelsletter.substack.com" target="_blank">newsletter</a>
+                        
+                        <br>
+                        <a href="https://www.are.na/laurel-schwulst" target="_blank">✶✶</a>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -43,13 +55,12 @@
             </nav>
         
         
-        
 
 
 
 <div id="regular-content">
 
-    <div class="grid">
+    <div class="grid project-metadata">
         <div class="grid-item double">
             <h1 style="margin-bottom: 0.5em;">Seasons in Pentameter</h1>
         </div>
@@ -60,7 +71,7 @@
             
             <a href="/year/2022/">2022</a><br>
             
-            <a href="/medium/website/">website</a>
+            <a href="/medium/website/">website</a> 
         </div>
     </div>
 
@@ -99,7 +110,10 @@
             
 
             
-            <p>Asdf</p>
+            <p>This website explores the relationship between changing seasonality, poetry, and sound.</p>
+<p>It displays the current phase of the 72 microseasons (kō) of Japan, each lasting five days. Also called 72 pentads, they originated in China and were adapted to better match the seasonality of Japan in the Edo period. The current version is from the abbreviated traditional calendar of 1874.</p>
+<p>The microseasons are displayed in a variable typeface “Pentameter,” designed by <a href="/with/marie-otsuka" class="collaborator">Marie Otsuka</a> of Occupant Fonts, which changes thickness as microseasons changes. The sounds were composed by Tiger Dingsun. The project was orchestrated and designed by Laurel Schwulst.</p>
+<p><a href="https://pentad.world">Visit project</a> ↗</p>
 
             
 
@@ -110,8 +124,8 @@
         <div class="project-images ending">
             
                 
-                    <figure class="medium  ">
-                        <img src="/assets/media/pentad02.png" alt="TBD">
+                    <figure class="  ">
+                        <img src="/assets/media/seasons-all-site.png" alt="TBD">
                         <figcaption></figcaption>
                     </figure>
                 
@@ -134,12 +148,11 @@
         
     </div>
 
-</div>
 
 
 
 
-
+<!-- start related code -->
 <hr>
 
 <h2>Related</h2>
@@ -190,11 +203,15 @@
       
     
       
+    
+      
+    
+      
         <div class="grid-item">
             <a href="/e/gemini-mix-visualizer/">
                 <figure class="image">
-                    <img src="/assets/media/gemini09.png">
-                </figure>
+                  <img src="/assets/media/gemini09.png" class="non-solar">
+              </figure>
             </a>
             <a href="/e/gemini-mix-visualizer/">
                 <div class="title">
@@ -245,9 +262,32 @@
     
       
     
+      
+    
+      
+    
+      
+    
+      
+    
   
 
+</div>
+<!-- end related code -->
 
+
+
+<footer class="home">
+  <div class="small-text">
+    Today is <date id="todays-date"></date>.
+    This is the website of Laurel Schwulst, who last updated it <span id="on">on </span><date id="last-updated-date">February 10, 2024</date>. Thank you for visiting.
+  </div>
+  <a id="back-to-top" href="#top">↑</a>
+</footer>
+
+</div>
+
+</div>
 
 </div>
 

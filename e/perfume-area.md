@@ -7,6 +7,8 @@ date: 2013-09-26
 featured_image: /assets/media/
 type: project
 publisher: Perfume Area
+collaborator:
+- Sydney Shen
 medium:
   - world
 year: ["2013"]

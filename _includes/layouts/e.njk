@@ -38,7 +38,7 @@ layout: layouts/base.njk
         <date>
             {% for y in year %}<a href="/year/{{ y | slugify }}/" class="gray">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}
             <span class="gray">{{ season }}, </span>
-            {% for m in medium %}<a href="/medium/{{ m | slugify }}/" class="gray">{{ subtitle }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+            <a href="/medium/writing/" class="gray">{{ subtitle }}</a>
         </date>
     </span>
 
@@ -56,7 +56,7 @@ layout: layouts/base.njk
 
     <div class="star"><div class="writing">
         <div id="title">
-        <h1 style="margin-top: 0;">
+        <h1>
             {% if title_full %}
                 {{title_full}}
             {% else %}
@@ -94,6 +94,10 @@ layout: layouts/base.njk
                     Filtered under:
                     {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
                 </div> #}
+                <p class="gray">
+                    filed under: 
+                    {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ ", " if not loop.last else "" }}{% endfor %}.
+                </p>
             </footer>
 
         </div></div>
@@ -116,7 +120,7 @@ END: FOR THE REAL VERSION #}
 
 <div id="regular-content">
 
-    <div class="grid">
+    <div class="grid project-metadata">
         <div class="grid-item double">
             <h1 style="margin-bottom: 0.5em;">{{title}}</h1>
         </div>
@@ -127,7 +131,7 @@ END: FOR THE REAL VERSION #}
             {# {{ year }}<br> #}
             {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}<br>
             {# {{ medium }} #}
-            {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
+            {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }} {% endfor %}
         </div>
     </div>
 
@@ -248,12 +252,11 @@ END: FOR THE REAL VERSION #}
         {{ media_three_code_after | safe }}
     </div>
 
-</div>
-
 {% endif %}
 
 {% if related_projects.length > 0 %}
 
+<!-- start related code -->
 <hr>
 
 <h2>Related</h2>
@@ -265,8 +268,8 @@ END: FOR THE REAL VERSION #}
         <div class="grid-item">
             <a href="{{ project.url }}">
                 <figure class="image">
-                    <img src="{{ project.data.featured_image }}">
-                </figure>
+                  <img src="{{ project.data.featured_image }}" class="{{ project.data.featured_solar }}">
+              </figure>
             </a>
             <a href="{{ project.url }}">
                 <div class="title">
@@ -281,11 +284,16 @@ END: FOR THE REAL VERSION #}
     {% endfor %}
   {% endfor %}
 
-{% else %}
-
-<div class="end-space"></div>
+</div>
+<!-- end related code -->
 
 {% endif %}
+
+{% include "layouts/footer.njk" %}
+
+</div>
+
+</div>
 
 </div>
 

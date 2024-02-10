@@ -9,6 +9,7 @@ featured_image: /assets/media/
 type: project
 medium:
   - website
+hyperlink: allmyfriendsatonce.com
 year: ["2013"]
 media_one:
   # - media:

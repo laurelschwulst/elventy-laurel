@@ -5,6 +5,7 @@ subtitle: artwork and video
 publisher: Sharp Type
 date: 2021-05-21
 featured_image: /assets/media/gemini09.png
+featured_solar: non-solar
 type: project
 medium:
   - object

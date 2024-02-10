@@ -58,7 +58,9 @@ Is this puppy's howl a sign that it recalls a time thousands of years ago before
 Edge cases like this made me realize that each contribution, pet or not, must be addressed contextually on an individual basis. Metadata can be useful in judging, especially in the case of a stray image—one without title, description, or source link. Without such clues, I use Are.na's "Find original" link to automatically do a reverse Google image search. For instance, recently I wondered about an [image](https://www.are.na/block/665764) of a massive yellow snake in a domestic kitchen, raising itself towards the microwave as if retrieving a now-warm treat. Was the snake a pet? Or was it wild, breaking and entering to use the microwave? My search results revealed the image was viral, its source difficult to trace.
 
 <figure>
-  <img src="/assets/media/wildness-snake.jpg" alt="TBD">
+  <div style="max-width: 350px;">
+    <img src="/assets/media/wildness-snake.jpg" alt="TBD">
+  </div>
   <figcaption>
   “Don't mind me, I'm just making some hot pockets.” Perhaps this snake starring in memes is Julius, the internet-famous pet albino python, but I can’t completely prove it.
   </figcaption>
@@ -83,9 +85,17 @@ Reviewing the contents of my channel, I recalled the synanthropes: those wild an
 
 As it turns out, being strict about the no-pets rule didn’t limit my channel in any way. Arguably, it did the reverse. Upon arrival, the pets came mostly in video or image format, and often the contributor didn’t offer any supporting metadata. (The “tumblr…” filename would hint at its viral, nomadic past.) Now, there is a better variety of block types: in addition to videos and images, contributors often post links and sometimes texts. You could say it is media agnostic, allowing the theme to ride. You could also say it’s diverse: the channel also pulls from an even wider array of sources, including amateur recording, artworks, memes, academic or scientific research, advertisements, and news articles. The one unexpected result of ruling out the obvious and ubiquitous pet content was receiving contributions from more—and more obscure—sources. Now free of pets, I like to think my channel is “healthy.” Diverse ecosystems tend to thrive.
 
-* * * * *
+<!-- * * * * * -->
+
+<figure>
+  <img src="/assets/media/writing-wavmmm2.jpg" alt="TBD">
+  <figcaption>
+  </figcaption>
+</figure>
 
 Sometimes I consider the titles of the news stories from my channel as a dystopian but informative poem:
+
+<blockquote>
 
       *Toyota Is Recalling More Than 800,00 Cars Because of Spiders*
 
@@ -108,6 +118,8 @@ Sometimes I consider the titles of the news stories from my channel as a dystopi
       *The Global Internet Is Being Attacked by Sharks, Google Confirms*
 
       *Animals Rule Chernobyl Three Decades After Nuclear Disaster*
+
+</blockquote>
 
 "The first subject matter for painting was animal. Probably the first paint was animal blood," writes John Berger in *Why Look at Animals?* (1980). Indeed, humans have admired and interacted with wild animals for a long time, using them also for food, clothing, transportation, and companionship. Many have used animals as messengers and signals. Sometimes, mere observation could provide advance warning of danger. I imagine the neanderthals in their cave, staring out at the horizon, noticing the cattle changing formation—something the early humans gradually learned to be advance warning of a big storm.
 

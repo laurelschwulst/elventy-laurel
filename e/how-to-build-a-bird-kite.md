@@ -16,6 +16,7 @@ featured_image: /assets/media/kite.png
 type: project
 medium:
   - publication
+  - teaching
 year: ["2021"]
 media_two_beginning:
   - media:

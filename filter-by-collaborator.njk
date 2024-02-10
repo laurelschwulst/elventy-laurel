@@ -29,23 +29,39 @@ permalink: "with/{{ collaborator | slugify }}/"
 
   <div class="grid">
 
-    {% for post in collections.all %}
-      {% if post.data.collaborator and post.data.collaborator.includes(collaborator) %}
-      <div class="grid-item">
-        <a href="{{ post.url }}">
-          <figure class="image">
-              <img src="{{ post.data.featured_image }}">
-          </figure>
-        </a>
-        <a href="{{ post.url }}">
-          <div class="title">
-              {{ post.data.title }}
-          </div>
-        </a>
-      </div>
+    {% for e in collections.all %}
+      {% if e.data.collaborator and e.data.collaborator.includes(collaborator) %}
+      {% if e.data.draft == true %}
+        <div class="grid-item">
+            <div class="title">
+                {{ e.data.title }}
+            </div>
+            <div class="gray">
+                {{ e.data.subtitle }}
+            </div>
+        </div>
+      {% else %}
+        <div class="grid-item">
+          <a href="{{ e.url }}">
+            <figure class="image">
+                <img src="{{ e.data.featured_image }}">
+            </figure>
+          </a>
+          <a href="{{ e.url }}">
+            <div class="title">
+                {{ e.data.title }}
+            </div>
+            <div class="gray">
+                {{ e.data.subtitle }}
+            </div>
+          </a>
+        </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
 
   </div>
+
+  {% include "layouts/footer.njk" %}
 
 </div>

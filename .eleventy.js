@@ -54,6 +54,16 @@ module.exports = function (eleventyConfig) {
         return [...yearsSet];
     });
 
+    eleventyConfig.addCollection("allTypefaces", function (collection) {
+        let typefacesSet = new Set();
+        collection.getAll().forEach(function (item) {
+            if ('typeface' in item.data && Array.isArray(item.data.typeface)) {
+            item.data.typeface.forEach(m => typefacesSet.add(m));
+            }
+        });
+        return [...typefacesSet];
+    });
+
     eleventyConfig.addCollection("selected", function(collectionApi) {
         return collectionApi.getAll().filter(item => item.data.selected === true);
     });

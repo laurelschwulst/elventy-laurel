@@ -25,6 +25,7 @@ media_two_ending:
       caption: Photos by Mollie McKinley
 medium:
   - event
+  - teaching
 type: project
 year:
   - "2023"

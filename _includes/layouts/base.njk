@@ -17,26 +17,54 @@ site_title: Laurel Schwulst
     </head>
     <body>
         
-        {% if layout == "layouts/e.njk" %}
             <div id="menu-itself">
                 <div class="grid">
                     <div class="grid-item">
-                        <a href="/" id="home">home</a>
+                        <a href="/" id="home-menu">Laurel Schwulst</a>
                     </div>
                     <div class="grid-item">
-                        <select id="project-navigator">
+                        {# projects / selected<br>
+                        projects / every<br>
+                        writing<br>
+                        websites<br>
+                        teaching #}
+
+                        {# selected<br> #}
+                        
+                        <a href="/medium/writing/">writing</a><br>
+                        <a href="/medium/website/">websites</a><br>
+                        {# <a href="/medium/world/">worlds</a><br> #}
+                        <a href="/medium/teaching/">teaching</a><br>
+                        <a href="/medium/talk/">talks</a><br>
+                        <a href="/e/">everything</a>
+
+                        {# <select id="project-navigator">
                             <option value="" disabled selected>projects</option>
                             <option value="/index.html">projects / selected</option>
                             <option value="/e/index.html">projects / every</option>
                             <option value="/medium/writing/index.html">writing</option>
                             <option value="/medium/website/index.html">websites</option>
-                        </select>
+                        </select> #}
+                        {# <select id="project-navigator">
+                            <option value="" disabled selected>projects</option>
+                            <option value="/index.html">projects / selected</option>
+                            <option value="/e/index.html">projects / every</option>
+                            <option value="/medium/writing/index.html">writing</option>
+                            <option value="/medium/website/index.html">websites</option>
+                        </select> #}
                     </div>
                     <div class="grid-item">
-                        <a href="/i/laurel-schwulst/index.html">information</a>
+                        <a href="/i/index.html">information</a>
+                        {# news #}
                     </div>
                     <div class="grid-item">
-                        shop
+                        {# shop #}
+                        <a href="https://laurelsletter.substack.com" target="_blank">newsletter</a>
+                        {# &nbsp;<span>↗</span> #}
+                        <br>
+                        <a href="https://www.are.na/laurel-schwulst" target="_blank">✶✶</a>
+                        {# &nbsp;<span>↗</span> #}
+                        {# ↗ #}
                     </div>
                 </div>
             </div>
@@ -44,28 +72,6 @@ site_title: Laurel Schwulst
             <nav id="top-right">
                 <span id="menu-click">☰</span>
             </nav>
-        {% else %}
-        <div class="grid" style="position: absolute; top: 2em; left: 2em; right: 2em;">
-            <div class="grid-item">
-                <a href="/" id="home">{{ site_title }}</a>
-            </div>
-            <div class="grid-item">
-                <select id="project-navigator">
-                    <option value="" disabled selected>projects</option>
-                    <option value="/index.html">projects / selected</option>
-                    <option value="/e/index.html">projects / every</option>
-                    <option value="/medium/writing/index.html">writing</option>
-                    <option value="/medium/website/index.html">websites</option>
-                </select>
-            </div>
-            <div class="grid-item">
-                <a href="/i/laurel-schwulst/index.html">information</a>
-            </div>
-            <div class="grid-item">
-                shop
-            </div>
-        </div>
-        {% endif %}
         
         {{ content | safe }}
 

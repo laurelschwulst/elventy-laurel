@@ -12,22 +12,20 @@
       <div class="featured">
         {% if e.data.selected == true %}
           &bull;
-        {% elseif e.data.draft == true %}
-          -
         {% endif %}
       </div>
       <div class="title">
         {{ e.data.title }}
       </div>
-      <div class="type gray">
-        {{ e.data.medium }}
-      </div>
       <div class="short-description">
         {{ e.data.subtitle }}
       </div>
-      <div class="venue">
-        {{ e.data.publisher }}
+      <div class="type" style="flex: 1.5;">
+        {% for m in e.data.medium %}{{ m }}{{ ", " if not loop.last else "" }}{% endfor %}
       </div>
+      {# <div class="venue">
+        {{ e.data.publisher }}
+      </div> #}
     {% if e.data.draft == true %}
       </div>
     {% else %}
@@ -37,8 +35,10 @@
 
 </div>
 
-<p style="margin-top: 2.5em;">
+{# <p style="margin-top: 2.5em;">
   Key:<br><br>
   &bull; Selected project<br>
   - Still filling out this project
-</p>
+</p> #}
+
+{% include "layouts/footer.njk" %}

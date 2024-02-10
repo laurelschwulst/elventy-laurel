@@ -10,9 +10,19 @@ permalink: "year/{{ year | slugify }}/"
 <div id="regular-content">
 
   <h1>
-    {# year:  #}
+    {# <span class="gray">year:</span> #}
     {{ year }}
   </h1>
+
+  {# <nav>
+
+    {% set previousYear = year | minus: 1 %}
+    {% set nextYear = year | plus: 1 %}
+    
+    <a href="/year/{{ previousYear | slugify }}/" class="prev">←</a>
+    <a href="/year/{{ nextYear | slugify }}/" class="next">→</a>
+    
+  </nav> #}
 
   <div class="grid">
 
@@ -20,6 +30,9 @@ permalink: "year/{{ year | slugify }}/"
         {% if e.data.year and e.data.year.includes(year) %}
         {% if e.data.draft == true %}
           <div class="grid-item">
+              <figure class="image">
+                <img src="/assets/media/empty.png" class="border">
+              </figure>
               <div class="title">
                   {{ e.data.title }}
               </div>
@@ -48,5 +61,8 @@ permalink: "year/{{ year | slugify }}/"
     {% endfor %}
 
   </div>
+
+  {% include "layouts/footer.njk" %}
+
 
 </div>

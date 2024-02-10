@@ -1,7 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Fruitful School
-# selected: true
+draft: true
 subtitle: workshop series
 publisher: Fruitful School
 date: 2019-12-02
