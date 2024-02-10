@@ -33,7 +33,10 @@ permalink: "with/{{ collaborator | slugify }}/"
       {% if e.data.collaborator and e.data.collaborator.includes(collaborator) %}
       {% if e.data.draft == true %}
         <div class="grid-item">
-            <div class="title">
+            <figure class="image">
+                <img src="/assets/media/empty.png" class="border">
+            </figure>
+            <div class="title gray">
                 {{ e.data.title }}
             </div>
             <div class="gray">
@@ -63,5 +66,9 @@ permalink: "with/{{ collaborator | slugify }}/"
   </div>
 
   {% include "layouts/footer.njk" %}
+
+  <script>
+      document.title = "Laurel Schwulst ... with: {{ collaborator }}";
+  </script>
 
 </div>

@@ -33,7 +33,7 @@ Our theme is what makes Are.na itself: its participants, their ideas, and the wo
 
 [Visit Are.na Gift Shop](https://store.are.na) ↗
 
-<div class="small">
+<div class="small-text">
 
 2022 Fall — Book<br>
 “Ways to Pass Time Inside This Room”<br>

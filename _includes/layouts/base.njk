@@ -2,7 +2,7 @@
 site_title: Laurel Schwulst
 title: Laurel Schwulst
 description:
-social_image: /assets/media/laurel-schwlulst-fffff2.png
+social_image: /assets/media/laurel-schwlulst-forestgreen.png
 favicon: /assets/media/laurel-schwlulst-fffff2-square.png
 ---
 
@@ -11,11 +11,11 @@ favicon: /assets/media/laurel-schwlulst-fffff2-square.png
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ title }}</title>
+        <title>{{ site_title }} ... {{ title }}</title>
         <link rel="stylesheet" href="/assets/css/style.css">
-        <meta property="og:title" content="{{ title }}">
+        <meta property="og:title" content="{{ site_title }} ... {{ title }}">
         <meta property="og:description" content="{{ description or ' ' }}">
-        <meta property="og:image" content="{{ domain }}{{ social_image | url }}">
+        {# <meta property="og:image" content="{{ domain }}{{ social_image | url }}"> #}
         <meta property="og:url" content="{{ domain }}{{ page.url }}">
         <link rel="icon" href="{{ domain }}{{ favicon | url }}" type="image/x-icon" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -28,48 +28,25 @@ favicon: /assets/media/laurel-schwlulst-fffff2-square.png
                         <a href="/" id="home-menu">Laurel Schwulst</a>
                     </div>
                     <div class="grid-item">
-                        {# projects / selected<br>
-                        projects / every<br>
-                        writing<br>
-                        websites<br>
-                        teaching #}
-
-                        {# selected<br> #}
-                        
                         <a href="/medium/writing/">writing</a><br>
                         <a href="/medium/website/">websites</a><br>
                         {# <a href="/medium/world/">worlds</a><br> #}
                         <a href="/medium/teaching/">teaching</a><br>
                         <a href="/medium/talk/">talks</a><br>
                         <a href="/e/">everything</a>
-
-                        {# <select id="project-navigator">
-                            <option value="" disabled selected>projects</option>
-                            <option value="/index.html">projects / selected</option>
-                            <option value="/e/index.html">projects / every</option>
-                            <option value="/medium/writing/index.html">writing</option>
-                            <option value="/medium/website/index.html">websites</option>
-                        </select> #}
-                        {# <select id="project-navigator">
-                            <option value="" disabled selected>projects</option>
-                            <option value="/index.html">projects / selected</option>
-                            <option value="/e/index.html">projects / every</option>
-                            <option value="/medium/writing/index.html">writing</option>
-                            <option value="/medium/website/index.html">websites</option>
-                        </select> #}
                     </div>
                     <div class="grid-item">
-                        <a href="/i/index.html">information</a>
+                        <a href="/i/bio/index.html">bio</a><br>
+                        <a href="/i/contact/index.html">contact</a><br>
                         {# news #}
                     </div>
                     <div class="grid-item">
-                        {# shop #}
-                        <a href="https://laurelsletter.substack.com" target="_blank">newsletter</a>
-                        {# &nbsp;<span>↗</span> #}
-                        <br>
-                        <a href="https://www.are.na/laurel-schwulst" target="_blank">✶✶</a>
-                        {# &nbsp;<span>↗</span> #}
-                        {# ↗ #}
+                        newsletter???<br>
+                        shop???<br>
+                        <a href="https://www.are.na/laurel-schwulst" target="_blank">✶✶</a><br>
+                        {# <a href="https://laurelsletter.substack.com" target="_blank">newsletter</a><br>
+                        <a href="https://www.are.na/laurel-schwulst" target="_blank">✶✶</a><br>
+                        <a href="https://instagram.com/roombaghost" target="_blank">ig</a><br> #}
                     </div>
                 </div>
             </div>

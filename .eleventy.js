@@ -112,6 +112,13 @@ module.exports = function (eleventyConfig) {
         return arr;
     });
 
+    module.exports = function(eleventyConfig) {
+        // Custom filter to modify the title dynamically
+        eleventyConfig.addFilter("modifyTitle", function(title, collaborator) {
+            return title.replace("{{ collaborator }}", collaborator);
+        });
+    };
+
     // Other configurations...
 
     return {
