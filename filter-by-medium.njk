@@ -41,7 +41,7 @@ permalink: "medium/{{ medium | slugify }}/"
           <div class="grid-item">
             <a href="{{ e.url }}">
               <figure class="image">
-                  <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }}">
+                  <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }}">
               </figure>
             </a>
             <a href="{{ e.url }}">

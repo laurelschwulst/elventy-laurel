@@ -11,7 +11,7 @@ hide_title: true
         Laurel Schwulst is a designer, writer, and educator.
 
          <h2 style="margin-top: 1.5em;">Medium Bio</h2>
-        Laurel Schwulst is a designer, writer, and educator.
+        Laurel Schwulst is a designer, artist, writer, educator, and technologist.
         
         She teaches design at Princeton, serves as director of the gift shop at Are.na, and is working towards a “PBS of the Internet.”
 

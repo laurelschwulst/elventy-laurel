@@ -15,7 +15,7 @@ media_one:
       path: /assets/media/gemini01.png
       type: image
       alt: TBD
-      size: medium
+      size: large
       solar: non-solar
 media_two_beginning:
   - media:
@@ -34,7 +34,7 @@ media_two_ending:
       path: /assets/media/gemini-vid3.mp4
       type: video
       solar: non-solar
-      controls: controls
+      controls: true
       alt: TBD
   - media:
       path: /assets/media/gemini03.png
@@ -50,6 +50,7 @@ media_two_ending:
       path: /assets/media/gemini-vid2.mp4
       type: video
       alt: TBD
+      controls: true
       solar: non-solar
       size: large
 media_three_code: '<div class="module module--video ">
@@ -67,8 +68,10 @@ media_three:
   - media:
       path: /assets/media/gemini-vid1.mp4
       type: video
+      controls: true
+      solar: non-solar
+    #   size: large
       alt: TBD
-      size: large
 related_projects:
     - seasons-in-pentameter.md
 

@@ -145,7 +145,7 @@ END: FOR THE REAL VERSION #}
                     </figure>
                 {% elif item.media.type == "video" %}
                     <div class="video-mask">
-                        <video playsinline autoplay loop muted class="{{ item.media.solar }}">
+                        <video playsinline {% if item.media.controls === true %}controls {% else %}autoplay loop muted{% endif %} class="{{ item.media.solar }}">
                             <source src="{{ item.media.path }}" type="video/mp4">
                         </video>
                     </div>
@@ -165,7 +165,7 @@ END: FOR THE REAL VERSION #}
                     </figure>
                 {% elif item.media.type == "video" %}
                     <div class="video-mask">
-                        <video playsinline autoplay loop muted>
+                        <video playsinline {% if item.media.controls === true %}controls {% else %}autoplay loop muted{% endif %} class="{{ item.media.solar }}">
                             <source src="{{ item.media.path }}" type="video/mp4">
                         </video>
                     </div>
@@ -224,7 +224,7 @@ END: FOR THE REAL VERSION #}
                     </figure>
                 {% elif item.media.type == "video" %}
                     <div class="video-mask">
-                        <video playsinline autoplay loop muted>
+                        <video playsinline {% if item.media.controls === true %}controls {% else %}autoplay loop muted{% endif %} class="{{ item.media.solar }}">
                             <source src="{{ item.media.path }}" type="video/mp4">
                         </video>
                     </div>
@@ -243,7 +243,7 @@ END: FOR THE REAL VERSION #}
                         {% if item.media.caption.length > 0 %}<figcaption>{{ item.media.caption }}</figcaption>{% endif %}
                     </figure>
                 {% elif item.media.type == "video" %}
-                    <video playsinline autoplay loop muted>
+                    <video playsinline {% if item.media.controls === true %}controls {% else %}autoplay loop muted{% endif %} class="{{ item.media.solar }} {{ item.media.size }}">
                         <source src="{{ item.media.path }}" type="video/mp4">
                     </video>
                 {% endif %}

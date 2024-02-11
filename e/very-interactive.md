@@ -5,7 +5,7 @@ selected_section: true
 subtitle: living resource for teaching
 date: 2013-10-30
 featured_image: /assets/media/very-interactive-1.png
-featured_solar: non-solar
+featured_border: border
 type: project
 medium:
   - website
@@ -40,6 +40,12 @@ media_two_ending:
       type: image
       alt: TBD
       solar: non-solar
+# media_three:
+#     - media:
+#         path: /assets/media/very-interactive-hous-wind.png
+#         type: image
+#         alt: TBD
+#         size: small
 related_projects:
   # - alt-text-as-poetry.md
 
