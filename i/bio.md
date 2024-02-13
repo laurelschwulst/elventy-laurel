@@ -1,32 +1,11 @@
 ---
 layout: layouts/i.njk
 title: Biography
-hide_title: true
 
 ---
 
 <div class="grid" id="double">
     <div class="grid-item">
-        <h2>Short Bio</h2>
-        Laurel Schwulst is a designer, writer, and educator.
-
-         <h2 style="margin-top: 1.5em;">Medium Bio</h2>
-        Laurel Schwulst is a designer, artist, writer, educator, and technologist.
-        
-        She teaches design at Princeton, serves as director of the gift shop at Are.na, and is working towards a “PBS of the Internet.”
-
-        Laurel currently lives in New York City.
-
-
-    </div>
-    <div class="grid-item">
-
-        <figure class="medium">
-            <img src="/assets/media/laurel-schwulst-photo-by-jason-fulford.jpg" alt="A portrait photo of me, Laurel Schwulst — I'm a female human being in my 30s with short brown hair seen in portrait silhoutte mode — the left side of my face smiles while looking outwards to the ocean, the sun glimmering behind me. The photograph was taken by Jason Fulford at 7am on 7.7.2021 at Plumb Beach, New York City.">
-            <figcaption>Photo by Jason Fulford</figcaption>
-        </figure>
-
-        <h2 style="margin-top: 1.5em;">Longer Bio</h2>
 
         Laurel Schwulst is a designer, artist, writer, educator, and technologist.
 
@@ -41,6 +20,14 @@ hide_title: true
         Laurel currently lives in New York City, teaches design at Princeton, serves as director of the gift shop at Are.na, and is working towards a “PBS of the Internet.”
         
         <div class="gray">February 2024</div>
+
+
+    </div>
+    <div class="grid-item">
+        <figure class="medium" style="float: right;">
+            <img src="/assets/media/laurel-schwulst-photo-by-jason-fulford.jpg" alt="A portrait photo of me, Laurel Schwulst — I'm a female human being in my 30s with short brown hair seen in portrait silhoutte mode — the left side of my face smiles while looking outwards to the ocean, the sun glimmering behind me. The photograph was taken by Jason Fulford at 7am on 7.7.2021 at Plumb Beach, New York City.">
+            <figcaption>Photo by Jason Fulford</figcaption>
+        </figure>
 
     </div>
 </div>

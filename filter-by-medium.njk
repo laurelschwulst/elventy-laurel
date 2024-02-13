@@ -64,8 +64,8 @@ permalink: "medium/{{ medium | slugify }}/"
 
   </div>
 
-  {% if medium == "teaching" %}
-  {% else %}
+  {# {% if medium == "teaching" %}
+  {% else %} #}
 
   <hr>
 
@@ -87,6 +87,10 @@ permalink: "medium/{{ medium | slugify }}/"
                 {% if medium == "writing" %}
                   <div class="year-seasons">
                     {{ e.data.year }} <span class="season">{{ e.data.season }}</span>
+                  </div>
+                {% elseif medium == "talk" %}
+                  <div class="year-seasons">
+                    {{ e.data.date.getFullYear() }}-{% if e.data.date.getMonth() + 1 < 10 %}0{% endif %}{{ e.data.date.getMonth() + 1 }}-{% if e.data.date.getDate() < 10 %}0{% endif %}{{ e.data.date.getDate() + 1 }}
                   </div>
                 {% else %}
                   <div class="year">
@@ -137,7 +141,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         </div>
 
-    {% endif %}
+    {# {% endif %} #}
 
     {% include "layouts/footer.njk" %}
 

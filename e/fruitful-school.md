@@ -1,29 +1,33 @@
 ---
 layout: layouts/e.njk
 title: Fruitful School
-draft: true
 subtitle: workshop series
 publisher: Fruitful School
 date: 2019-12-02
-featured_image: /assets/media/ultralight-seal.png
+featured_image: /assets/media/fruitful-website.png
 type: project
 collaborator:
 - John Provencher
 medium:
   - world
+  - teaching
 year: ["2020"]
-media_one:
+media_two_beginning:
   - media:
-      path: /assets/media/ultralight-seal.png
+      path: /assets/media/fruitful-website.png
       type: image
-      size: medium
       alt: TBD
+  - media:
+      path: /assets/media/fruitful-documentation-group.jpg
+      type: image
+      alt: TBD
+      size: small
 related_projects:
-  - html-energy.md
+  - ultralight-fruitful-school.md
 
 ---
 
-“Artists often struggle in presenting themselves and their work on the web. Fruitful school teaches artists how to create websites as a vital tool in their practice — not only for presenting existing work, but for generating entirely new work, inspiring original ways of publishing to the world wide web.” 
+Fruitful School explores how contemporary artistic practices engage with the world wide web or technology at large. We created Fruitful School to be a place where artists, designers, writers, and programmers who are curious about how their practice engages with technology today can explore new ways of working. 
 
 Fruitful.school is an independently-run workshop series founded in 2020. In collaboration with John Provencher.
 

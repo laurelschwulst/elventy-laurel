@@ -11,7 +11,7 @@ type: writing
 medium:
   - writing
 year: ["2014"]
-context: 'This is an adapted mirror ... published in October 2014 print edition'
+context: 'This is an adapted mirror of an essay written for <i>Art in America</i> originally published in the October 2014 print edition.'
 footer: 'Thanks to Will Smith for editing.'
 # related_projects:
 #   - how-to-build-a-bird-kite.md

@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+permalink: /2-big-menu-random/
+---
+
+<div id="regular-content">
+
+    {%- set e_all_shuffled = [] -%}
+{%- for item in collections.e -%}
+    {%- if not item.data.draft -%}
+        {%- set _ = e_all_shuffled.push(item) -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- set e_all_shuffled = e_all_shuffled | shuffle | list -%}
+{%- set e_all_random = [] -%}
+{%- for i in range(0, 7) -%}
+    {%- set _ = e_all_random.push(e_all_shuffled[i]) -%}
+{%- endfor -%}
+
+    {% include "layouts/e_big_menu_random.njk" %}
+
+</div>

@@ -12,6 +12,7 @@ body {
   /* background: #f0f0f0; */
   /* font-family: "Andale Mono", monospace; */
   font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, arial, sans-serif;
+  /* min-height: 100vh; */
 }
 
 img {
@@ -19,7 +20,7 @@ img {
 }
 
 video {
-  clip-path: inset(2px 2px);
+  /* clip-path: inset(2px 2px); */
   max-width: 100%;
   display: block;
 }
@@ -29,6 +30,15 @@ blockquote {
   padding-left: 2.75em;
   margin-left: 0;
   margin: 1.5em 0;
+}
+
+blockquote.large-quote {
+  padding-left: 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  border-left: 0;
+  line-height: 1.35;
+  margin: 1em 0;
 }
 
 select {
@@ -47,6 +57,27 @@ select {
   outline: 0;
   cursor: pointer;
   text-transform: lowercase;
+}
+
+cite {
+  font-style: normal;
+  margin-top: 0;
+}
+
+cite.after-blockquote {
+  font-size: 0.75em;
+  margin-bottom: 1em;
+  margin-top: 0.5em !important;
+  display: inline-block;
+}
+
+a.arena-link {
+  float: right;
+  border: 0;
+}
+
+a.no-underline {
+  border: 0;
 }
 
 nav#lateral {
@@ -206,6 +237,10 @@ img .small-image {
   margin: 3em -4em;
 }
 
+.extra-large-image {
+  margin: 3em -15em;
+}
+
 /* solar */
 
 body {
@@ -225,6 +260,18 @@ figcaption {
 figure.two-up {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 0.25em;
+}
+
+figure.two-up-third {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0.25em;
+}
+
+figure.three-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.25em;
 }
 
@@ -770,6 +817,10 @@ nav#expanded h2 {
   grid-template-columns: 1fr 1fr !important;
 }
 
+#regular-content #triple.grid {
+  grid-template-columns: 1fr 3fr !important;
+}
+
 .grid-item.double {
   grid-column: 1 / 3;
 }
@@ -1037,7 +1088,8 @@ iframe.arena-iframe {
   .small-image {
     max-width: 111px;
   }
-  .large-image {
+  .large-image,
+  .extra-large-image {
     margin: 2em -2em;
   }
   .container.content {
@@ -1156,7 +1208,8 @@ iframe.arena-iframe {
   footer.home {
     margin-bottom: 0;
   }
-  .large-image {
+  .large-image,
+  .extra-large-image {
     margin: 2em 0;
   }
   #regular-content .grid,

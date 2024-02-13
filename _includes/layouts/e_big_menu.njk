@@ -1,0 +1,44 @@
+<div class="grid">
+  
+  <div class="grid-item">
+    <h1>
+      <a href="/medium/writing/">writing</a><br>
+      <a href="/medium/website/">websites</a><br>
+      <a href="/medium/world/">worlds</a><br>
+      <a href="/medium/teaching/">teaching</a><br>
+      <a href="/medium/talk/">talks</a><br>
+      <a href="/e/">everything</a><br>
+      <a href="/i/bio/index.html">biography</a><br>
+      <a href="/i/contact/index.html">contact</a>
+      {# writing<br>
+      websites<br>
+      worlds<br>
+      teaching<br>
+      talks<br>
+      bio<br>
+      contact #}
+      </h1>
+</div>
+  {% for e in e_selected %}
+    <div class="grid-item" style="margin-top: 1em;">
+      <a href="{{ e.url }}">
+        <figure class="image">
+            <img src="{{ e.data.featured_image }}">
+        </figure>
+      </a>
+      <a href="{{ e.url }}">
+        <div class="title">
+            {{ e.data.title }}
+            <div class="gray">{{ e.data.subtitle }}</div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+
+</div>
+
+{% include "layouts/footer.njk" %}
+
+<style>
+  #menu-click { display: none; }
+</style>

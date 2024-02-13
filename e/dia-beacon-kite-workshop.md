@@ -24,7 +24,6 @@ media_two_ending:
       alt: TBD
       caption: Photos by Mollie McKinley
 medium:
-  - event
   - teaching
 type: project
 year:

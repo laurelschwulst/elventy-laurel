@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
     // Otherwise, hide the back-to-top button and add class to footer
     else {
         document.getElementById('back-to-top').style.display = 'none';
-        document.querySelector('footer').classList.add('bottom');
+        document.getElementById('official-footer').classList.add('bottom');
     }
   }
 
@@ -72,14 +72,14 @@ document.getElementById("todays-date").textContent = getCurrentDate();
 
 // Get the elements
 const todaysDateElement = document.getElementById("todays-date");
-const updatedDateElement = document.getElementById("last-updated-date");
+// const updatedDateElement = document.getElementById("last-updated-date");
 const onElement = document.getElementById("on");
 
 // Compare the text content
-if (todaysDateElement.textContent === updatedDateElement.textContent) {
-  updatedDateElement.textContent = "earlier today";
-  onElement.textContent = ""; // Clear content of the "on" element
-}
+// if (todaysDateElement.textContent === updatedDateElement.textContent) {
+//   updatedDateElement.textContent = "earlier today";
+//   onElement.textContent = ""; // Clear content of the "on" element
+// }
 
 $(function () {
 

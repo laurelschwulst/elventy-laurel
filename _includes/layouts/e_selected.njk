@@ -1,16 +1,31 @@
-<h1>Selected Projects</h1>
-
 <div class="grid">
   
+  <div class="grid-item">
+    <h1>
+      <a href="/medium/writing/">writing</a><br>
+      <a href="/medium/website/">websites</a><br>
+      {# <a href="/medium/world/">worlds</a><br> #}
+      <a href="/medium/teaching/">teaching</a><br>
+      <a href="/medium/talk/">talks</a><br>
+      <a href="/e/">everything</a><br>
+      <a href="/i/bio/index.html">biography</a><br>
+      <a href="/i/contact/index.html">contact</a>
+      {# writing<br>
+      websites<br>
+      worlds<br>
+      teaching<br>
+      talks<br>
+      bio<br>
+      contact #}
+      </h1>
+</div>
   {% for e in e_selected %}
     <div class="grid-item">
-      {% if e.data.featured_image.length > 0 %}
-        <a href="{{ e.url }}">
-          <figure class="image">
-              <img src="{{ e.data.featured_image }}">
-          </figure>
-        </a>
-      {% endif %}
+      <a href="{{ e.url }}">
+        <figure class="image">
+            <img src="{{ e.data.featured_image }}">
+        </figure>
+      </a>
       <a href="{{ e.url }}">
         <div class="title">
             {{ e.data.title }}
@@ -22,4 +37,48 @@
 
 </div>
 
+<hr>
+
+{% set e_all = collections.e %}
+<div id="table-list">
+
+  {% for e in e_all | reverse %}
+    {% if e.data.draft == true %}
+      <div class="list-item draft">
+    {% else %}
+      <a href="{{ e.url }}" class="list-item">
+    {% endif %}
+      <div class="year">
+        {{ e.data.year }}
+      </div>
+      <div class="featured">
+        {% if e.data.selected == true %}
+          &bull;
+        {% endif %}
+      </div>
+      <div class="title">
+        {{ e.data.title }}
+      </div>
+      <div class="short-description">
+        {{ e.data.subtitle }}
+      </div>
+      <div class="type" style="flex: 1.5;">
+        {% for m in e.data.medium %}{{ m }}{{ ", " if not loop.last else "" }}{% endfor %}
+      </div>
+      {# <div class="venue">
+        {{ e.data.publisher }}
+      </div> #}
+    {% if e.data.draft == true %}
+      </div>
+    {% else %}
+      </a>
+    {% endif %}
+  {% endfor %}
+
+</div>
+
 {% include "layouts/footer.njk" %}
+
+<style>
+  #menu-click { display: none; }
+</style>

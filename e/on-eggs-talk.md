@@ -20,6 +20,7 @@ medium:
 type: project
 year:
   - "2023"
+arena_channel: https://www.are.na/laurel-schwulst/on-eggs
 related_projects:
 #   - how-to-build-a-bird-kite.md
 

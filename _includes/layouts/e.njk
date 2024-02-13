@@ -94,7 +94,7 @@ layout: layouts/base.njk
                     Filtered under:
                     {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
                 </div> #}
-                <p class="gray">
+                <p class="gray" style="margin-top: 1em;">
                     filed under: 
                     {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ ", " if not loop.last else "" }}{% endfor %}.
                 </p>

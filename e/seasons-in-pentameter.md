@@ -26,367 +26,367 @@ media_two_ending:
       path: /assets/media/seasons-all-site.png
       type: image
       alt: TBD
-media_three:
-  - media:
-      path: /assets/media/penta01.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta02.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta03.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta04.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta05.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta06.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta07.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta08.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta09.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta10.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta11.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta12.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta13.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta14.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta15.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta16.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta17.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta18.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta19.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta20.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta21.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta22.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta23.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta24.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta25.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta26.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta27.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta28.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta29.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta30.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta31.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta32.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta33.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta34.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta35.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta36.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta37.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta38.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta39.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta40.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta41.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta42.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta43.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta44.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta45.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta46.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta47.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta48.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta49.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta50.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta51.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta52.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta53.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta54.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta55.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta56.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta57.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta58.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta59.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta60.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta61.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta62.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta63.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta64.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta65.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta66.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta67.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta68.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta69.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta70.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta71.png
-      type: image
-      size: small
-      alt: TBD
-  - media:
-      path: /assets/media/penta72.png
-      type: image
-      size: small
-      alt: TBD
+# media_three:
+  # - media:
+  #     path: /assets/media/penta01.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta02.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta03.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta04.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta05.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta06.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta07.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta08.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta09.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta10.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta11.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta12.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta13.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta14.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta15.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta16.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta17.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta18.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta19.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta20.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta21.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta22.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta23.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta24.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta25.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta26.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta27.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta28.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta29.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta30.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta31.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta32.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta33.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta34.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta35.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta36.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta37.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta38.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta39.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta40.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta41.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta42.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta43.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta44.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta45.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta46.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta47.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta48.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta49.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta50.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta51.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta52.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta53.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta54.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta55.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta56.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta57.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta58.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta59.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta60.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta61.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta62.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta63.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta64.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta65.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta66.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta67.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta68.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta69.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta70.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta71.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/penta72.png
+  #     type: image
+  #     size: small
+  #     alt: TBD
 
 related_projects:
     - seasons-in-motion.md

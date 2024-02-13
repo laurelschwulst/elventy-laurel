@@ -2,13 +2,14 @@
 layout: layouts/e.njk
 title: Very Interactive
 selected_section: true
+draft: true
 subtitle: living resource for teaching
 date: 2013-10-30
 featured_image: /assets/media/very-interactive-1.png
 featured_border: border
 type: project
+publisher: Self-Published
 medium:
-  - website
   - teaching
 hyperlink: veryinteractive.net
 year: ["2013"]
