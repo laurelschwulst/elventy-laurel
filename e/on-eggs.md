@@ -14,6 +14,9 @@ medium:
 year: ["2024"]
 bottom_title: '<div style="font-size: 8vw;">🥚</div>'
 footer: Thanks to Kristoffer Tjalve for inviting me to talk at Naive Yearly, and to Meg Miller for editing this piece.
+collaborator:
+  - Kristoffer Tjalve
+  - Meg Miller
 media_one:
   # - media:
   #     path: /assets/media/tci-logo.png
@@ -28,7 +31,8 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
+    - on-eggs-talk.md
+    - wildness-knows-the-score.md
 
 ---
 
@@ -57,7 +61,7 @@ Anyway, let’s begin.
   </figcaption>
 </figure>
 
-I began my egg research by opening the Book of Symbols. I found the page for “Egg” and read aloud:
+I began my egg research by opening the <i>Book of Symbols</i>. I found the page for “Egg” and read aloud:
 
 <blockquote class="large-quote" style="margin-bottom: 0;">The egg evokes the beginning, the simple, the source.</blockquote><a href="" class="no-underline"><cite class="after-blockquote">✶✶</cite></a>
 

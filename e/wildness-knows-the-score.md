@@ -17,6 +17,8 @@ medium:
   - writing
 context: 'This is an adapted mirror of an essay originally published on <a href="https://www.are.na/blog/the-wildness-knows-the-score" target="_blank">Are.na Editorial</a> ↗ on September 19, 2017.'
 footer: 'Special thanks to <a href="/with/meg-miller" class="collaborator">Meg Miller</a> for editing. And thanks to each contributor to <a href="https://www.are.na/laurel-schwulst/wild-animals-vs-manmade-materials">Wild Animals vs. Manmade Materials</a>, including: Aarati Akkapeddi, Christina Badal, Mark Beasley, Jacob Berezin, Loic Bernasconi, John Michael Boling, Charles Broskoski, Nils Braun, Christian de Vietri, Nick DeMarco, Mollie Edgar, Aaron Gillett, Ian Griffin, Travis Hallenbeck, Ingrid Hansen, Sam Hart, Antonia Hernandez, Seth Hoekstra, Michelle Ishikawa, Faye Kahn, Özgür Kar, Kathryn Konrad, Arnaud Milliquet, O OO, Luke Palascak, Daniel Pianetti, Elliott Radner, Adriana Ramić, Billy Rennekamp, Chris Roeleveld, Zach Rose, Reed Rosenbluth, David Sherman, Chris Sherron, Justin Sloane, Willy Smart, Anne Sollinger, Kat Su, Morgan Sutherland, Corey Tegeler, A Turgeon, Édouard Urcades, Jack Wedge, Sarah Wedge, Karly Wildenhaus, Everett Williams, Brandon Wilner, Bryce Wilner, Kristin Wong, Desmond Wong, Dena Yago, Gillian Zagorski, and Damon Zucconi. This piece was originally published on <a href="https://www.are.na/blog/the-wildness-knows-the-score" target="_blank">Are.na Editorial</a> on September 19, 2017.'
+related_projects:
+  - on-eggs.md
 ---
 
 About a year and a half ago, a friend on [Are.na](https://www.are.na) suggested my channel “[Wild Animals vs. Manmade Materials](https://www.are.na/laurel-schwulst/wild-animals-vs-manmade-materials)” would be better without the pets.

@@ -1,7 +1,7 @@
 ---
-title: On Eggs at Naive Yearly
+title: On Eggs
 selected_section: true
-subtitle: talk on a networked collection
+subtitle: talk for "Naive Yearly"
 featured_image: /assets/media/eggs-talk.jpg
 layout: layouts/e.njk
 date: 2023-08-11
@@ -18,11 +18,13 @@ media_two_beginning:
 medium:
   - talk
 type: project
+collaborator:
+  - Kristoffer Tjalve
 year:
   - "2023"
 arena_channel: https://www.are.na/laurel-schwulst/on-eggs
 related_projects:
-#   - how-to-build-a-bird-kite.md
+  - on-eggs.md
 
 ---
 

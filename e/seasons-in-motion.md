@@ -9,6 +9,7 @@ featured_image: /assets/media/seasons02.png
 type: writing
 medium:
   - writing
+  - teaching
 year: ["2022"]
 collaborator:
   - Marie Otsuka
@@ -268,7 +269,7 @@ I enjoyed learning that the inspiration for Pentameter began with the "[Poetry i
   <video playsinline autoplay loop muted>
       <source src="/assets/media/szns-by-christine-kwon.mp4" type="video/mp4" alt="a video capture of 72 microseasons displayed in Japanese with white text on black background as a 3D rotunda. The 24 sekki are above them, also in a cyclical formation but more spread out.">
   </video>
-  <figcaption><a href="https://christine-link.neocities.org/p2/drafts/index3.html" target="_blank">72 szns</a> by Christine Kwon (Princeton '22)</figcaption>
+  <figcaption><a href="https://christine-link.neocities.org/p2/drafts/index3.html" target="_blank">72 szns</a> by Christine Kwon, produced as part of Laurel Schwulst’s VIS 208. Graphic Design: Link class at Princeton University, Spring 2022</figcaption>
 </figure>
 
 <p>

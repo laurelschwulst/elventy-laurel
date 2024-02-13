@@ -90,14 +90,10 @@ layout: layouts/base.njk
             <footer class="small">
                 {{ footer | safe }}
                 {# <br><br> #}
-                {# <div class="gray">
-                    Filtered under:
-                    {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% endfor %}
-                </div> #}
-                <p class="gray" style="margin-top: 1em;">
+                {# <p class="gray" style="margin-top: 1em;">
                     filed under: 
                     {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ ", " if not loop.last else "" }}{% endfor %}.
-                </p>
+                </p> #}
             </footer>
 
         </div></div>
@@ -131,7 +127,8 @@ END: FOR THE REAL VERSION #}
             {# {{ year }}<br> #}
             {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}<br>
             {# {{ medium }} #}
-            {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }} {% endfor %}
+            {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% if m == "talk" %} at {{ venue }}<br>{{ location }}
+            {% endif %}{% endfor %}
         </div>
     </div>
 

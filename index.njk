@@ -1,22 +1,12 @@
-Note ... I'm still filling out content and everything.<br><br>
+---
+layout: layouts/base.njk
+---
 
-The most complete section so far is probably "writing" ...<br><br>
+<div id="regular-content">
 
-***<br><br>
+    {% set e_all = collections.e %}
+    {%- set e_all_shuffled = e_all | shuffle | list -%}
 
-Homepage options:<br><br>
+    {% include "layouts/e_all_shuffled.njk" %}
 
-<a href="/1-big-menu/">1 — Selected</a> (Big Menu)<br>
-Shows chosen projects on homepage<br><br>
-
-<a href="/2-big-menu-random/">2 — Random</a> (Big Menu)<br>
-Chooses 7 random projects each time I update the site on homepage<br><br>
-
-<a href="/3-big-menu-everything/">3 — Everything</a> (Big Menu)<br>
-Displays every project on the homepage<br><br>
-
-<a href="/4-big-menu-one/">4 — One</a> (Big Menu)<br>
-Just an image or something simple on hompeage<br><br>
-
-<a href="/5-simple-selected/">5 — Selected</a> (Simple)<br>
-Hidden menu, shows chosen projects on homepage<br><br>
+</div>
