@@ -253,15 +253,26 @@ END: FOR THE REAL VERSION #}
 
 {% if related_projects.length > 0 %}
 
-<!-- start related code -->
-<hr>
+{% for related_path in related_projects %}
+    {% for project in collections.all %}
+      {% if project.inputPath.endsWith(related_path) %}
+        {% if project.data.draft == true %}
+        {% else %}
+        <h2>Related</h2>
+        <hr>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 
-<h2>Related</h2>
+<!-- start related code -->
 
 <div class="grid">
   {% for related_path in related_projects %}
     {% for project in collections.all %}
       {% if project.inputPath.endsWith(related_path) %}
+        {% if project.data.draft == true %}
+        {% else %}
         <div class="grid-item">
             <a href="{{ project.url }}">
                 <figure class="image">
@@ -277,6 +288,7 @@ END: FOR THE REAL VERSION #}
                 </div>
             </a>
         </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
   {% endfor %}

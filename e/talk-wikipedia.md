@@ -3,7 +3,7 @@ title: Talk for Visiting Designer Series
 draft: true
 layout: layouts/e.njk
 date: 2023-05-16
-subtitle: at Wikipedia
+subtitle: talk at Wikipedia
 location: ( remote )
 venue: Wikimedia Foundation
 medium:

@@ -5,7 +5,7 @@ layout: layouts/e.njk
 date: 2023-12-03
 location: Hamburg, Germany
 venue: HFBK Hamburg
-subtitle: at HFBK Hamburg
+subtitle: talk at HFBK Hamburg
 medium:
   - talk
 type: project

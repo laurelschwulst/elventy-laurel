@@ -5,7 +5,7 @@ layout: layouts/e.njk
 date: 2024-02-26
 location: Knoxville, TN
 venue: University of Tennessee
-subtitle: at the University of Tennessee
+subtitle: talk at the University of Tennessee
 medium:
   - talk
 type: project

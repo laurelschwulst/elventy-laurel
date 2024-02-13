@@ -2,6 +2,7 @@
 title: Class Talk
 draft: true
 layout: layouts/e.njk
+subtitle: talk at RISD
 date: 2024-02-05
 location: ( remote )
 venue: Rhode Island School of Design

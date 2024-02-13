@@ -70,7 +70,11 @@ permalink: "medium/{{ medium | slugify }}/"
   <hr>
 
   <h2>
+    {% if medium == "teaching" %}
+      Everything associated w/ {{ medium }}
+    {% else %}
       Every {{ medium }}
+    {% endif %}
   </h2>
 
 <div id="table-list">
