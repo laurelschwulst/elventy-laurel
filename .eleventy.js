@@ -6,12 +6,6 @@ module.exports = function (eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy("admin");
 
-    // eleventyConfig.addCollection("writing", function(collection) {
-    //     return collection.getAllSorted().filter(function(item) {
-    //     return "type" in item.data && item.data.type === "writing";
-    //     });
-    // });
-
     eleventyConfig.addCollection("media_one", function (collectionApi) {
         return collectionApi.getFilteredByGlob("src/media/*");
     });

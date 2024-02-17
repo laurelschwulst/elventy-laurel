@@ -22,6 +22,7 @@ context: 'This is an adapted mirror of an essay which was originally commissione
 footer: 'Special thanks to <a href="/with/meg-miller" class="collaborator">Meg Miller</a> and Ayham Ghraowi for suggesting edits. Originally published on <a href="https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/" target="_blank">The Creative Independent</a> on May 21, 2018.'
 related_projects:
   - the-creative-independent.md
+  - website-essay-in-world.md
 ---
 
 ## What is a website?

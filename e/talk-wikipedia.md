@@ -11,9 +11,7 @@ medium:
 type: project
 year:
   - "2023"
-related_projects:
-#   - how-to-build-a-bird-kite.md
 
 ---
 
-invited by carolyn li-madeo
+invited by Carolyn Li-Madeo

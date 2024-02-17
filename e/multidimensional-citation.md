@@ -6,7 +6,7 @@ subtitle: essay
 publisher: The Serving Library
 date: 2022-09-26
 season: Summer
-featured_image: /assets/media/
+featured_image: /assets/media/multidimensional-citation.png
 type: writing
 medium:
   - writing

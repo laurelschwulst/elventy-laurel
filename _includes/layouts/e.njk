@@ -253,17 +253,8 @@ END: FOR THE REAL VERSION #}
 
 {% if related_projects.length > 0 %}
 
-{% for related_path in related_projects %}
-    {% for project in collections.all %}
-      {% if project.inputPath.endsWith(related_path) %}
-        {% if project.data.draft == true %}
-        {% else %}
-        <h2>Related</h2>
-        <hr>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
+<hr>
+<h2>Related</h2>
 
 <!-- start related code -->
 
