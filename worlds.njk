@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+permalink: /world/
+---
+
+<div id="regular-content" class="filter-by-medium">
+
+  <h1>
+    Worlds
+  </h1>
+
+  {# {{ collections.allWorlds | dump }} #}
+
+{% set worldData = {} %}
+
+  <div class="grid">
+
+    {% for world in worlds %}
+        {% if world.draft == "true" %}
+        {% else %}
+        <div class="grid-item">
+        <a href="{{ world.name | slugify }}">
+            <figure class="image">
+                <img src="{{ world.featured_image }}">
+            </figure>
+        </a>
+        <a href="{{ world.name | slugify }}">
+            {{ world.name }}<br>
+            <div class="gray">
+                 {{ world.description }}
+            </div>
+        </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+</div>
+
+  <hr>
+
+  <h2>
+      Every world
+  </h2>
+
+<div id="table-list">
+
+    {% for world in worlds %}
+        {% if world.draft == "true" %}
+        <div class="list-item draft">
+        {% else %}
+        <a href="{{ world.name | slugify }}" class="list-item">
+        {% endif %}
+            <div class="featured">
+                {% if world.featured == "true" %}
+                    &bull;
+                {% endif %}
+            </div>
+            <div class="title">
+                {{ world.name }}
+            </div>
+            <div class="venue">
+                with {{ world.with }}
+            </div>
+            <div class="venue">
+                {{ world.link }}
+            </div>
+        {% if world.draft == "true" %}
+        </div>
+        {% else %}
+        </a>
+        {% endif %}
+    {% endfor %}
+</div>
+
+    {% include "layouts/footer.njk" %}
+
+</div>

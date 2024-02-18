@@ -11,6 +11,8 @@ featured_image: /assets/media/perfume-area-02.jpg
 type: project
 medium:
   - publication
+world:
+- Perfume Area
 collaborator:
 - Sydney Shen
 - Bryce Wilner

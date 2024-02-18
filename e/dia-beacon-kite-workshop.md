@@ -37,7 +37,7 @@ related_projects:
 
 <a href="https://www.diaart.org/program/calendar/activations-how-to-build-a-bird-kite-learning-program-09172023" target="_blank">More on diaart.org</a> ↗
 
-<div class="small">
+<div class="small-text">
 July 28, 2023<br>
 Dia Beacon, for teenagers<br><br>
 

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Flight Simulator",
+        "link": "https://flightsimulator.soft.works",
+        "description": "simulating flights",
+        "mediums": "method, app, objects, exhibitions",
+        "featured_image": "/assets/media/flight-sim-icon.png",
+        "with": "Soft",
+        "featured": "true"
+    },
+    {
+        "name": "Perfume Area",
+        "link": "https://perfume-area.com",
+        "description": "writing about fragrance collaboratively",
+        "mediums": "format, website, book, readings, exhibitions",
+        "featured_image": "/assets/media/perfume-area-flower.png",
+        "with": "Sydney Shen",
+        "draft": "true"
+    }
+]

@@ -9,6 +9,8 @@ description: Testing 123
 date: 2019-02-02
 featured_image: /assets/media/fs02.png
 type: project
+world:
+  - Flight Simulator
 medium:
   - publication
 collaborator:

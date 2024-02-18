@@ -121,14 +121,30 @@ END: FOR THE REAL VERSION #}
             <h1 style="margin-bottom: 0.5em;">{{title}}</h1>
         </div>
         <div class="grid-item gray" style="margin-top: 1em;">
-            {{ subtitle }}
+            {% for m in medium %}
+                {% if m == "talk" %}
+                    {{ date.getFullYear() }}-{% if date.getMonth() + 1 < 10 %}0{% endif %}{{ date.getMonth() + 1 }}-{% if date.getDate() < 9 %}0{% endif %}{{ date.getDate() + 1 }}<br>
+                    {{ subtitle }}<br>
+                    {{ venue }}<br>
+                    {{ location }}<br>
+                {% else %}
+                    {{ subtitle }}
+                {% endif %}
+            {% endfor %}
         </div>
         <div class="grid-item gray" style="margin-top: 1em;">
-            {# {{ year }}<br> #}
-            {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}<br>
-            {# {{ medium }} #}
-            {% for m in medium %}<a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}{% if m == "talk" %} at {{ venue }}<br>{{ location }}
-            {% endif %}{% endfor %}
+            {% if "press" in medium %}
+                {{ years }}<br>
+            {% else %}
+                {% for y in year %}<a href="/year/{{ y | slugify }}/">{{ y }}</a>{{ "," if not loop.last else "" }}{% endfor %}<br>
+            {% endif %}
+            {% for m in medium %}
+                {% if m == "press" %}
+                    Press
+                {% else %}
+                    <a href="/medium/{{ m | slugify }}/">{{ m }}</a>{{ "," if not loop.last else "" }}
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
 
@@ -170,7 +186,8 @@ END: FOR THE REAL VERSION #}
             {% endfor %}
         </div>
 
-        <div class="project-metadata">
+        {% if content %}
+            <div class="project-metadata">
 
             {# <b>{{ title }}</b> #}
 
@@ -211,6 +228,7 @@ END: FOR THE REAL VERSION #}
             </p> #}
 
         </div>
+        {% endif %}
 
         <div class="project-images ending">
             {% for item in media_two_ending %}
@@ -251,41 +269,49 @@ END: FOR THE REAL VERSION #}
 
 {% endif %}
 
-{% if related_projects.length > 0 %}
-
-<hr>
-<h2>Related</h2>
-
-<!-- start related code -->
-
-<div class="grid">
-  {% for related_path in related_projects %}
-    {% for project in collections.all %}
-      {% if project.inputPath.endsWith(related_path) %}
-        {% if project.data.draft == true %}
-        {% else %}
-        <div class="grid-item">
-            <a href="{{ project.url }}">
-                <figure class="image">
-                  <img src="{{ project.data.featured_image }}" class="{{ project.data.featured_solar }}">
-              </figure>
-            </a>
-            <a href="{{ project.url }}">
-                <div class="title">
-                    {{ project.data.title }}
-                </div>
-                <div class="gray">
-                    {{ project.data.subtitle }}
-                </div>
-            </a>
-        </div>
-        {% endif %}
+{% set has_non_draft_related_projects = false %}
+{% for related_path in related_projects %}
+  {% for project in collections.all %}
+    {% if project.inputPath.endsWith(related_path) %}
+      {% if not project.data.draft %}
+        {% set has_non_draft_related_projects = true %}
       {% endif %}
-    {% endfor %}
+    {% endif %}
   {% endfor %}
+{% endfor %}
 
-</div>
-<!-- end related code -->
+{% if has_non_draft_related_projects %}
+  <hr>
+  <h2>Related</h2>
+
+  <!-- start related code -->
+
+  <div class="grid">
+    {% for related_path in related_projects %}
+      {% for project in collections.all %}
+        {% if project.inputPath.endsWith(related_path) %}
+          {% if not project.data.draft %}
+            <div class="grid-item">
+                <a href="{{ project.url }}">
+                    <figure class="image">
+                      <img src="{{ project.data.featured_image }}" class="{{ project.data.featured_solar }} {{ project.data.featured_border }}">
+                  </figure>
+                </a>
+                <a href="{{ project.url }}">
+                    <div class="title">
+                        {{ project.data.title }}
+                    </div>
+                    <div class="gray">
+                        {{ project.data.subtitle }}
+                    </div>
+                </a>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+  <!-- end related code -->
 
 {% endif %}
 

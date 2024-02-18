@@ -1,11 +1,11 @@
 ---
-title: Exhibition Talk "Good Night Flight"
+title: 'Exhibition talk "Good Night Flight"'
 draft: true
 layout: layouts/e.njk
 date: 2019-08-16
 location: Seoul, South Korea
 venue: archive bomm
-subtitle: exhibition talk
+subtitle: exhibition talk in Seoul
 medium:
   - talk
 type: project

@@ -13,10 +13,17 @@ medium:
   - writing
 year: ["2017"]
 context: 'This is an adapted mirror of an article orginally published on <a href="https://www.artnews.com/art-in-america/features/the-evolving-designs-of-sulki-min-60065" target="_blank">Art in America</a> ↗ on August 28, 2017.'
-footer: 'Special thanks to Brian Droitcour for asking me to write this and offering edits. And to Sulki & Min.'
-# related_projects:
-#   - how-to-build-a-bird-kite.md
+footer: 'Special thanks to Brian Droitcour for asking me to write this and offering edits. And to Sulki & Min, whose <a href="https://web.archive.org/web/20171026223303/http://www.sulki-min.com/wp/">background noise</a> from their website in 2017 has been represented on this very page.'
+related_projects:
+  - the-cuteness-of-white-noise.md
 ---
+
+<style>
+  body {
+    background: url('/assets/media/sulki-and-min-bg-noise.gif');
+    background-size: 250px 250px;
+  }
+</style>
 
 I have been a keen observer of Seoul-based graphic design studio Sulki & Min’s [website](https://www.sulki-min.com) for many years now. In 2013, a curious message appeared on their site:
 

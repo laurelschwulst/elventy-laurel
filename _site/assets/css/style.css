@@ -25,6 +25,10 @@ video {
   display: block;
 }
 
+ul {
+  padding-left: 1em;
+}
+
 blockquote {
   border-left: 1px solid rgba(0,0,0,0.15);
   padding-left: 2.75em;
@@ -72,12 +76,15 @@ cite.after-blockquote {
 }
 
 a.arena-link {
-  float: right;
   border: 0;
 }
 
 a.no-underline {
   border: 0;
+}
+
+a.underline {
+  border-bottom: 1px solid rgba(0,0,0,0.15) !important;
 }
 
 nav#lateral {
@@ -571,7 +578,7 @@ footer.bottom.home div {
 
 footer a {
   /* color: #3f3e3e; */
-  border-bottom: 0;
+  /* border-bottom: 0; */
 }
 
 img {
@@ -973,14 +980,14 @@ nav#expanded h2 {
   text-align: left;
   margin: 0;
   padding: 0;
-  column-count: 4;
-  -webkit-column-width: 295px;
+  column-count: 2;
+  /* -webkit-column-width: 295px;
   -moz-column-width: 295px;
-  column-width: 295px;
+  column-width: 295px; */
   -webkit-column-gap: 28px;
   -moz-column-gap: 28px;
   column-gap: 28px;
-  margin-bottom: 28px;
+  margin-bottom: 42px;
 }
 
 .project-metadata p {
@@ -1016,6 +1023,8 @@ video.small {
 figure figcaption {
   text-align: left;
   margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer.small {
@@ -1169,6 +1178,10 @@ iframe.arena-iframe {
   #table-list .type,
   .filter-by-medium #table-list .short-description {
     display: none;
+  }
+  .project-metadata {
+    column-count: 1;
+    column-gap: 14px;
   }
 }
 

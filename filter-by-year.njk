@@ -37,14 +37,18 @@ permalink: "year/{{ year | slugify }}/"
                   {{ e.data.title }}
               </div>
               <div class="gray">
-                  {{ e.data.subtitle }}
+                  {% if "talk" in e.data.medium %}
+                      {{ e.data.venue }}
+                  {% else %}
+                    {{ e.data.subtitle }}
+                  {% endif %}
               </div>
           </div>
         {% else %}
         <div class="grid-item">
           <a href="{{ e.url }}">
             <figure class="image">
-                <img src="{{ e.data.featured_image }}">
+                <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }}">
             </figure>
           </a>
           <a href="{{ e.url }}">
@@ -53,6 +57,9 @@ permalink: "year/{{ year | slugify }}/"
             </div>
             <div class="gray">
                 {{ e.data.subtitle }}
+                {# {% if "talk" in e.data.medium %}
+                    <br>{{ e.data.venue }}
+                {% endif %} #}
             </div>
           </a>
         </div>

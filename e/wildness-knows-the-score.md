@@ -29,7 +29,9 @@ The distinction between wild animal and pet was important, but at the time I cou
 
 <figure>
   <img src="/assets/media/writing-wavmmm.png" alt="TBD">
-  <figcaption>How self-aware is a leopard? While not a definite answer to this question, this <a href="https://youtu.be/ANH-0dAO_kw?si=XoQ5HNsLEuBosqET">video</a> by French photographers Xavier and Anne-Marie Hubert-Brierre brings to mind the “mirror self-recognition test,” a procedure designed to test self-awareness. Of the animals, dolphins, orcas, magpies, elephants, and nonhuman apes such as chimpanzees have passed. Humans typically understand their reflection at 18–30 months old.</figcaption>
+  <figcaption>
+    <div>How self-aware is a leopard? While not a definite answer to this question, this <a href="https://youtu.be/ANH-0dAO_kw?si=XoQ5HNsLEuBosqET">video</a> by French photographers Xavier and Anne-Marie Hubert-Brierre brings to mind the “mirror self-recognition test,” a procedure designed to test self-awareness. Of the animals, dolphins, orcas, magpies, elephants, and nonhuman apes such as chimpanzees have passed. Humans typically understand their reflection at 18–30 months old.</div>
+    </figcaption>
 </figure>
 
 I began Wild Animals vs. Manmade Materials five years ago in 2012, making it quite ancient in Are.na years. It started with a fascination towards a single piece of media —
@@ -52,7 +54,7 @@ After a week, I officially deleted all the pets. But there was one pet I recall 
 
 <figure>
 <div class="video-mask"><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/2Tgwrkk-B3k' frameborder='0' allowfullscreen></iframe></div></div>
-<figcaption>A cute Pomeranian puppy sits perplexed in its dog bed, listening attentively to the sound of wolves howling from a YouTube video on a nearby laptop. After listening to the wolves for a while, the puppy joins in, howling upwards.</figcaption>
+<figcaption><div>A cute Pomeranian puppy sits perplexed in its dog bed, listening attentively to the sound of wolves howling from a YouTube video on a nearby laptop. After listening to the wolves for a while, the puppy joins in, howling upwards.</div></figcaption>
 </figure>
 
 Is this puppy's howl a sign that it recalls a time thousands of years ago before being domesticated by man? In this rare instance, I believe the pet acts as the manmade material. The pet, the Pomeranian puppy, reacts to a representation of its wild animal counterpart, the wolf, contextually illuminating the species' relationship.
@@ -133,12 +135,12 @@ In a speech given to physics teachers and later [reprinted](http://archives.chi
 <div class="video-mask">
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/VqVJsfzYaD8' frameborder='0' allowfullscreen></iframe></div>
 </div>
-<figcaption><i>The Nightwatch</i> (2004) by Francis Alÿs</figcaption>
+<figcaption><div><i>The Nightwatch</i> (2004) by Francis Alÿs</div></figcaption>
 </figure>
 
 <figure>
   <img src="/assets/media/wildness-clock.jpg" alt="TBD">
-  <figcaption>Untitled (Good Times, Bad Times) (2007) by Anna Jermolaewa</figcaption>
+  <figcaption><div>Untitled (Good Times, Bad Times) (2007) by Anna Jermolaewa</div></figcaption>
 </figure>
 
 When artists use wild animals in their work, I like to think they are examining the state of the planet. In his film [*The Nightwatch*](https://www.are.na/block/418538), a fox roams London's National Portrait Gallery after hours. Through compiling footage from the museum's built-in security cameras that follow the fox's path, Francis Alÿs calls attention to the ubiquity of public surveillance in London, where the fox is a common urban cohabitant and the National Portrait Gallery is a well-known cultural landmark. In Anna Jermolaewa's three photographs [*Untitled (Good Times, Bad Times)*](https://www.are.na/block/725947), pigeons rest on a brutalist wall clock. It turns out the minute hand is more dependable for a rest than the hour, making the rest a relatively quick one.

@@ -48,6 +48,16 @@ module.exports = function (eleventyConfig) {
         return [...yearsSet];
     });
 
+    eleventyConfig.addCollection("allWorlds", function (collection) {
+        let worldsSet = new Set();
+        collection.getAll().forEach(function (item) {
+            if ('world' in item.data && Array.isArray(item.data.world)) {
+            item.data.world.forEach(m => worldsSet.add(m));
+            }
+        });
+        return [...worldsSet];
+    });
+
     eleventyConfig.addCollection("allTypefaces", function (collection) {
         let typefacesSet = new Set();
         collection.getAll().forEach(function (item) {
@@ -93,6 +103,10 @@ module.exports = function (eleventyConfig) {
         });
     
         return sortedCollection;
+    });
+
+    eleventyConfig.addCollection("p", function(collectionApi) {
+        return collectionApi.getAll();
     });
 
     module.exports = function(eleventyConfig) {

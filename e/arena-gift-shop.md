@@ -20,8 +20,8 @@ media_one:
       path: /assets/media/arena-gift-shop.png
       type: image
       alt: TBD
-# related_projects:
-#     - gemini-mix-visualizer.md
+related_projects:
+    - ways-to-pass-time-inside-this-room.md
 
 ---
 

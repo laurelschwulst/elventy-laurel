@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.allWorlds
+  size: 1
+  alias: world
+permalink: "world/{{ world | slugify }}/"
+---
+
+<div id="regular-content">
+  
+  <div class="grid">
+    <div class="grid-item double">
+      <h1 style="margin-bottom: 0.5em;">
+        <span class="gray">world:</span>
+        {{ world }}
+      </h1>
+    </div>
+    <div class="grid-item">
+      {% set worldData = {} %}
+      {% for person in worlds %}
+        {% if person.name == world %}
+          {% set worldData = person -%}
+        {% endif %}
+      {% endfor %}
+      <p><a href="{{ worldData.link }}" style="border-bottom: 1px solid rgba(0,0,0,0.15)">{{ worldData.link }}</a> ↗</p>
+    </div>
+  </div>
+
+  <div class="grid">
+
+    {% for e in collections.all %}
+      {% if e.data.world and e.data.world.includes(world) %}
+      {% if e.data.draft == true %}
+        <div class="grid-item">
+            <figure class="image">
+                <img src="/assets/media/empty.png" class="border">
+            </figure>
+            <div class="title gray">
+                {{ e.data.title }}
+            </div>
+            <div class="gray">
+                {{ e.data.subtitle }}
+            </div>
+        </div>
+      {% else %}
+        <div class="grid-item">
+          <a href="{{ e.url }}">
+            <figure class="image">
+                <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }}">
+            </figure>
+          </a>
+          <a href="{{ e.url }}">
+            <div class="title">
+                {{ e.data.title }}
+            </div>
+            <div class="gray">
+                {{ e.data.subtitle }}
+            </div>
+          </a>
+        </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+  {% include "layouts/footer.njk" %}
+
+  <script>
+      document.title = "Laurel Schwulst ... part of: {{ world }}";
+  </script>
+
+</div>

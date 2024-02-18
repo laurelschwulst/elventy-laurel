@@ -25,6 +25,8 @@ permalink: "medium/{{ medium | slugify }}/"
       talks
     {% elseif medium == "identity" %}
       identities
+    {% elseif medium == "exhibition" %}
+      exhibitions
     {% else %}
       {{ medium }}
     {% endif %}

@@ -3,6 +3,8 @@ layout: layouts/e.njk
 title: Flight Simulator Pins
 selected_section: true
 subtitle: enamel pins
+world:
+- Flight Simulator
 date: 2019-02-02
 featured_image: /assets/media/fs-pins.jpg
 type: project
@@ -29,7 +31,10 @@ media_three_code_after: '<iframe
         class="arena-iframe" 
         src="https://www.are.na/laurel-schwulst/flight-simulator-pins-in-the-wild">
       </iframe>'
-related_projects: [flight-simulator-app.md]
+related_projects:
+- flight-simulator-app.md
+- flight-simulator-seoul.md
+- flight-simulator-osaka.md
 
 ---
 

@@ -7,6 +7,8 @@ location: New York, NY
 featured_image: /assets/media/train-stops.png
 featured_border: border
 featured_solar: non-solar
+talk_video: https://youtu.be/TiHKbeDOXas
+talk_arena: https://www.are.na/laurel-schwulst/blogging-in-motion
 venue: School for Poetic Computation
 subtitle: Talk for "Peer to Peer NYC" Symposium
 medium:
@@ -27,10 +29,6 @@ media_two_beginning:
       border: border
       solar: non-solar
       alt: TBD
-      caption: Poster by Philippe Cao
+      caption: Poster by Philippe Cao. Thanks to Callil Capuozzo and New Computer Working Group for organizing.
 
 ---
-
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/TiHKbeDOXas' frameborder='0' allowfullscreen></iframe></div>
-
-<p class="small-text">Thanks to Callil Capuozzo for inviting me</p>

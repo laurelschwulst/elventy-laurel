@@ -21,11 +21,13 @@ title: Biography
         
         <div class="gray">February 2024</div>
 
+        <a href="https://docs.google.com/spreadsheets/d/16Oq_Zfi7hvte3WfqcD_GsP0MfykMlDfDKy6VuS6RTvM/edit?usp=sharing" target="_blank" class="underline">CV</a> ↗
+
 
     </div>
     <div class="grid-item">
         <figure class="medium" style="float: right;">
-            <img src="/assets/media/laurel-schwulst-photo-by-jason-fulford.jpg" alt="A portrait photo of me, Laurel Schwulst — I'm a female human being in my 30s with short brown hair seen in portrait silhoutte mode — the left side of my face smiles while looking outwards to the ocean, the sun glimmering behind me. The photograph was taken by Jason Fulford at 7am on 7.7.2021 at Plumb Beach, New York City.">
+            <img src="/assets/media/laurel-schwulst-photo-by-jason-fulford.jpg" alt="A portrait photo of me, Laurel Schwulst — I'm a human being with short brown hair seen in portrait silhoutte mode — the left side of my face smiles while looking outwards to the ocean, the sun glimmering behind me. The photograph was taken by Jason Fulford at 7am on 7.7.2021 at Plumb Beach, New York City.">
             <figcaption>Photo by Jason Fulford</figcaption>
         </figure>
 
