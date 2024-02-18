@@ -39,7 +39,7 @@ Designers tend to compare themselves to their peers in fine arts, for the simple
 <figure>
     <img src="/assets/media/exercises-invisible.png" alt="TBD">
     <figcaption>
-      Covers of Queneau's <i>Exercises in Style</i> and Calvino's <i>Invisible Cities</i>
+      <div>Covers of Queneau's <i>Exercises in Style</i> and Calvino's <i>Invisible Cities</i></div>
     </figcaption>
 </figure>
 

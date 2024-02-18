@@ -9,7 +9,7 @@ date: 2016-09-26
 featured_image: /assets/media/tci-spiral.png
 type: project
 medium:
-  - identity
+  - creative direction
 year: ["2016"]
 media_one:
   - media:

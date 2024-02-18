@@ -18,6 +18,7 @@ media_two_beginning:
       alt: TBD
 related_projects:
   - how-to-build-a-bird-kite.md
+  - fruitful-school.md
 collaborator:
   - Marie Otsuka
   - Benjamin Earl

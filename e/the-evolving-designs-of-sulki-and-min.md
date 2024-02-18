@@ -33,11 +33,12 @@ I have been a keen observer of Seoul-based graphic design studio Sulki & Min’s
 
 The note inspired me to return regularly to see how the redesign was progressing. The experience was like a slow-paced reality show the designers had put on about themselves. What did a background change mean? A different font? Were they doing OK? Even though I was forced to speculate, I was comforted by the thought that even successful designers might have identity crises, no matter how subtle or small. But instead of hiding and later reemerging, they put their evolution on full display.
 
-[Choi Sulki](https://www.artnews.com/t/choi-sulki/) and [Choi Sung Min](https://www.artnews.com/t/choi-sung-min/) met at the Yale School of Art, where they were both graduate students in the early 2000s, studying one year apart. In a 2015 interview for *Print*, Sulki recalled the first time they spoke: "When I was doing my phone interview as part of the application process, Min was one of the people on the other side." Since the beginning, their practice has embraced coincidence and in-between states.
+Choi Sulki and Choi Sung Min met at the Yale School of Art, where they were both graduate students in the early 2000s, studying one year apart. In a 2015 interview for *Print*, Sulki recalled the first time they spoke: "When I was doing my phone interview as part of the application process, Min was one of the people on the other side." Since the beginning, their practice has embraced coincidence and in-between states.
 
 <figure>
     <img src="/assets/media/writing-sulki-min-invisibility2.png" alt="TBD">
     <img src="/assets/media/writing-sulki-min-invisibility3.jpg" alt="TBD">
+    <figcaption>Images by Sulki & Min</figcaption>
 </figure>
 
 Their first collaboration, the [invitation](https://www.sulki-min.com/wp/yale-graphic-design-thesis-show-2002-announcement/) and [website](https://www.sulki-min.com/wp/yale-graphic-design-thesis-show-2002-website) for the 2002 Yale graphic design MFA thesis show, paired Sulki's love of diagrams and Min's obsession with invisibility. How does one diagram the invisible? The invitation-as-newspaper catalogued every to-be-exhibited work. However, in place of thumbnail reproductions of the works, relatively scaled black boxes were provided. The sea of placeholders monumentalized the more certain text, encouraging readers to imagine their own version of each work. (This direction may have also been a pragmatic one: perhaps the works had not yet been completely realized by the ambitious graduate students and so were "invisible.")

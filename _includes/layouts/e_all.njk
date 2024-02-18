@@ -9,19 +9,19 @@
       <div class="year">
         {{ e.data.year }}
       </div>
-      <div class="featured">
+      {# <div class="featured">
         {% if e.data.selected == true %}
           &bull;
         {% endif %}
-      </div>
+      </div> #}
       <div class="title">
         {{ e.data.title }}
       </div>
+      <div class="type">
+        {% for m in e.data.medium %}{{ m }}{{ ", " if not loop.last else "" }}{% endfor %}
+      </div>
       <div class="short-description">
         {{ e.data.subtitle }}
-      </div>
-      <div class="type" style="flex: 1.5;">
-        {% for m in e.data.medium %}{{ m }}{{ ", " if not loop.last else "" }}{% endfor %}
       </div>
       {# <div class="venue">
         {{ e.data.publisher }}

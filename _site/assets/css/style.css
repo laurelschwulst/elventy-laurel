@@ -882,6 +882,7 @@ nav#expanded h2 {
 .list-item.draft .short-description,
 .list-item.draft .venue,
 .list-item.draft .type,
+.list-item.draft .featured,
 .list-item.draft .year-seasons {
   color: rgba(0,0,0,0.35);
   /* font-style: italic; */

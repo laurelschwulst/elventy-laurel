@@ -3,7 +3,8 @@ layout: layouts/e.njk
 title: Are.na Gift Shop
 selected: true
 selected_section: true
-subtitle: gifts, conversations, events
+# subtitle: gifts, conversations, events
+subtitle: Gift shop for Are.na, "What can a gift be?"
 publisher: Are.na
 collaborator:
 - Cab Broskoski
@@ -13,7 +14,7 @@ date: 2022-10-09
 featured_image: /assets/media/catalogue-6up.png
 type: project
 medium:
-  - world
+  - creative direction
 year: ["2022"]
 media_one:
   - media:

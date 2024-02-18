@@ -9,7 +9,6 @@ type: project
 collaborator:
 - John Provencher
 medium:
-  - world
   - teaching
 year: ["2020"]
 media_two_beginning:
