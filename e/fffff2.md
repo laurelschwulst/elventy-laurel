@@ -39,5 +39,5 @@ It has a subtle warm off-white background color "#FFFFF2."
 More to come ...
 
 <div class="small-text">
-Thanks to Reuben Son, Jungsuh Rhee, Megan Pai, Jack Rieger, Peter Pelberg, and AV for guidance.
+Thanks to Reuben Son, Jungsuh Rhee, Megan Pai, Jack Rieger, Peter Pelberg, Min Guhong, and AV for guidance.
 </div>
