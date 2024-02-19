@@ -12,6 +12,7 @@ featured_image: /assets/media/artists-space-01.png
 type: project
 medium:
   - website
+  - creative direction
 hyperlink: artistsspace.org
 year: ["2019"]
 media_one:

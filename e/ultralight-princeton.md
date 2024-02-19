@@ -2,8 +2,8 @@
 layout: layouts/e.njk
 title: "Graphic Design: Ultralight"
 draft: true
-subtitle: class at Princeton University
-publisher: Princeton
+subtitle: class
+publisher: Princeton University
 date: 2024-01-31
 featured_image: /assets/media/
 type: project

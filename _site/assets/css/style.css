@@ -854,7 +854,7 @@ nav#expanded h2 {
 #regular-content .grid .grid-item figure,
 .grid .grid-item figure,
 .grid .grid-item .video-mask {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .grid .grid-item a {
