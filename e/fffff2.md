@@ -4,7 +4,7 @@ title: "#FFFFF2"
 subtitle: this website
 date: 2024-02-29
 draft: true
-featured_image: /assets/media/
+featured_image: /assets/media/fffff2e.png
 type: project
 medium:
   - website
@@ -16,11 +16,11 @@ hyperlink: laurelschwulst.com
 # - Jack Rieger
 # - Peter Pelberg
 year: ["2024"]
-# media_two_beginning:
-#   - media:
-#       path: /assets/media/pentad01.png
-#       type: image
-#       alt: TBD
+media_two_ending:
+  - media:
+      path: /assets/media/fffff2e.png
+      type: image
+      alt: TBD
 # media_two_ending:
 #   - media:
 #       path: /assets/media/seasons-all-site.png
