@@ -125,13 +125,11 @@ END: FOR THE REAL VERSION #}
             {% for m in medium %}
                 {% if m == "talk" %}
                     {{ date.getFullYear() }}-{% if date.getMonth() + 1 < 10 %}0{% endif %}{{ date.getMonth() + 1 }}-{% if date.getDate() < 9 %}0{% endif %}{{ date.getDate() + 1 }}<br>
-                    {{ subtitle }}<br>
                     {{ venue }}<br>
                     {{ location }}<br>
-                {% else %}
-                    {{ subtitle }}
                 {% endif %}
             {% endfor %}
+            {{ subtitle }}
         </div>
         <div class="grid-item gray" style="margin-top: 1em;">
             {% if "press" in medium %}
