@@ -9,6 +9,7 @@ world:
 publisher: Are.na Gift Shop
 date: 2019-07-28
 featured_image: /assets/media/waystopass-cover-cropped.jpg
+# featured_image: /assets/media/waystopass-sun-1a-cover.jpg
 type: project
 medium:
   - publication
@@ -79,9 +80,6 @@ The book was originally orchestrated by Laurel Schwulst in concert with Webb All
 It began in a 2019 residency at pe hu in Osaka, Japan, which began with an exhibition of Flight Simulator. There was also an exhibition by Green People (Elliott Cost, Kazuma Sasajima, and Laurel Schwulst).
 
 [Visit on the Are.na Gift Shop](https://store.are.na/products/ways-to-pass-time-inside-this-room) ↗
-
 [Learn about its origins on Are.na Editorial](https://www.are.na/editorial/gift-shop-talk) ↗
-
 [Visit on Wendy's Subwway](https://libby.ecuad.ca/publishingthepresent/catalog/ways-to-pass-time-inside-this-room-%e3%81%93%e3%81%ae%e9%83%a8%e5%b1%8b%e3%81%a7%e3%81%ae-%e6%99%82%e9%96%93%e3%81%ae%e3%81%a4%e3%81%b6%e3%81%97%e6%96%b9/) ↗
-
 [Visit residency page at pe hu](https://vg.pe.hu/2f/greenpeople.html) ↗

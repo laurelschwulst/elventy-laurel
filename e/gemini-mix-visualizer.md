@@ -7,6 +7,8 @@ date: 2021-05-21
 featured_image: /assets/media/gemini09.png
 featured_solar: non-solar
 type: project
+collaborator:
+- Elliott Cost
 medium:
   - object
 year: ["2023"]
@@ -80,3 +82,5 @@ related_projects:
 To showcase typefaces from Sharp Type Foundry, I created an hour long video to accompany a music mix by Ian Kim Judd.
 
 <a href="https://sharptype.co/news/sharp-fm-008-IanKimJudd-gemini-23" target="_blank">More on sharptype.co</a> ↗
+
+<div class="small-text">Thanks to Elliott Cost, who I adapted energy spheres from. Also to Theodore Jahng, Megan Pai, Peter Pelberg, Chino Kim, and Jason Protell. Guiding quote by C.S. Lewis.</div>

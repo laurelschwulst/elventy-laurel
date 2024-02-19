@@ -83,9 +83,10 @@ layout: layouts/base.njk
 
             <p>{{ content | safe }}</p>
 
-            <p class="gray" style="margin-top: 2em; margin-bottom: 4em;">
-                {{ date_season }}
-            </p>
+            <div style="margin-top: 3em; margin-bottom: 5em;">
+                <div class="gray">{{ date_season }}</div>
+                <div class="print-name">Laurel Schwulst</div>
+            </div>
 
             <footer class="small">
                 {{ footer | safe }}
@@ -269,6 +270,8 @@ END: FOR THE REAL VERSION #}
 
 {% endif %}
 
+<section class="related">
+
 {% set has_non_draft_related_projects = false %}
 {% for related_path in related_projects %}
   {% for project in collections.all %}
@@ -314,6 +317,8 @@ END: FOR THE REAL VERSION #}
   <!-- end related code -->
 
 {% endif %}
+
+</section>
 
 {% include "layouts/footer.njk" %}
 
