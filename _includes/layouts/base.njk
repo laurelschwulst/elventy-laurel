@@ -15,7 +15,7 @@ favicon: /assets/media/fffff2e.png
         <link rel="stylesheet" href="/assets/css/style.css">
         <meta property="og:title" content="{{ site_title }} ... {{ title }}">
         <meta property="og:description" content="{{ description or ' ' }}">
-        {# <meta property="og:image" content="{{ domain }}{{ social_image | url }}"> #}
+        <meta property="og:image" content="{{ domain }}{{ social_image | url }}">
         <meta property="og:url" content="{{ domain }}{{ page.url }}">
         <link rel="icon" href="{{ domain }}{{ favicon | url }}" type="image/x-icon" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
