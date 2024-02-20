@@ -1,5 +1,5 @@
 ---
-title: Lecture & Conversation for "Assembly" at Metalabel
+title: Lecture & Conversation for "Assembly"
 draft: true
 layout: layouts/e.njk
 date: 2022-07-26

@@ -36,6 +36,8 @@ This website was designed to show the interconnectedness of my work.
 
 It has a subtle warm off-white background color "#FFFFF2."
 
+It was built in Eleventy, a static site generator.
+
 More to come ...
 
 <div class="small-text">

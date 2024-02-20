@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Ultralight Websites
 selected_section: true
-subtitle: workshop for Fruitful School
+subtitle: workshop
 publisher: Fruitful School
 date: 2024-01-14
 featured_image: /assets/media/ultralight-seal.png

@@ -1,6 +1,6 @@
 ---
 layout: layouts/e.njk
-title: Flight Simulator Exhibition in Seoul
+title: Flight Simulator in Seoul
 selected: true
 selected_section: true
 world:
@@ -38,24 +38,34 @@ media_two_ending:
       path: /assets/media/flight-sim-seoul-05.jpg
       type: image
       alt: TBD
-      caption: Min Guhong in flight
-#   - media:
-#       path: /assets/media/flight-sim-seoul-04.jpg
-#       type: image
-#       alt: TBD
-#       size: small
-#       caption: Sleeping passengers
+      caption: Passenger Min Guhong in flight
   - media:
-      path: /assets/media/flight-sim-seoul-11.jpg
+      path: /assets/media/flight-sim-seoul-04.jpg
       type: image
       alt: TBD
-      caption: Sunrise and rain in the morning with Yoon Juli
+      size: small
+      caption: Sleeping passengers
+  - media:
+      path: /assets/media/flight-sim-seoul-poster.jpeg
+      type: image
+      alt: TBD
+  # - media:
+  #     path: /assets/media/flight-sim-seoul-11.jpg
+  #     type: image
+  #     alt: TBD
+  #     caption: Sunrise and rain in the morning with Yoon Juli
 media_three:
-#   - media:
-#       path: /assets/media/flight-sim-seoul-06.jpg
-#       type: image
-#       size: small
-#       alt: TBD
+  - media:
+      path: /assets/media/flight-sim-seoul-06.jpg
+      type: image
+      size: small
+      alt: TBD
+      caption: '"Transit Log"'
+  # - media:
+  #     path: /assets/media/flight-sim-seoul-08.jpg
+  #     type: image
+  #     size: small
+  #     alt: TBD
   - media:
       path: /assets/media/flight-sim-seoul-07.jpg
       type: image
@@ -67,24 +77,24 @@ media_three:
       type: image
       size: small
       alt: TBD
-      caption: 'Reflection from Hyerim Kim — "this flight is like a play"'
-  - media:
-      path: /assets/media/flight-sim-seoul-03.jpg
-      type: image
-      size: small
-      alt: TBD
-      caption: '"Simulating: Flight Simulator"'
-#   - media:
-#       path: /assets/media/flight-sim-seoul-04.jpg
-#       type: image
-#       size: small
-#       alt: TBD
-#   - media:
-#       path: /assets/media/flight-sim-seoul-08.jpg
-#       type: image
-#       alt: TBD
-#       size: small
-#       caption: archive bomm
+      caption: 'Reflection from passenger Hyerim Kim'
+  # - media:
+  #     path: /assets/media/flight-sim-seoul-03.jpg
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  #     caption: '"Simulating: Flight Simulator"'
+  # - media:
+  #     path: /assets/media/flight-sim-seoul-poster.jpeg
+  #     type: image
+  #     size: small
+  #     alt: TBD
+  # - media:
+  #     path: /assets/media/flight-sim-seoul-08.jpg
+  #     type: image
+  #     alt: TBD
+  #     size: small
+  #     caption: archive bomm
 related_projects:
   - flight-simulator-osaka.md
   - flight-simulator-app.md
@@ -94,7 +104,7 @@ related_projects:
 
 ---
 
-Exhibition of Flight Simulator at archive bomm in Seoul, August 2019. The exhibition closing was the duration of a red eye flight from Seoul to New York, lasting from evening until morning the next day.
+Exhibition of Flight Simulator at archive bomm in Seoul, August 2019. The exhibition closing was the duration of a red eye flight from Seoul to New York, lasting from evening until morning the next day — a "sleepover" flight in the gallery for eight passengers.
 
 <!-- [Visit residency page at pe hu](https://vg.pe.hu/2f/greenpeople.html) ↗<br>
 [Read more in pe hu's digital magazine](https://arena-attachments.s3.amazonaws.com/26427188/d914ea96dcf795ff740133c701e2eef0.pdf?1708288466) ↗ -->

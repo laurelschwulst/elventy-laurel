@@ -27,7 +27,7 @@ title: About
 
         <span class="gray">newsletter 1:</span> <a href="https://laurelsletter.substack.com" class="underline" target="_blank">substack.com/laurelsletter</a> ↗<br><br>
         <span class="gray">newsletter 2:</span> <a href="https://anotherdayinthedome.substack.com" class="underline" target="_blank">substack.com/anotherdayinthedome</a> ↗<br><br>
-        <span class="gray">are.na:</span> <a href="https://www.are.na/laurel-schwulst" class="underline" target="_blank">are.na/laurel-schwulst</a> ↗<br><br>
+        <span class="gray">✶✶:</span> <a href="https://www.are.na/laurel-schwulst" class="underline" target="_blank">are.na/laurel-schwulst</a> ↗<br><br>
         <span class="gray">instagram:</span> <a href="https://www.instagram.com/roombaghost" class="underline" target="_blank">@roombaghost</a> ↗<br><br>
 
         <u>Upcoming:</u><br><br>

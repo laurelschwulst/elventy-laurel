@@ -1,6 +1,6 @@
 ---
 layout: layouts/e.njk
-title: Flight Simulator Exhibition in Osaka
+title: Flight Simulator in Osaka
 selected: true
 selected_section: true
 world:
