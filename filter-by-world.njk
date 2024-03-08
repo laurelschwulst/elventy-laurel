@@ -24,6 +24,7 @@ permalink: "world/{{ world | slugify }}/"
         {% endif %}
       {% endfor %}
       <p><a href="{{ worldData.link }}" style="border-bottom: 1px solid rgba(0,0,0,0.15)">{{ worldData.link }}</a> ↗</p>
+      <p>{{ worldData.extended_description | safe }}</p>
     </div>
   </div>
 

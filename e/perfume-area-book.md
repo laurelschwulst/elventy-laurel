@@ -12,10 +12,10 @@ type: project
 medium:
   - publication
 world:
-- Perfume Area
+  - Perfume Area
 collaborator:
-- Sydney Shen
-- Bryce Wilner
+  - Sydney Shen
+  - Bryce Wilner
 year: ["2015"]
 media_two_beginning:
   - media:
@@ -23,12 +23,19 @@ media_two_beginning:
       type: image
       solar: non-solar
       alt: TBD
+media_two_ending:
+  - media:
+      path: /assets/media/perfumearea2.jpg
+      type: image
+      alt: TBD
+      solar: non-solar
+      caption: Photo by Kaela Noel
 media_three:
   - media:
       path: /assets/media/perfume-area-07.jpg
       type: image
       solar: non-solar
-      size: large
+      size: extra-large
       alt: TBD
   - media:
       path: /assets/media/perfume-area-04.jpg
@@ -56,7 +63,6 @@ media_three:
       alt: TBD
       caption: Photos by Sydney Shen
 # related_projects: [flight-simulator-pins.md]
-
 ---
 
 Perfume Area is a collaborative fragrance review project. Its book contains thirty-six prose poetry fragrance reviews. 4.25 × 7", 84 pages, perfect bound with gatefold map and bookmark. Published by Ambient Works in an edition of 300 and designed by <a href="/with/bryce-wilner" class="collaborator">Bryce Wilner</a>. In the collection of the Yale University Library. Project in collaboration with <a href="/with/sydney-shen" class="collaborator">Sydney Shen</a>.

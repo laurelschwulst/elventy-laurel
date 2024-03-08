@@ -11,7 +11,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
   <h1>
     {# <a href="/" style="display: inline-block; height: 1.25em; margin-right: 0.5em" class="no-underline"><img src="/assets/media/fffff2e.png"></a> #}
-    <span class="gray">medium:</span>
+    {# <span class="gray">medium:</span> #}
     {% if medium == "website" %}
       websites
     {% elseif medium == "world" %}
@@ -41,25 +41,25 @@ permalink: "medium/{{ medium | slugify }}/"
         {% if e.data.layout == "layouts/base.njk" %}
         {% else %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-          <div class="grid-item">
-            <a href="{{ e.url }}">
-              <figure class="image">
-                  <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }}">
-              </figure>
-            </a>
-            <a href="{{ e.url }}">
-              <div class="title">
-                  {{ e.data.title }}
-                  <div class="gray">
-                    {% if medium == "writing" %}
-                      {{ e.data.publisher }}
-                    {% else %}
-                      {{ e.data.subtitle }}
-                    {% endif %}
+              <div class="grid-item">
+                <a href="{{ e.url }}">
+                  <figure class="image">
+                      <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }} {{ e.data.featured_fill }}">
+                  </figure>
+                </a>
+                <a href="{{ e.url }}">
+                  <div class="title">
+                      {{ e.data.title }}
+                      <div class="gray">
+                        {% if medium == "writing" %}
+                          {{ e.data.publisher }}
+                        {% else %}
+                          {{ e.data.subtitle }}
+                        {% endif %}
+                      </div>
                   </div>
+                </a>
               </div>
-            </a>
-          </div>
           {% endif %}
         {% endif %}
       {% endif %}
@@ -82,10 +82,16 @@ permalink: "medium/{{ medium | slugify }}/"
 
 <div id="table-list">
 
+  {% if medium == "writing" %}
+      <h3 class="writing">essays</h3>
+  {% endif %}
+
       {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
             {% if e.data.layout == "layouts/base.njk" %}
             {% else %}
+              {% if e.data.subtype == "conversation" %}
+              {% else %}
                 {% if e.data.draft == true %}
                 <div class="list-item draft">
                 {% else %}
@@ -143,10 +149,84 @@ permalink: "medium/{{ medium | slugify }}/"
             </a>
             {% endif %}
             {% endif %}
+            {% endif %}
         {% endif %}
       {% endfor %}
 
         </div>
+
+  {% if medium == "writing" %}
+  <div id="table-list">
+      <h3 class="writing">conversations</h3>
+
+        {% for e in collections.all | reverse %}
+          {% if e.data.medium and e.data.medium.includes(medium) %}
+              {% if e.data.subtype == "conversation" %}
+                <!-- start -->
+                {% if e.data.draft == true %}
+                <div class="list-item draft">
+                {% else %}
+                <a href="{{ e.url }}" class="list-item">
+                {% endif %}
+                {% if medium == "writing" %}
+                  <div class="year-seasons">
+                    {{ e.data.year }} <span class="season">{{ e.data.season }}</span>
+                  </div>
+                {% elseif medium == "talk" %}
+                  <div class="year-seasons">
+                    {{ e.data.date.getFullYear() }}-{% if e.data.date.getMonth() + 1 < 10 %}0{% endif %}{{ e.data.date.getMonth() + 1 }}-{% if e.data.date.getDate() < 9 %}0{% endif %}{{ e.data.date.getDate() + 1 }}
+                  </div>
+                {% else %}
+                  <div class="year">
+                    {{ e.data.year }}
+                  </div>
+                {% endif %}
+                <div class="featured">
+                  {% if e.data.selected_section == true %}
+                    &bull;
+                  {% endif %}
+                </div>
+                <div class="title">
+                  {{ e.data.title }}
+                </div>
+                <div class="type">
+                  {% if medium == "teaching" %}
+                  {% else %}
+                    {{ medium }}
+                  {% endif %}
+                </div>
+                <div class="short-description">
+                  {% if medium == "talk" %}
+                    {{ e.data.location }}
+                  {% else %}
+                    {{ e.data.subtitle }}
+                  {% endif %}
+                </div>
+                <div class="venue">
+                  {% if medium == "world" %}
+                    {# {{ e.data.collaborator }} #}
+                    with {% for c in e.data.collaborator %}{{ c }}{{ "," if not loop.last else "" }} {% endfor %}
+                  {% elseif medium == "talk" %}
+                    {{ e.data.venue }}
+                  {% elseif medium == "website" %}
+                    http://{{ e.data.hyperlink }}
+                  {% else %}
+                    {{ e.data.publisher }}
+                  {% endif %}
+                </div>
+            {% if e.data.draft == true %}
+            </div>
+            {% else %}
+            </a>
+            {% endif %}
+                <!-- end -->
+              {% else %}
+              {% endif %}
+          {% endif %}
+        {% endfor %}
+        </div>
+    {% endif %}
+
 
     {# {% endif %} #}
 

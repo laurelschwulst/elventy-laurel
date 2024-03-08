@@ -1,20 +1,21 @@
 [
-    {
-        "name": "Flight Simulator",
-        "link": "https://flightsimulator.soft.works",
-        "description": "simulating flights",
-        "mediums": "method, app, objects, exhibitions",
-        "featured_image": "/assets/media/flight-sim-icon.png",
-        "with": "Soft",
-        "featured": "true"
-    },
-    {
-        "name": "Perfume Area",
-        "link": "https://perfume-area.com",
-        "description": "writing about fragrance collaboratively",
-        "mediums": "format, website, book, readings, exhibitions",
-        "featured_image": "/assets/media/perfume-area-flower.png",
-        "with": "Sydney Shen",
-        "draft": "true"
-    }
+  {
+    "name": "Flight Simulator",
+    "link": "https://flightsimulator.soft.works",
+    "description": "simulating flights",
+    "extended_description": "Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with Soft. Pins are generative algorithmic artwork by Aarati Akkapeddi.",
+    "mediums": "method, app, objects, exhibitions",
+    "featured_image": "/assets/media/flight-sim-icon.png",
+    "with": "Soft",
+    "featured": "true"
+  },
+  {
+    "name": "Perfume Area",
+    "link": "https://perfume-area.com",
+    "description": "writing about fragrance",
+    "extended_description": "Perfume Area is a fragrance review project between Sydney Shen & Laurel Schwulst.",
+    "mediums": "format, website, book, readings, exhibitions",
+    "featured_image": "/assets/media/perfume-area-flower.png",
+    "with": "Sydney Shen"
+  }
 ]

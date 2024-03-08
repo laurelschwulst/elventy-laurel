@@ -8,25 +8,19 @@
       <a href="/medium/teaching/">teaching</a><br>
       <a href="/medium/talk/">talks</a><br>
       <a href="/e/">everything</a><br>
-      <a href="/i/bio/index.html">about</a>
+      <a href="/i/about">about</a>
     </h1>
-    {# <div class="small-text">
-      
-      <a href="/i/bio/index.html" style="display: inline-block; max-width: 250px;">
-        Laurel Schwulst is a designer, writer, and educator interested in ambient forms of design and literature, public works, and the poetic potential of the web. →<br><br>
-      </a>
-
-      laurel.schwulst@gmail.com
-    </div> #}
+    
 </div>
 
     {% for e in e_all_shuffled %}
         {% if e.data.draft == true %}
         {% else %}
+        {% if e.data.hide_on_home != true %}
         <div class="grid-item" style="margin-top: 1em;">
         <a href="{{ e.url }}">
             <figure class="image">
-                <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }}">
+                <img src="{{ e.data.featured_image }}" class="{{ e.data.featured_solar }} {{ e.data.featured_border }} {{ e.data.featured_fill }}">
             </figure>
         </a>
         <a href="{{ e.url }}">
@@ -36,6 +30,7 @@
             </div>
         </a>
         </div>
+        {% endif %}
     {% endif %}
   {% endfor %}
 

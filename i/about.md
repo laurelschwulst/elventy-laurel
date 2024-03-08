@@ -1,7 +1,6 @@
 ---
 layout: layouts/i.njk
 title: About
-
 ---
 
 <div class="grid" id="double">
@@ -18,21 +17,21 @@ title: About
         For over a decade, she has taught award-winning design classes and workshops (at universities including Yale and Princeton), and has presented internationally at cultural, academic, and internet-native institutions (at venues including BBC Radio 4, RISD, University of Seoul, Google, and Wikipedia). She has also held design leadership roles at Kickstarter and Linked by Air.
 
         Laurel currently lives in New York City, teaches design at Princeton, serves as director of the gift shop at Are.na, and is working towards a “PBS of the Internet.”
-        
+
         <div class="gray">February 2024</div>
 
         <a href="https://docs.google.com/spreadsheets/d/16Oq_Zfi7hvte3WfqcD_GsP0MfykMlDfDKy6VuS6RTvM/edit?usp=sharing" target="_blank" class="underline">CV</a> ↗<br><br>
 
         <span class="gray">email:</span> laurel.schwulst@gmail.com<br>
 
-        <span class="gray">newsletter 1:</span> <a href="https://laurelsletter.substack.com" class="underline" target="_blank">substack.com/laurelsletter</a> ↗<br><br>
-        <span class="gray">newsletter 2:</span> <a href="https://anotherdayinthedome.substack.com" class="underline" target="_blank">substack.com/anotherdayinthedome</a> ↗<br><br>
-        <span class="gray">✶✶:</span> <a href="https://www.are.na/laurel-schwulst" class="underline" target="_blank">are.na/laurel-schwulst</a> ↗<br><br>
-        <span class="gray">instagram:</span> <a href="https://www.instagram.com/roombaghost" class="underline" target="_blank">@roombaghost</a> ↗<br><br>
+        <span class="gray">newsletter 1:</span> <a href="https://laurelsletter.substack.com" class="underline" target="_blank">laurelsletter</a> ↗<br><br>
+        <span class="gray">newsletter 2:</span> <a href="https://anotherdayinthedome.substack.com" class="underline" target="_blank">anotherdayinthedome</a> ↗<br><br>
+        <span class="gray">are.na:</span> <a href="https://www.are.na/laurel-schwulst" class="underline" target="_blank">laurel-schwulst</a> ↗<br><br>
+        <span class="gray">instagram:</span> <a href="https://www.instagram.com/roombaghost" class="underline" target="_blank">roombaghost</a> ↗<br><br>
 
-        <u>Upcoming:</u><br><br>
+        <!-- <u>Upcoming:</u><br><br>
         February 26, 2024 — Visiting Designer Lecture
-        at the University of Tennessee in Knoxville, TN 
+        at the University of Tennessee in Knoxville, TN -->
 
 
 
@@ -44,4 +43,5 @@ title: About
         </figure>
 
     </div>
+
 </div>

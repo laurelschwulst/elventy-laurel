@@ -1,19 +1,22 @@
 ---
 title: Parallel Worlds
+hide_on_home: true
 subtitle: essay
 publisher: Art in America
 layout: layouts/e.njk
 date: 2014-10-01
 date_season: Fall 2014
 season: Fall
-featured_image: /assets/media/exercises-invisible.png
+featured_image: /assets/media/parallel-worlds.png
+featured_border: border
+featured_fill: fill
 type: writing
 medium:
   - writing
   - teaching
 year: ["2014"]
-context: 'This is an adapted mirror of an essay written for <i>Art in America</i> originally published in the October 2014 print edition.'
-footer: 'Thanks to Matthew Shen Goodman and Will Smith for editing.'
+context: "This is an adapted mirror of an essay written for <i>Art in America</i> originally published in the October 2014 print edition."
+footer: "Thanks to Matthew Shen Goodman and Will Smith for editing."
 # related_projects:
 #   - how-to-build-a-bird-kite.md
 ---
@@ -65,4 +68,3 @@ Broad momentum is building for giving more attention to this speculative side of
 <!-- <figure>
     <img src="/assets/media/magazine-parallel.png">
 </figure> -->
-
