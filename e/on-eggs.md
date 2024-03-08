@@ -8,7 +8,8 @@ publisher: Are.na Editorial & Naive Yearly
 date: 2024-09-26
 season: Winter
 featured_image: /assets/media/egg-gavin-turk.jpg
-talk_arena: https://www.are.na/laurel-schwulst/on-eggs
+link: https://naive-yearly.are.na/laurel-schwulst
+arena_channel: https://www.are.na/laurel-schwulst/on-eggs
 type: writing
 medium:
   - writing

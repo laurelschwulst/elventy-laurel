@@ -8,9 +8,9 @@ featured_image: /assets/media/
 type: project
 publisher: Flight Simulator
 collaborator:
-- Soft
+  - Soft
 medium:
-  - world
+  - program
 year: ["2016"]
 media_one:
   # - media:
@@ -26,8 +26,7 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
-
+  # - my-website-is-a-shifting-house.md
 ---
 
 To come

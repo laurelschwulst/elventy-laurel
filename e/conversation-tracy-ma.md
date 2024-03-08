@@ -13,5 +13,5 @@ subtype: conversation
 medium:
   - writing
 year: ["2023"]
-hyperlink: https://www.are.na/editorial/introducing-the-are-na-annual-2024
+link: https://www.are.na/editorial/introducing-the-are-na-annual-2024
 ---

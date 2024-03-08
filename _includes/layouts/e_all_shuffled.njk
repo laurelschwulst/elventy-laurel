@@ -1,17 +1,14 @@
 <div class="grid">
   
-  <div class="grid-item">
-    <h1>
+  <nav id="home" class="grid-item">
       <a href="/medium/writing/">writing</a><br>
       <a href="/medium/website/">websites</a><br>
-      <a href="/world/">worlds</a><br>
+      <a href="/medium/world/">worlds</a><br>
       <a href="/medium/teaching/">teaching</a><br>
       <a href="/medium/talk/">talks</a><br>
       <a href="/e/">everything</a><br>
-      <a href="/i/about">about</a>
-    </h1>
-    
-</div>
+      <a href="/about/">about</a>
+  </nav>
 
     {% for e in e_all_shuffled %}
         {% if e.data.draft == true %}

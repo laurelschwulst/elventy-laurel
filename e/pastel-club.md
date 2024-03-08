@@ -1,6 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Pastel Club
+link: https://allmyfriendsatonce.com/#50
 draft: true
 subtitle: essay
 publisher: When All My Friends Are On At Once
@@ -25,8 +26,7 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
-
+  # - my-website-is-a-shifting-house.md
 ---
 
 To come

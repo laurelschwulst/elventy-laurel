@@ -8,9 +8,9 @@ date: 2019-12-02
 featured_image: /assets/media/html-blue.png
 type: project
 collaborator:
-- Elliott Cost
+  - Elliott Cost
 medium:
-  - world
+  - website
 year: ["2019"]
 media_two_beginning:
   - media:
@@ -31,7 +31,6 @@ media_two_ending:
       alt: TBD
 related_projects:
   - fruitful-school.md
-
 ---
 
 TKTK

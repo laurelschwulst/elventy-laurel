@@ -1,5 +1,6 @@
 ---
 title: Interview with Min Guhong
+link: https://thecreativeindependent.com/people/editor-and-ceo-min-guhong-on-introducing-your-company
 subtitle: interview
 draft: true
 publisher: The Creative Independent
@@ -13,5 +14,4 @@ subtype: conversation
 medium:
   - writing
 year: ["2019"]
-hyperlink: https://thecreativeindependent.com/people/editor-and-ceo-min-guhong-on-introducing-your-company
 ---

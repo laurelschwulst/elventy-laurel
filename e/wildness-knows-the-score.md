@@ -1,5 +1,6 @@
 ---
 title: Wildness Knows the Score
+link: https://www.are.na/editorial/the-wildness-knows-the-score
 subtitle: essay
 selected: true
 selected_section: true
@@ -10,7 +11,7 @@ year: ["2017"]
 date_season: Fall 2017
 season: Fall
 collaborator:
-- Meg Miller
+  - Meg Miller
 featured_image: /assets/media/writing-wavmmm2.jpg
 type: writing
 medium:
@@ -36,7 +37,7 @@ The distinction between wild animal and pet was important, but at the time I cou
 
 I began Wild Animals vs. Manmade Materials five years ago in 2012, making it quite ancient in Are.na years. It started with a fascination towards a single piece of media —
 
-At the time, I was returning to YouTube day after day to watch this mesmerizing [video](https://www.are.na/block/78167) of leopards examining their reflections through mirrors installed in a jungle. 
+At the time, I was returning to YouTube day after day to watch this mesmerizing [video](https://www.are.na/block/78167) of leopards examining their reflections through mirrors installed in a jungle.
 
 "Leopards VS mirror," the original subtitle of the video, made me curious: Were the leopards "against" the mirror? Were the leopards preparing to fight the mirror as they circled around it, hopped on top of it, and eventually made eye contact with the creatures inside of it? But the video is long, and the mirror doesn't fight back. The leopards seem more curious than opinionated, oscillating between mirror as prey, enemy, friend, inanimate object, or possibly even self.
 
@@ -44,7 +45,7 @@ I wondered if there were other such Animal-Versus-Thing content on YouTube, even
 
 I titled my channel as specifically as I could and waited. It wasn't long until other Are.na users started adding to it. Early contributions include: a seagull walking on an escalator, an octopus sliding through a crack in a boat, a deer in a backyard pool, a wasp building a nest in the handle of a car, and a frog swimming in zero gravity. My channel grew quickly. This was likely due to the captivating, funny, strange, and beautiful material paired with its relatively easiness to pinpoint and categorize (due to my channel's straightforward title). From then on, "wild animals vs. manmade materials" seemed easy to find online. In fact, I started seeing them everywhere. They lived at multiple stops along my web browsing path, existing within amateur YouTube videos, memes and viral images on Tumblr, and articles on mainstream news websites like the *New York Times* and the *Guardian*.
 
-* * * * *
+---
 
 Fast forward three years, and my channel was littered with pets. While they are often cute and sometimes interesting, pets, I told myself, are not wild animals. As domesticated creatures, pets are much more likely to interact with manmade materials than their wild counterparts. And their dependence on humans often renders their interactions predictable. Pets, after all, are designed by and for humans.
 
@@ -74,7 +75,7 @@ I also tend to be more lenient towards reptiles since they are not considered do
 
 In the case of any possible pet image without source, or any reptile pet, I ask myself "Does this image carry the channel's spirit?" to decide its fate.
 
-* * * * *
+---
 
 Removing the pets helped me better understand the categories of wild within my own channel. When I first pictured wild animals, they were the kind that were living anywhere humans were not. These animals inhabit nature preserves, the vast ocean, or any environment allowed to be truly wild, where ecosystems can flourish. They thrive by existing away from and parallel to humans. Parallel lines apparently never intersect. But when they do, it's rare, and this is the focus of my channel. Sometimes it happens naturally or unexpectedly, while other times the probing and sometimes dangerous curiosity of humans invokes it. Starfish, for example, have been known to expel microchips from their arms originally injected by researchers to identify and track them.
 
@@ -101,27 +102,27 @@ Sometimes I consider the titles of the news stories from my channel as a dystopi
 
 <blockquote>
 
-      *Toyota Is Recalling More Than 800,00 Cars Because of Spiders*
+_Toyota Is Recalling More Than 800,00 Cars Because of Spiders_
 
-      *Making the 9/11 Memorial Lights Bird-Safe*
+_Making the 9/11 Memorial Lights Bird-Safe_
 
-      *Baby Dolphin Dies Being Passed Around For Selfies*
+_Baby Dolphin Dies Being Passed Around For Selfies_
 
-      *Sickly sea lion pup found sleeping in booth inside La Jolla restaurant*
+_Sickly sea lion pup found sleeping in booth inside La Jolla restaurant_
 
-      *Miniature horse rescued from sinkhole*
+_Miniature horse rescued from sinkhole_
 
-      *Hong Kong: Wild boar smashes through shop ceiling*
+_Hong Kong: Wild boar smashes through shop ceiling_
 
-      *Deer crashes into bus in Johnstown*
+_Deer crashes into bus in Johnstown_
 
-      *Turtles Delay Flights At JFK Airport With Mating Ritual*
+_Turtles Delay Flights At JFK Airport With Mating Ritual_
 
-      *Weasel Apparently Shuts Down World's Most Powerful Particle Collider*
+_Weasel Apparently Shuts Down World's Most Powerful Particle Collider_
 
-      *The Global Internet Is Being Attacked by Sharks, Google Confirms*
+_The Global Internet Is Being Attacked by Sharks, Google Confirms_
 
-      *Animals Rule Chernobyl Three Decades After Nuclear Disaster*
+_Animals Rule Chernobyl Three Decades After Nuclear Disaster_
 
 </blockquote>
 
@@ -143,9 +144,9 @@ In a speech given to physics teachers and later [reprinted](http://archives.chi
   <figcaption><div>Untitled (Good Times, Bad Times) (2007) by Anna Jermolaewa</div></figcaption>
 </figure>
 
-When artists use wild animals in their work, I like to think they are examining the state of the planet. In his film [*The Nightwatch*](https://www.are.na/block/418538), a fox roams London's National Portrait Gallery after hours. Through compiling footage from the museum's built-in security cameras that follow the fox's path, Francis Alÿs calls attention to the ubiquity of public surveillance in London, where the fox is a common urban cohabitant and the National Portrait Gallery is a well-known cultural landmark. In Anna Jermolaewa's three photographs [*Untitled (Good Times, Bad Times)*](https://www.are.na/block/725947), pigeons rest on a brutalist wall clock. It turns out the minute hand is more dependable for a rest than the hour, making the rest a relatively quick one.
+When artists use wild animals in their work, I like to think they are examining the state of the planet. In his film [_The Nightwatch_](https://www.are.na/block/418538), a fox roams London's National Portrait Gallery after hours. Through compiling footage from the museum's built-in security cameras that follow the fox's path, Francis Alÿs calls attention to the ubiquity of public surveillance in London, where the fox is a common urban cohabitant and the National Portrait Gallery is a well-known cultural landmark. In Anna Jermolaewa's three photographs [_Untitled (Good Times, Bad Times)_](https://www.are.na/block/725947), pigeons rest on a brutalist wall clock. It turns out the minute hand is more dependable for a rest than the hour, making the rest a relatively quick one.
 
-* * * * *
+---
 
 In a sense, Wild Animals vs. Manmade Materials is a collection of sentinel species. You can understand it as a portrait of the planet using animal signals as material. It's also inadvertently a collection of human technology through time, including surveillance systems (like in *The Nightwatch*), drones (caught by falcons and tigers, and designed by DARPA to look like hummingbirds), the Internet (whose undersea cables have been attacked by sharks), powerful light beams (like those that confuse migratory birds when beamed into the sky as a 9/11 Memorial) and border walls (which prohibit endangered jaguars of the American Southwest and Mexico the large amounts of land needed to survive and reproduce), to name a few.
 
@@ -155,7 +156,7 @@ I created this channel because a video piqued my interest. A suggestion to narro
 
 I wouldn't have come to these conclusions if it weren't for the arrival of pets, their subsequent removal, and my changed thinking towards policing as cultivation. I am thankful for these errors thrown into my system, for now I know what I was really looking for.
 
-<!-- <iframe 
-  class="arena-iframe" 
+<!-- <iframe
+  class="arena-iframe"
   src="https://www.are.na/laurel-schwulst/wild-animals-vs-manmade-materials">
 </iframe> -->

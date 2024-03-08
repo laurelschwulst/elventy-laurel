@@ -1,6 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Spiral
+link: https://thecreativeindependent.com/notes/spiral
 draft: true
 subtitle: essay
 publisher: The Creative Independent
@@ -25,8 +26,7 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
-
+  # - my-website-is-a-shifting-house.md
 ---
 
 To come

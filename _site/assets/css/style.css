@@ -500,7 +500,8 @@ figure {
   padding: 0;
 }
 
-h1 {
+h1,
+nav#home {
   font-weight: normal;
   font-size: 2.25em;
   margin-top: -0.25;
@@ -893,19 +894,56 @@ nav#expanded h2 {
   border: 0;
 }
 
+#table-list .list-item-container {
+  width: 100%;
+  position: relative;
+}
+
+#table-list .list-item-container a.hyperlink {
+  border: 0;
+}
+
+#table-list .list-item-container a.hyperlink.draft {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+span.hyperlink,
+#table-list .list-item-container a.hyperlink {
+  display: inline-block;
+  padding: 0 0.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+span.hyperlink {
+  opacity: 0;
+}
+
+#table-list .list-item-container .list-item.start,
+#table-list .list-item-container a.list-item.start {
+  flex-grow: 1;
+}
+
 .list-item.draft .year,
 .list-item.draft .title,
 .list-item.draft .short-description,
 .list-item.draft .venue,
 .list-item.draft .type,
 .list-item.draft .featured,
-.list-item.draft .year-seasons {
+.list-item.draft .year-seasons,
+.list-item.draft .hyperlink a {
   color: rgba(0, 0, 0, 0.35);
   /* font-style: italic; */
 }
 
 #table-list .list-item .year {
   flex: 0.5;
+}
+
+#table-list .list-item .hyperlink {
+  flex: 0.25;
+  text-align: right;
 }
 
 #table-list .list-item .year-seasons {

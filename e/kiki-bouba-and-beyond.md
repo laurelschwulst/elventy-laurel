@@ -2,6 +2,7 @@
 title: Kiki, Bouba, and Beyond
 subtitle: article
 selected_section: true
+link: https://www.nytimes.com/interactive/2023/06/28/arts/kiki-bouba-effect.html
 publisher: The New York Times
 layout: layouts/e.njk
 description: Testing 123
@@ -14,14 +15,14 @@ medium:
   - writing
 year: ["2023"]
 context: 'This is an adapted mirror of an article in the form of an interactive quiz, originally commissioned and published for <a href="https://www.nytimes.com/interactive/2023/06/28/arts/kiki-bouba-effect.html" target="_blank">The New York Times</a> ↗ on June 28, 2023.'
-footer: 'Special thanks to the Surfacing team at the Times — Tala Safie, Josephine Sedgewick, Alicia DeSantis, Alice Fang, and Amanda Webster. And to Kelly McCormick, Aditya Shukla, Mami Nakanishi, Max Bittker, and Meg Miller.'
+footer: "Special thanks to the Surfacing team at the Times — Tala Safie, Josephine Sedgewick, Alicia DeSantis, Alice Fang, and Amanda Webster. And to Kelly McCormick, Aditya Shukla, Mami Nakanishi, Max Bittker, and Meg Miller."
 related_projects:
   - how-to-build-a-bird-kite.md
 ---
 
 Maybe you’ve heard of the “kiki/bouba” effect — it’s a classic psycho-linguistics experiment that explores the relationship between nonsense words and abstract shapes.
 
-The psychologist Wolfgang Kohler observed the phenomenon in the late 1920s, using the made-up words “takete” and “maluma.” 
+The psychologist Wolfgang Kohler observed the phenomenon in the late 1920s, using the made-up words “takete” and “maluma.”
 
 <figure>
     <img src="/assets/media/takete-maluma.png" alt="TBD" />
@@ -52,4 +53,4 @@ Aditya Shukla, who writes about psychology on his site Cognition Today, sees opp
 
 In addition to writing, Shukla also plays guitar. “Kiki/bouba demonstrates something musicians and artists constantly use,” he said. “They are always understanding the world in abstract and multi-sensorial ways.”
 
-Thinking about the “acoustics” of the two words, and how we describe sensations that are hard to identify, could help us share something previously unexplainable. 
+Thinking about the “acoustics” of the two words, and how we describe sensations that are hard to identify, could help us share something previously unexplainable.

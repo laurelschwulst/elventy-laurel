@@ -1,6 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Personal Voice
+link: https://www.artnews.com/art-in-america/features/personal-voice-63235
 draft: true
 subtitle: essay
 publisher: Art in America
@@ -25,8 +26,7 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
-
+  # - my-website-is-a-shifting-house.md
 ---
 
 To come

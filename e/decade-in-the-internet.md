@@ -1,6 +1,7 @@
 ---
 layout: layouts/e.njk
-title: Decade in the Internet
+title: Ten Colors
+link: https://rhizome.org/editorial/2020/jan/06/laurel-schwulsts-decade-in-internet
 draft: true
 subtitle: list
 publisher: Rhizome
@@ -25,8 +26,7 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
-
+  # - my-website-is-a-shifting-house.md
 ---
 
 To come

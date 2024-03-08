@@ -1,6 +1,7 @@
 ---
 title: My website is a shifting house ...
 title_full: My website is a shifting house next to a river of knowledge. What could yours be?
+link: https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be
 subtitle: essay
 publisher: The Creative Independent
 layout: layouts/e.njk
@@ -10,8 +11,8 @@ date: 2018-05-21
 date_season: Spring 2018
 season: Spring
 collaborator:
-- Meg Miller
-- Ayham Ghraowi
+  - Meg Miller
+  - Ayham Ghraowi
 featured_image: /assets/media/writing-website-flock.png
 type: writing
 medium:
@@ -33,7 +34,7 @@ I teach within art departments at universities, so we learn about the internet's
 
 In class, we make websites. To do this, we learn the elemental markup and code languages of the web—HTML, CSS, and some JavaScript.
 
-However, sometimes after the semester is over, I receive perplexing emails from students asking, "So how do I *actually* make a website?"
+However, sometimes after the semester is over, I receive perplexing emails from students asking, "So how do I _actually_ make a website?"
 
 This sparked my own questioning. "What is a website, anyway?" It's easy to forget. Today there are millions of ways to make a website, and the abundance is daunting. But at its core, a website is still the same as ever before:
 
@@ -41,7 +42,7 @@ A website is a file or bundle of files living on a server somewhere. A server is
 
 Links (rendered default blue and underlined—they're the hypertext "HT" in HTML) are the oxygen of the web. Not all websites have links, but all links connect to other webpages, within the same site or elsewhere.
 
-But my students already know this! So when they ask me about *actually* making a website, they are referring to a website *in the world* ... *today*.
+But my students already know this! So when they ask me about _actually_ making a website, they are referring to a website _in the world_ ... _today_.
 
 It's healthy to acknowledge today's web is much different than the web many of us grew up using. So when they ask how to make a website (despite having already "learned"), they are alluding to the technological friction and social pressures that often come along with creating and maintaining a website in 2018.
 

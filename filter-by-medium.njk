@@ -92,10 +92,11 @@ permalink: "medium/{{ medium | slugify }}/"
             {% else %}
               {% if e.data.subtype == "conversation" %}
               {% else %}
+                <div class="list-item-container">
                 {% if e.data.draft == true %}
-                <div class="list-item draft">
+                <div class="list-item start draft">
                 {% else %}
-                <a href="{{ e.url }}" class="list-item">
+                <a href="{{ e.url }}" class="list-item start">
                 {% endif %}
                 {% if medium == "writing" %}
                   <div class="year-seasons">
@@ -145,8 +146,20 @@ permalink: "medium/{{ medium | slugify }}/"
                 </div>
             {% if e.data.draft == true %}
             </div>
+            {% if e.data.link %}
+              <a class="hyperlink draft" href="{{ e.data.link }}" target="_blank">↗</a>
+            {% else %}
+              <span class="hyperlink">↗</span>
+            {% endif %}
+            </div>
             {% else %}
             </a>
+            {% if e.data.link %}
+              <a class="hyperlink" href="{{ e.data.link }}" target="_blank">↗</a>
+            {% else %}
+              <span class="hyperlink">↗</span>
+            {% endif %}
+            </div>
             {% endif %}
             {% endif %}
             {% endif %}
@@ -163,10 +176,11 @@ permalink: "medium/{{ medium | slugify }}/"
           {% if e.data.medium and e.data.medium.includes(medium) %}
               {% if e.data.subtype == "conversation" %}
                 <!-- start -->
+                <div class="list-item-container">
                 {% if e.data.draft == true %}
-                <div class="list-item draft">
+                <div class="list-item start draft">
                 {% else %}
-                <a href="{{ e.url }}" class="list-item">
+                <a href="{{ e.url }}" class="list-item start">
                 {% endif %}
                 {% if medium == "writing" %}
                   <div class="year-seasons">
@@ -216,8 +230,20 @@ permalink: "medium/{{ medium | slugify }}/"
                 </div>
             {% if e.data.draft == true %}
             </div>
+            {% if e.data.link %}
+              <a class="hyperlink draft" href="{{ e.data.link }}" target="_blank">↗</a>
+            {% else %}
+              <span class="hyperlink">↗</span>
+            {% endif %}
+            </div>
             {% else %}
             </a>
+            {% if e.data.link %}
+              <a class="hyperlink" href="{{ e.data.link }}" target="_blank">↗</a>
+            {% else %}
+              <span class="hyperlink">↗</span>
+            {% endif %}
+            </div>
             {% endif %}
                 <!-- end -->
               {% else %}

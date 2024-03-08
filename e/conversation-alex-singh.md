@@ -1,5 +1,6 @@
 ---
 title: Conversation with Alex Singh
+link: https://www.are.na/editorial/an-unbound-book
 subtitle: conversation
 draft: true
 publisher: Are.na Editorial

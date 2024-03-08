@@ -1,5 +1,6 @@
 ---
 title: Conversation with Cori Olinghouse
+link: https://www.are.na/editorial/introducing-the-are-na-annual-2022
 subtitle: conversation
 draft: true
 publisher: Are.na Annual
@@ -12,6 +13,5 @@ type: writing
 subtype: conversation
 medium:
   - writing
-year: ["2022"]
-hyperlink: https://www.are.na/editorial/introducing-the-are-na-annual-2022
+year: ["2021"]
 ---
