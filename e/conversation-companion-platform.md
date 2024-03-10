@@ -1,7 +1,7 @@
 ---
 title: Conversation with Companion–Platform
 link: https://www.are.na/editorial/the-gift-alchemy-of-the-fava-bean
-subtitle: conversation
+subtitle: “Gift Alchemy” of the Fava Bean
 draft: true
 publisher: Are.na Editorial
 layout: layouts/e.njk

@@ -1,11 +1,14 @@
 ---
-layout: layouts/base.njk
 pagination:
   data: collections.allCollaborators
   size: 1
   alias: collaborator
 permalink: "with/{{ collaborator | slugify }}/"
 ---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
 
 <div id="regular-content">
   
@@ -72,3 +75,5 @@ permalink: "with/{{ collaborator | slugify }}/"
   </script>
 
 </div>
+
+{% endblock %}

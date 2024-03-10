@@ -1,7 +1,7 @@
 ---
 title: Conversation with Cortney Cassidey
 link: https://www.are.na/editorial/courtney-cassidy
-subtitle: conversation
+subtitle: On Homes
 draft: true
 publisher: Are.na Editorial
 layout: layouts/e.njk

@@ -1,7 +1,7 @@
 ---
 title: Conversation with Alex Singh
 link: https://www.are.na/editorial/an-unbound-book
-subtitle: conversation
+subtitle: An Unbound Book
 draft: true
 publisher: Are.na Editorial
 layout: layouts/e.njk
@@ -11,6 +11,10 @@ season: Fall
 # featured_image: /assets/media/
 type: writing
 subtype: conversation
+collaborator:
+  - Cab Broskoski
+  - Megan Pai
+  - Alex Singh
 medium:
   - writing
 year: ["2023"]

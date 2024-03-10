@@ -1,11 +1,14 @@
 ---
-layout: layouts/base.njk
 pagination:
   data: collections.allYears
   size: 1
   alias: year
 permalink: "year/{{ year | slugify }}/"
 ---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
 
 <div id="regular-content">
 
@@ -73,3 +76,5 @@ permalink: "year/{{ year | slugify }}/"
 
 
 </div>
+
+{% endblock %}

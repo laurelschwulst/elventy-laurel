@@ -1,6 +1,7 @@
----
-layout: layouts/base.njk
----
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
 {# 
 {% set currentIndex = -1 %}
 {% for item in collections.everything %}
@@ -326,3 +327,4 @@ END: FOR THE REAL VERSION #}
 
 </div>
 
+{% endblock %}

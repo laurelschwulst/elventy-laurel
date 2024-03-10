@@ -22,6 +22,8 @@ year: ["2019"]
 bottom_title: '<figure style="margin-top: 0;"><img src="/assets/media/leaves.jpg" style="width: 100px; border-radius: 0;"></figure>'
 context: 'This is an adapted mirror of an article which was originally commissioned and published for the comforter company Buffy’s blog, <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">Soft–Space</a> ↗, published on July 9, 2019.'
 footer: 'Special thanks to Carson Salter for asking me to write about this. And to Meg Miller, Toby Shorin, and Dan Brewster for offering insight on previous drafts. Originally published July 2019 on <a href="https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable" target="_blank">Soft–Space</a>, the blog of the comforter company Buffy. Photos by Todd Midler.'
+related:
+  - the-evolving-designs-of-sulki-and-min.md
 ---
 
 When fall arrived, like it does every year, I removed my air conditioner from my window.

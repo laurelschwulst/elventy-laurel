@@ -1,7 +1,7 @@
 ---
 title: Conversation with Damon Zucconi
 link: https://www.are.na/editorial/the-forbidden-zone
-subtitle: conversation
+subtitle: The Forbidden Zone
 draft: true
 publisher: Are.na Editorial
 layout: layouts/e.njk
@@ -11,6 +11,9 @@ season: Spring
 # featured_image: /assets/media/
 type: writing
 subtype: conversation
+collaborator:
+  - Damon Zucconi
+  - Cab Broskoski
 medium:
   - writing
 year: ["2023"]

@@ -1,7 +1,7 @@
 ---
 title: Conversation with Cori Olinghouse
 link: https://www.are.na/editorial/introducing-the-are-na-annual-2022
-subtitle: conversation
+subtitle: Living Archives & Becoming ...
 draft: true
 publisher: Are.na Annual
 layout: layouts/e.njk
@@ -11,6 +11,9 @@ season: Fall
 # featured_image: /assets/media/
 type: writing
 subtype: conversation
+collaborator:
+  - Cori Olinghouse
+  - Meg Miller
 medium:
   - writing
 year: ["2021"]

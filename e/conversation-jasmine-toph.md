@@ -1,7 +1,7 @@
 ---
 title: Conversation with Jasmine Lee & Toph Tucker
 link: https://www.are.na/editorial/restaurant-websites
-subtitle: conversation
+subtitle: On Restaurant Websites
 draft: true
 publisher: Are.na Editorial
 layout: layouts/e.njk

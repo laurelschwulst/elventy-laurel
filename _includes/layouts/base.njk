@@ -1,23 +1,24 @@
----
-site_title: Laurel Schwulst
-title: Laurel Schwulst
-description:
-social_image: /assets/media/fffff2.png
-favicon: /assets/media/fffff2e.png
----
-
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ title }} ... {{ site_title }}</title>
+
+        {% if layout == "layouts/e.njk" %}
+            <title>{{ title }} ... Laurel Schwulst</title>
+            <meta property="og:title" content="{{ title }} ... Laurel Schwulst">
+            <meta property="og:image" content="{{ featured_image }}">
+        {% else %}
+            <title>Laurel Schwulst</title>
+            <meta property="og:title" content="Laurel Schwulst">
+            <meta property="og:image" content="{{ domain }}/assets/media/fffff2.png">
+        {% endif %}
+
         <link rel="stylesheet" href="/assets/css/style.css">
-        <meta property="og:title" content="{{ site_title }} ... {{ title }}">
-        <meta property="og:description" content="{{ description or ' ' }}">
-        <meta property="og:image" content="{{ domain }}{{ social_image | url }}">
+        <meta property="og:description" content="">
+
         <meta property="og:url" content="{{ domain }}{{ page.url }}">
-        <link rel="icon" href="{{ domain }}{{ favicon | url }}" type="image/x-icon" />
+        <link rel="icon" href="{{ domain }}/assets/media/fffff2e.png" type="image/x-icon" />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
@@ -51,12 +52,16 @@ favicon: /assets/media/fffff2e.png
                 </div>
             </div>
             {# <a href="/" style="display: inline-block; height: 1.5em; margin-right: 0.5em" class="no-underline"><img src="/assets/media/fffff2e.png"></a> #}
-            <a href="/" id="home">{{ site_title }}</a>
+            <a href="/" id="home">Laurel Schwulst</a>
             <nav id="top-right">
                 <span id="menu-click">☰</span>
             </nav>
+
+            {# <pre>{{ page | dump }}</pre> #}
         
-        {{ content | safe }}
+        {# {{ content | safe }} #}
+
+        {% block content %}{% endblock %}
 
         <script src="/assets/js/jquery.min.js"></script>
         <script src="/assets/js/script.js"></script>

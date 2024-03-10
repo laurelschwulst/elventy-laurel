@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 pagination:
   data: collections.allWorlds
   size: 1
@@ -7,24 +6,28 @@ pagination:
 permalink: "medium/world/{{ world | slugify }}/"
 ---
 
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
 <div id="regular-content">
   
   <div class="grid">
     <div class="grid-item double">
-      <h1 style="margin-bottom: 0.5em;">
-        <span class="gray">world:</span>
-        {{ world }}
-      </h1>
+        {% set worldData = {} %}
+        {% for person in worlds %}
+          {% if person.name == world %}
+            {% set worldData = person -%}
+          {% endif %}
+        {% endfor %}
+        <figure class="image" class="world">
+            <img src="{{ worldData.featured_image }}">
+        </figure>
     </div>
-    <div class="grid-item">
-      {% set worldData = {} %}
-      {% for person in worlds %}
-        {% if person.name == world %}
-          {% set worldData = person -%}
-        {% endif %}
-      {% endfor %}
-      <p><a href="{{ worldData.link }}" style="border-bottom: 1px solid rgba(0,0,0,0.15)">{{ worldData.link }}</a> ↗</p>
+    <div class="grid-item double-second">
+      <h1>{{ world }}</h1>
       <p>{{ worldData.extended_description | safe }}</p>
+      <p><a href="{{ worldData.link }}" style="border-bottom: 1px solid rgba(0,0,0,0.15)">{{ worldData.link }}</a> ↗</p>
     </div>
   </div>
 
@@ -73,3 +76,5 @@ permalink: "medium/world/{{ world | slugify }}/"
   </script>
 
 </div>
+
+{% endblock %}
