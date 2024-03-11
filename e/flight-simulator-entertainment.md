@@ -4,7 +4,7 @@ hide_on_home: true
 title: Flight Simulator Entertainment
 # draft: true
 subtitle: in-flight entertainment system
-date: 2021-09-26
+date: 2021-07-08
 featured_image: /assets/media/ent00.png
 featured_border: border
 type: project
@@ -62,5 +62,7 @@ hyperlink: flightsimulator.soft.works/entertainment
 ---
 
 Inspired by <a href="/medium/world/flight-simulator">Flight Simulator</a>, this is a specifically-curated in-flight entertainment system, designed for iPad or large touch device.
+
+Originally created for exhibition at Museum of Art Pudong, Shanghai, China, July 8–October 31, 2021. Orchestrated by <a href="https://specialspecial.com">Special Special</a>.
 
 <a href="https://flightsimulator.soft.works/entertainment" target="_blank">Visit project</a> ↗
