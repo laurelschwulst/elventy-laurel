@@ -11,6 +11,6 @@ season: Summer
 type: writing
 subtype: conversation
 medium:
-  - web
+  - writing
 year: ["2017"]
 ---
