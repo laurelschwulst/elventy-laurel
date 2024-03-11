@@ -60,6 +60,6 @@ link: https://flightsimulator.soft.works/entertainment
 hyperlink: flightsimulator.soft.works/entertainment
 ---
 
-Inspired by <a href="/medium/world/flight-simulator">Flight Simulator</a>, this is an in-flight entertainment system, designed for iPad or large touch device.
+Inspired by <a href="/medium/world/flight-simulator">Flight Simulator</a>, this is a specifically-curated in-flight entertainment system, designed for iPad or large touch device.
 
 <a href="https://flightsimulator.soft.works/entertainment" target="_blank">Visit project</a> ↗
