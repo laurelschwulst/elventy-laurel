@@ -108,14 +108,14 @@ $(function () {
 
     if (menuClick.text() === "☰") {
       menuClick.text("×");
-      $("nav#top-right").css("position", "fixed");
+      //   $("nav#top-right").css("position", "fixed");
       menuItself.show();
       homeLink.hide();
       regularContent.addClass("menu-open");
       containerEverything.addClass("menu-open");
     } else {
       menuClick.text("☰");
-      $("nav#top-right").css("position", "absolute");
+      //   $("nav#top-right").css("position", "absolute");
       menuItself.hide();
       homeLink.show();
       regularContent.removeClass("menu-open");
