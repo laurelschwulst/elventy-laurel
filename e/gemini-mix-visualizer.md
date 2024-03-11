@@ -85,7 +85,9 @@ related_projects:
   - seasons-in-pentameter.md
 ---
 
-To showcase typefaces from Sharp Type Foundry, I created an hour long video to accompany a music mix by Ian Kim Judd. Typefaces used include <a href="https://sharptype.co/typefaces/greenstone/">Greenstone</a> and <a href="https://sharptype.co/typefaces/carta-nueva/">Carta Nueva</a>.
+To showcase typefaces from Sharp Type Foundry, I created an hour long video to accompany a music mix by Ian Kim Judd.
+
+Typefaces featured include <a href="https://sharptype.co/typefaces/greenstone/">Greenstone</a> and <a href="https://sharptype.co/typefaces/carta-nueva/">Carta Nueva</a>.
 
 <a href="https://sharptype.co/news/sharp-fm-008-IanKimJudd-gemini-23" target="_blank">More on sharptype.co</a> ↗
 
