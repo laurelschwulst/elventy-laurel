@@ -28,7 +28,7 @@ medium:
   - teaching
 subtype: workshop
 type: project
-year: "2023"
+year: ["2023"]
 season: Summer
 related_projects:
   - how-to-build-a-bird-kite.md
