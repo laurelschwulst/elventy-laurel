@@ -1,5 +1,6 @@
 ---
 layout: layouts/e.njk
+hide_on_home: true
 title: Flight Simulator Entertainment
 # draft: true
 subtitle: in-flight entertainment system
