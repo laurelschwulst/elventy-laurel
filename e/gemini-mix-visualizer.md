@@ -8,7 +8,7 @@ featured_image: /assets/media/gemini09.png
 featured_solar: non-solar
 type: project
 collaborator:
-- Elliott Cost
+  - Elliott Cost
 medium:
   - object
 year: ["2023"]
@@ -43,11 +43,11 @@ media_two_ending:
       type: image
       alt: TBD
       solar: non-solar
-#   - media:
-#       path: /assets/media/gemini12.png
-#       type: image
-#       alt: TBD
-#       solar: non-solar
+  #   - media:
+  #       path: /assets/media/gemini12.png
+  #       type: image
+  #       alt: TBD
+  #       solar: non-solar
   - media:
       path: /assets/media/gemini-vid2.mp4
       type: video
@@ -56,10 +56,10 @@ media_two_ending:
       solar: non-solar
       size: large
 media_three_code: '<div class="module module--video ">
-            <div class="video" style="margin-bottom: 1em;">
-                <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1520823301&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </div>
-        </div>'
+  <div class="video" style="margin-bottom: 1em;">
+  <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1520823301&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+  </div>
+  </div>'
 media_three:
   - media:
       path: /assets/media/gemini06.png
@@ -72,15 +72,14 @@ media_three:
       type: video
       controls: true
       solar: non-solar
-    #   size: large
+      #   size: large
       alt: TBD
 related_projects:
-    - seasons-in-pentameter.md
-
+  - seasons-in-pentameter.md
 ---
 
 To showcase typefaces from Sharp Type Foundry, I created an hour long video to accompany a music mix by Ian Kim Judd.
 
 <a href="https://sharptype.co/news/sharp-fm-008-IanKimJudd-gemini-23" target="_blank">More on sharptype.co</a> ↗
 
-<div class="small-text">Thanks to Elliott Cost, who I adapted energy spheres from. Also to Theodore Jahng, Megan Pai, Peter Pelberg, Chino Kim, and Jason Protell. Guiding quote by C.S. Lewis.</div>
+<div class="small-text">Thanks to Elliott Cost, who I adapted energy spheres from. Also to Theodore Jahng for inviting me to this project. See credits in video for full acknowledgements. Guiding texts are Korean proverb (via Chino Kim) and quote from C.S. Lewis.</div>
