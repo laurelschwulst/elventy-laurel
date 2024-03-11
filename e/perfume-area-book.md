@@ -11,6 +11,8 @@ featured_image: /assets/media/perfume-area-02.jpg
 type: project
 medium:
   - publication
+  - writing
+subtype: book
 world:
   - Perfume Area
 collaborator:

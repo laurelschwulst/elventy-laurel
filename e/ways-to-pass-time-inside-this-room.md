@@ -13,6 +13,8 @@ featured_image: /assets/media/waystopass-cover-cropped.jpg
 type: project
 medium:
   - publication
+  - writing
+subtype: book
 collaborator:
   - Webb Allen
   - Ayami Konishi
