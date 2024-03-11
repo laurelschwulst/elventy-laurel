@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Printed Matter Membership
 subtitle: icons for printedmatter.org
-date: 2013-05-29
+date: 2012-05-29
 featured_image: /assets/media/printed-matter-icons.png
 featured_border: border
 type: project
