@@ -1,6 +1,7 @@
 <div id="table-list">
 
   {% for e in e_all | reverse %}
+      <div class="list-item-container">
     {% if e.data.draft == true %}
       <div class="list-item draft">
     {% else %}
@@ -28,9 +29,20 @@
       </div> #}
     {% if e.data.draft == true %}
       </div>
+      {% if e.data.link %}
+        <a class="hyperlink draft" href="{{ e.data.link }}" target="_blank">↗</a>
+      {% else %}
+        <span class="hyperlink">↗</span>
+      {% endif %}
     {% else %}
       </a>
+      {% if e.data.link %}
+        <a class="hyperlink" href="{{ e.data.link }}" target="_blank">↗</a>
+      {% else %}
+        <span class="hyperlink">↗</span>
+      {% endif %}
     {% endif %}
+    </div>
   {% endfor %}
 
 </div>

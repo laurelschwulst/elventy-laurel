@@ -13,6 +13,7 @@ arena_channel: https://www.are.na/laurel-schwulst/on-eggs
 type: writing
 medium:
   - writing
+subtype: essay
 year: ["2024"]
 bottom_title: '<div style="font-size: 8vw;">🥚</div>'
 context: 'This essay began as a talk at <a href="http://naiveyearly.com">Naive Yearly</a>, a gathering organized by Kristoffer Tjalve. This written version is an adapted mirror of an essay published first in parts on my own newsletter, and then later published in full on <a href="https://naive-yearly.are.na/laurel-schwulst">Are.na Editorial</a> ↗ on March 7, 2024.'
@@ -201,7 +202,7 @@ I turned to the “Egg” page of <i>The Book of Symbols</i> again —
 
 <blockquote class="large-quote" style="margin-bottom: 0;">Alchemy depicted the germ of the egg contained in the yolk as the “sun-point,” the infinitesimally small, invisible “dot” from which all being has its origin. It is also the creative “fire-point” within ourselves, the “soul in the midpoint of the heart,” the quintessence or golden germ “that is set in motion by the hen’s warmth” of our devoted attention.</blockquote><a href="https://www.are.na/block/24612801" class="no-underline" target="_blank"><cite class="after-blockquote">✶✶</cite></a>
 
-<figure>
+<figure class="small">
     <img src="/assets/media/egg-moser.jpg" alt="A futuristic-looking egg, made of metallic silver with different colored jewels inset">
     <figcaption>
         <div><i>Das Osterei</i> by Koloman Moser, 1905</div>

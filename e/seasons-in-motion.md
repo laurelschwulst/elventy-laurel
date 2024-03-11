@@ -1,7 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Seasons in Motion
-subtitle: essay on process
+subtitle: essay
 publisher: Occupant Fonts
 date: 2022-05-09
 season: Spring
@@ -10,14 +10,14 @@ type: writing
 medium:
   - writing
   - teaching
+subtype: publication
 year: ["2022"]
 collaborator:
   - Marie Otsuka
-context: 'This is an adapted mirror of something I originally self-published on May 9, 2022 to support the launch of Seasons in Pentameter, a project I designed and orchestrated with Occupant Fonts.'
+context: "This is an adapted mirror of something I originally self-published on May 9, 2022 to support the launch of Seasons in Pentameter, a project I designed and orchestrated with Occupant Fonts."
 footer: 'Thanks to <a href="http://motsuka.com" target="_blank">Marie Otsuka</a> and <a href="https://www.tiger.exposed" target="_blank">Tiger Dingsun</a> for collaborating on <a href="http://pentad.world" target="_blank">pentad.world</a> with me.'
 related_projects:
-    - seasons-in-pentameter.md
-
+  - seasons-in-pentameter.md
 ---
 
 <!-- May 9, 2022
@@ -261,8 +261,6 @@ I enjoyed learning that the inspiration for Pentameter began with the "[Poetry i
 <p>
   Circling back to “Poetry in Motion,” the 72 seasons enchants us and then helps us be attuned to the fact that the world is constantly in motion; to pay attention to the smaller changes as the earth revolves — how all species depend upon it.
 </p>
-
-
 
 <figure class="large-image">
   <!-- <img src="/assets/media/seasons19.png" alt="a screenshot of 72 microseasons displayed in Japanese with white text on black background as a 3D rotunda. The 24 sekki are above them, also in a cyclical formation but more spread out." /> -->

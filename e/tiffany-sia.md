@@ -10,6 +10,7 @@ type: project
 medium:
   - website
 hyperlink: tiffanysia.com
+link: http://tiffanysia.com
 year: ["2022"]
 related_projects:
   - artists-space.md

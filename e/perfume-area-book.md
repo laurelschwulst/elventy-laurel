@@ -62,10 +62,12 @@ media_three:
       solar: non-solar
       alt: TBD
       caption: Photos by Sydney Shen
-# related_projects: [flight-simulator-pins.md]
+related_projects:
+  - serpentine-tam-dao.md
+  - perfume-area-totokaelo.md
 ---
 
-Perfume Area is a collaborative fragrance review project. Its book contains thirty-six prose poetry fragrance reviews. 4.25 × 7", 84 pages, perfect bound with gatefold map and bookmark. Published by Ambient Works in an edition of 300 and designed by <a href="/with/bryce-wilner" class="collaborator">Bryce Wilner</a>. In the collection of the Yale University Library. Project in collaboration with <a href="/with/sydney-shen" class="collaborator">Sydney Shen</a>.
+<a href="/medium/world/perfume-area">Perfume Area</a> is a collaborative fragrance review project, written and directed in collaboration with <a href="/with/sydney-shen" class="collaborator">Sydney Shen</a>. Its book contains thirty-six prose poetry fragrance reviews. 4.25 × 7", 84 pages, perfect bound with gatefold map and bookmark. Published by Ambient Works in an edition of 300 and designed by <a href="/with/bryce-wilner" class="collaborator">Bryce Wilner</a>. In the collection of the Yale University Library.
 
 [Visit project website](https://perfume-area.com) ↗
 

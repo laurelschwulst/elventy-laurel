@@ -13,7 +13,7 @@ permalink: "medium/world/{{ world | slugify }}/"
 <div id="regular-content">
   
   <div class="grid">
-    <div class="grid-item double">
+    <div class="grid-item double world-icon">
         {% set worldData = {} %}
         {% for person in worlds %}
           {% if person.name == world %}
@@ -24,8 +24,13 @@ permalink: "medium/world/{{ world | slugify }}/"
             <img src="{{ worldData.featured_image }}">
         </figure>
     </div>
-    <div class="grid-item double-second">
-      <h1>{{ world }}</h1>
+    <div class="grid-item double-second world-about">
+      <h1>
+        <figure class="image world mobile">
+            <img src="{{ worldData.featured_image }}">
+        </figure>
+        {{ world }}
+      </h1>
       <p>{{ worldData.extended_description | safe }}</p>
       <p><a href="{{ worldData.link }}" style="border-bottom: 1px solid rgba(0,0,0,0.15)">{{ worldData.link }}</a> ↗</p>
     </div>

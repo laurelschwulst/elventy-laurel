@@ -1,15 +1,18 @@
 ---
 layout: layouts/e.njk
-title: "Graphic Design: Ultralight"
+title: "Graphic Design: Link (“Ultralight”)"
 draft: true
-subtitle: class
+subtitle: class (undergraduate)
 publisher: Princeton University
 date: 2024-01-31
 featured_image: /assets/media/
 type: project
 medium:
   - teaching
+subtype: class
 year: ["2024"]
+season: Spring
+date_season: Spring 2024
 media_two_beginning:
   # - media:
   #     path: /assets/media/ultralight-seal.png
@@ -22,6 +25,4 @@ related_projects:
 collaborator:
   - Austin Wade Smith
   - Weiyi Li
-
 ---
-

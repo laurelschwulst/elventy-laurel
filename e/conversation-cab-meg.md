@@ -1,9 +1,9 @@
 ---
-title: Conversation with Cab Broskoski & Meg Miller
+title: (Gift) Shop Talk
 link: https://www.are.na/editorial/gift-shop-talk
-subtitle: (Gift) Shop Talk
+subtitle: Conversation with Cab & Meg
 draft: true
-publisher: Are.na Editorial
+publisher: Are.na Editorial, Gift Series
 layout: layouts/e.njk
 date: 2022-10-25
 date_season: Fall 2022

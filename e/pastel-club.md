@@ -11,6 +11,7 @@ featured_image: /assets/media/
 type: writing
 medium:
   - writing
+subtype: essay
 year: ["2013"]
 media_one:
   # - media:

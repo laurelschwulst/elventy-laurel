@@ -14,8 +14,8 @@ world:
 medium:
   - publication
 collaborator:
-- Soft
-- Aarati Akkapeddi
+  - Soft
+  - Aarati Akkapeddi
 year: ["2019"]
 media_one:
   - media:
@@ -43,8 +43,9 @@ media_two_ending:
   - media:
       path: /assets/media/fs-left-03.png
       type: image
-related_projects: [flight-simulator-pins.md]
-
+related_projects:
+  - flight-simulator-pins.md
+  - the-cuteness-of-white-noise.md
 ---
 
 Flight Simulator is an “ode to airplane mode” and an app for iOS and Android. Users put their phone into airplane mode for the duration of real flights in order to “travel” to this location and earn pins for each airport visited. Flight Simulator is a collaboration with <a href="/with/soft" class="collaborator">Soft</a>. Pins are generative algorithmic artwork by <a href="/with/aarati-akkapeddi" class="collaborator">Aarati Akkapeddi</a>.

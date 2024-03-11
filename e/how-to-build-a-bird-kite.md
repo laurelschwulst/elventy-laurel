@@ -3,20 +3,22 @@ layout: layouts/e.njk
 title: How to Build a Bird Kite
 selected: true
 selected_section: true
-subtitle: interactive feature
+subtitle: tutorial film & essay
 publisher: The New York Times
 description: Testing 123
 date: 2021-05-21
 collaborator:
-- Tracy Ma
-- Austin Wade Smith
-- Meg Miller
-- Elliott Cost
+  - Tracy Ma
+  - Austin Wade Smith
+  - Meg Miller
+  - Elliott Cost
 featured_image: /assets/media/kite.png
 type: project
+season: Spring
 medium:
   - publication
   - teaching
+subtype: publication
 year: ["2021"]
 media_two_beginning:
   - media:
@@ -38,11 +40,11 @@ media_three:
       type: image
       alt: TBD
       # caption: Still from video by Elliott Cost
-#   - media:
-#       path: /assets/media/diagram1.png
-#       type: image
-#       size: medium
-#       alt: TBD
+  #   - media:
+  #       path: /assets/media/diagram1.png
+  #       type: image
+  #       size: medium
+  #       alt: TBD
   - media:
       path: /assets/media/kite-03.png
       type: image
@@ -96,7 +98,7 @@ media_three:
 related_projects:
   - dia-beacon-kite-workshop.md
   - kiki-bouba-and-beyond.md
-
+link: https://www.nytimes.com/interactive/2021/05/19/style/how-to-build-a-bird-kite.html
 ---
 
 Craft tutorial and meditation on how to build a kite in interactive story format for The New York Times.

@@ -1,9 +1,9 @@
 ---
-title: Conversation with Alex Singh
+title: An Unbound Book
 link: https://www.are.na/editorial/an-unbound-book
-subtitle: An Unbound Book
+subtitle: Conversation with Alex Singh
 draft: true
-publisher: Are.na Editorial
+publisher: Are.na Editorial, Gift Series
 layout: layouts/e.njk
 date: 2023-11-02
 date_season: Fall 2023

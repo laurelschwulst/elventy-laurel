@@ -1,7 +1,7 @@
 ---
-title: Interview with Teal Process & Company
+title: Teal Process & Company on the future of work ...
 link: https://thecreativeindependent.com/people/teal-process-and-company-on-the-future-of-work-learning-time-and-space
-subtitle: On the future of work, learning ...
+subtitle: Conversation with Teal
 draft: true
 publisher: The Creative Independent
 layout: layouts/e.njk

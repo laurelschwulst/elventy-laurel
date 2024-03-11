@@ -1,9 +1,9 @@
 ---
-title: Conversation with Companion–Platform
+title: The “Gift Alchemy” of the Fava Bean
 link: https://www.are.na/editorial/the-gift-alchemy-of-the-fava-bean
-subtitle: “Gift Alchemy” of the Fava Bean
+subtitle: Conversation with C–P
 draft: true
-publisher: Are.na Editorial
+publisher: Are.na Editorial, Gift Series
 layout: layouts/e.njk
 date: 2023-07-25
 date_season: Summer 2023

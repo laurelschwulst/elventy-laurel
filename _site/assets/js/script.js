@@ -1,27 +1,27 @@
-console.log('hi');
+console.log("hi");
 
 // Back to top show or hide depending on page height
 
-window.addEventListener('load', function() {
+window.addEventListener("load", function () {
   function checkScroll() {
     var bodyHeight = Math.max(
-        document.body.scrollHeight, 
-        document.body.offsetHeight, 
-        document.documentElement.clientHeight, 
-        document.documentElement.scrollHeight, 
-        document.documentElement.offsetHeight
+      document.body.scrollHeight,
+      document.body.offsetHeight,
+      document.documentElement.clientHeight,
+      document.documentElement.scrollHeight,
+      document.documentElement.offsetHeight
     );
 
     var viewportHeight = window.innerHeight;
 
     // If body height is greater than viewport height, show the back-to-top button
     if (bodyHeight > viewportHeight) {
-        document.getElementById('back-to-top').style.display = 'flex';
+      document.getElementById("back-to-top").style.display = "flex";
     }
     // Otherwise, hide the back-to-top button and add class to footer
     else {
-        document.getElementById('back-to-top').style.display = 'none';
-        document.getElementById('official-footer').classList.add('bottom');
+      document.getElementById("back-to-top").style.display = "none";
+      document.getElementById("official-footer").classList.add("bottom");
     }
   }
 
@@ -29,16 +29,16 @@ window.addEventListener('load', function() {
   checkScroll();
 
   // Check when the window is resized
-  window.addEventListener('resize', checkScroll);
+  window.addEventListener("resize", checkScroll);
 });
 
 // window.addEventListener('DOMContentLoaded', function() {
 //   // Get the height of the body and the viewport
 //   var bodyHeight = Math.max(
-//       document.body.scrollHeight, 
-//       document.body.offsetHeight, 
-//       document.documentElement.clientHeight, 
-//       document.documentElement.scrollHeight, 
+//       document.body.scrollHeight,
+//       document.body.offsetHeight,
+//       document.documentElement.clientHeight,
+//       document.documentElement.scrollHeight,
 //       document.documentElement.offsetHeight
 //   );
 //   console.log("bodyheight: " + bodyHeight);
@@ -59,7 +59,20 @@ window.addEventListener('load', function() {
 
 // Function to get the current date in the format "February 8, 2024"
 function getCurrentDate() {
-  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   const currentDate = new Date();
   const month = months[currentDate.getMonth()];
   const day = currentDate.getDate();
@@ -82,33 +95,31 @@ const onElement = document.getElementById("on");
 // }
 
 $(function () {
+  // $('#menu-click').click(function(){
+  //     $('#menu-itself').toggle();
+  // });
 
-    // $('#menu-click').click(function(){
-    //     $('#menu-itself').toggle();
-    // });
+  $("#menu-click").click(function () {
+    var menuClick = $(this);
+    var menuItself = $("#menu-itself");
+    var homeLink = $("a#home");
+    var regularContent = $("#regular-content");
+    var containerEverything = $("#container-everything");
 
-    $('#menu-click').click(function(){
-
-        var menuClick = $(this);
-        var menuItself = $('#menu-itself');
-        var homeLink = $('a#home');
-        var regularContent = $('#regular-content');
-        var containerEverything = $('#container-everything');
-
-        if (menuClick.text() === "☰") {
-            menuClick.text("×");
-            menuItself.show();
-            homeLink.hide();
-            regularContent.addClass('menu-open');
-            containerEverything.addClass('menu-open');
-        } else {
-            menuClick.text("☰");
-            menuItself.hide();
-            homeLink.show();
-            regularContent.removeClass('menu-open');
-            containerEverything.removeClass('menu-open');
-        }
-
-    });
-
+    if (menuClick.text() === "☰") {
+      menuClick.text("×");
+      $("nav#top-right").css("position", "fixed");
+      menuItself.show();
+      homeLink.hide();
+      regularContent.addClass("menu-open");
+      containerEverything.addClass("menu-open");
+    } else {
+      menuClick.text("☰");
+      $("nav#top-right").css("position", "absolute");
+      menuItself.hide();
+      homeLink.show();
+      regularContent.removeClass("menu-open");
+      containerEverything.removeClass("menu-open");
+    }
+  });
 });

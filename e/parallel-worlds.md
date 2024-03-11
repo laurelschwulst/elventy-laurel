@@ -14,6 +14,7 @@ type: writing
 medium:
   - writing
   - teaching
+subtype: publication
 year: ["2014"]
 context: "This is an adapted mirror of an essay written for <i>Art in America</i> originally published in the October 2014 print edition."
 footer: "Thanks to Matthew Shen Goodman and Will Smith for editing."

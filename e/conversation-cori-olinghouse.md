@@ -1,7 +1,7 @@
 ---
-title: Conversation with Cori Olinghouse
+title: Living Archives & Becoming Otherwise
 link: https://www.are.na/editorial/introducing-the-are-na-annual-2022
-subtitle: Living Archives & Becoming ...
+subtitle: Conversation with C. Olinghouse
 draft: true
 publisher: Are.na Annual
 layout: layouts/e.njk

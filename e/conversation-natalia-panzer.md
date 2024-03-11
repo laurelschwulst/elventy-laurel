@@ -1,9 +1,9 @@
 ---
-title: Conversation with Natalia Panzer
+title: On Refresh Gallery
 link: https://www.are.na/editorial/natalia-panzer
-subtitle: On Refresh Gallery
+subtitle: Conversation with Natalia Panzer
 draft: true
-publisher: Are.na Editorial
+publisher: Are.na Editorial, Kitchen Series
 layout: layouts/e.njk
 date: 2018-05-22
 date_season: Spring 2018

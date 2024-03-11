@@ -5,7 +5,7 @@ selected: true
 selected_section: true
 subtitle: book of ideas
 world:
-- Flight Simulator
+  - Flight Simulator
 publisher: Are.na Gift Shop
 date: 2019-07-28
 featured_image: /assets/media/waystopass-cover-cropped.jpg
@@ -13,11 +13,10 @@ featured_image: /assets/media/waystopass-cover-cropped.jpg
 type: project
 medium:
   - publication
-  - object
 collaborator:
-- Webb Allen
-- Ayami Konishi
-- pe hu
+  - Webb Allen
+  - Ayami Konishi
+  - pe hu
 year: ["2019"]
 # media_one:
 #   - media:
@@ -66,14 +65,13 @@ media_three:
 #       size: extra-large
 #       alt: TBD
 related_projects:
-    - arena-gift-shop.md
-    - flight-simulator-osaka.md
-
+  - arena-gift-shop.md
+  - flight-simulator-osaka.md
 ---
 
-This book contains ideas for how to spend time inside a room that might also be an airplane. Originally created the summer before the pandemic, this prescient guide shares ideas to stay sane and have fun inside a confined area — alone, together, or alone & together. 
+This book contains ideas for how to spend time inside a room that might also be an airplane. Originally created the summer before the pandemic, this prescient guide shares ideas to stay sane and have fun inside a confined area — alone, together, or alone & together.
 
-Published by the Are.na Gift Shop, Fall 2022, in an edition of 177, 6.93 x 9.85 inches (B5), 64 pages. Riso printed in Brooklyn by TXTBooks. 
+Published by the Are.na Gift Shop, Fall 2022, in an edition of 177, 6.93 x 9.85 inches (B5), 64 pages. Riso printed in Brooklyn by TXTBooks.
 
 The book was originally orchestrated by Laurel Schwulst in concert with Webb Allen (co-writer), Ayami Konishi (illustrations), pal (translator), and pe hu (supporter).
 

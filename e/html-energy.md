@@ -10,8 +10,10 @@ type: project
 collaborator:
   - Elliott Cost
 medium:
-  - website
+  - direction
 year: ["2019"]
+hyperlink: html.energy
+link: http://html.energy
 media_two_beginning:
   - media:
       path: /assets/media/html-02.png

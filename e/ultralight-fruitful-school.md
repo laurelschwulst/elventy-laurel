@@ -6,10 +6,13 @@ subtitle: workshop
 publisher: Fruitful School
 date: 2024-01-14
 featured_image: /assets/media/ultralight-seal.png
+link: https://fruitful.school/workshops/ultralight
 type: project
 medium:
   - teaching
+subtype: workshop
 year: ["2024"]
+season: Winter
 media_two_beginning:
   - media:
       path: /assets/media/ultralight-seal.png
@@ -22,11 +25,10 @@ related_projects:
 collaborator:
   - Marie Otsuka
   - Benjamin Earl
-
 ---
 
 In “Ultralight: Lightweight Websites in Time & Place,” we invite artists, designers, writers, programmers, and anyone else interested to explore websites from lightweight perspectives. Participants will use HTML, CSS, sometimes JavaScript, and sometimes some physical computing to create lightweight websites that share writing, consider time as a medium, and relate to place through “coding in situ.”
 
-This three-week workshop (January 2024) is led by by Laurel Schwulst with guest lectures & workshops by Marie Otsuka and Benjamin Earl. Each weekly session includes lectures, demonstrations, working time, and dialogue. Participants will explore various approaches, integrated with artistic practice, towards creating a more lightweight, accessible, and sustainable web. 
+This three-week workshop (January 2024) is led by by Laurel Schwulst with guest lectures & workshops by Marie Otsuka and Benjamin Earl. Each weekly session includes lectures, demonstrations, working time, and dialogue. Participants will explore various approaches, integrated with artistic practice, towards creating a more lightweight, accessible, and sustainable web.
 
 <a href="https://fruitful.school/workshops/ultralight" target="_blank">Visit workshop's page</a> ↗

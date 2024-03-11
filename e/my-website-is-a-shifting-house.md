@@ -18,6 +18,7 @@ type: writing
 medium:
   - writing
   - teaching
+subtype: publication
 year: ["2018"]
 context: 'This is an adapted mirror of an essay which was originally commissioned and published for <a href="https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/" target="_blank">The Creative Independent</a> ↗ on May 21, 2018.<br><br>Since publishing, this essay has become required reading in many design syllabi worldwide and has been translated into multiple languages.'
 footer: 'Special thanks to <a href="/with/meg-miller" class="collaborator">Meg Miller</a> and Ayham Ghraowi for suggesting edits. Originally published on <a href="https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/" target="_blank">The Creative Independent</a> on May 21, 2018.'

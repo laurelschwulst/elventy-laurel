@@ -1,9 +1,9 @@
 ---
-title: Conversation with Elliott Cost
+title: On Gossip's Web
 link: https://www.are.na/editorial/gossips-web
-subtitle: On Gossip's Web
+subtitle: Conversation with Elliott Cost
 draft: true
-publisher: Are.na Editorial
+publisher: Are.na Editorial, Kitchen Series
 layout: layouts/e.njk
 date: 2018-04-19
 date_season: Spring 2018

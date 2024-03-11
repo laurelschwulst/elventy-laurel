@@ -2,6 +2,7 @@
 layout: layouts/e.njk
 title: When All My Friends are On At Once
 draft: true
+selected_section: true
 subtitle: website anthology
 publisher: When All My Friends are On At Once
 date: 2013-12-26
@@ -9,7 +10,10 @@ featured_image: /assets/media/
 type: project
 medium:
   - website
+collaborator:
+  - Gene McHugh
 hyperlink: allmyfriendsatonce.com
+link: http://allmyfriendsatonce.com
 year: ["2013"]
 media_one:
   # - media:
@@ -25,8 +29,7 @@ media_two_ending:
   #     alt: TBD
   #     caption: Inspirations for spiral identity
 related_projects:
-    # - my-website-is-a-shifting-house.md
-
+  # - my-website-is-a-shifting-house.md
 ---
 
 To come

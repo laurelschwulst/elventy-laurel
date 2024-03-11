@@ -131,6 +131,19 @@ END: FOR THE REAL VERSION #}
                 {% endif %}
             {% endfor %}
             {{ subtitle }}
+            
+            {# <br>
+            {% for m in medium %}
+                {% if m == "talk" %}
+                    {% if talk_arena %}
+                        <a href="{{ talk_arena }}" target="_blank" class="small-link">✶✶</a>
+                    {% endif %}
+                    {% if talk_video %}
+                        <a href="{{ talk_video }}" target="_blank" class="small-link" style="vertical-align: 0.08em; display: inline-block;">◼</a>
+                    {% endif %}
+                {% endif %}
+            {% endfor %} #}
+
         </div>
         <div class="grid-item gray" style="margin-top: 1em;">
             {% if "press" in medium %}

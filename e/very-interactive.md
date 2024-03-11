@@ -3,15 +3,17 @@ layout: layouts/e.njk
 title: Very Interactive
 selected_section: true
 draft: true
-subtitle: living resource for teaching
+subtitle: living resource
 date: 2013-10-30
 featured_image: /assets/media/very-interactive-1.png
 featured_border: border
 type: project
-publisher: Self-Published
+publisher: Laurel Schwulst
 medium:
   - teaching
+subtype: other
 hyperlink: veryinteractive.net
+link: http://veryinteractive.net
 year: ["2013"]
 media_one:
   - media:
@@ -49,7 +51,6 @@ media_two_ending:
 #         size: small
 related_projects:
   # - alt-text-as-poetry.md
-
 ---
 
 Very Interactive is a website that serves as a living resource generated through my ongoing teaching practice. It archives materials for web visitors and students past, present, & future.

@@ -1,9 +1,9 @@
 ---
-title: Conversation with Damon Zucconi
+title: The Forbidden Zone
 link: https://www.are.na/editorial/the-forbidden-zone
-subtitle: The Forbidden Zone
+subtitle: Conversation with Damon Zucconi
 draft: true
-publisher: Are.na Editorial
+publisher: Are.na Editorial, Gift Series
 layout: layouts/e.njk
 date: 2023-03-23
 date_season: Spring 2023

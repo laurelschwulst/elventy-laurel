@@ -10,5 +10,6 @@ type: project
 medium:
   - website
 hyperlink: malieacroy.com
+link: http://malieacroy.com
 year: ["2022"]
 ---

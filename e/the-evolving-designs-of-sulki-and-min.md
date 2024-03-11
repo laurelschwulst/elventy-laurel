@@ -12,6 +12,7 @@ featured_image: /assets/media/writing-sulki-min-invisibility3.jpg
 type: writing
 medium:
   - writing
+subtype: essay
 year: ["2017"]
 context: 'This is an adapted mirror of an article orginally published on <a href="https://www.artnews.com/art-in-america/features/the-evolving-designs-of-sulki-min-60065" target="_blank">Art in America</a> ↗ on August 28, 2017.'
 footer: 'Special thanks to Brian Droitcour for asking me to write this and offering edits. And to Sulki & Min, whose <a href="https://web.archive.org/web/20171026223303/http://www.sulki-min.com/wp/">background noise</a> from their website in 2017 has been represented on this very page.'

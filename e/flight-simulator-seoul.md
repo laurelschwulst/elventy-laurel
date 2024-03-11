@@ -4,7 +4,7 @@ title: Flight Simulator in Seoul
 selected: true
 selected_section: true
 world:
-- Flight Simulator
+  - Flight Simulator
 subtitle: exhibition at archive bomm
 publisher: archive bomm
 date: 2019-08-16
@@ -13,14 +13,13 @@ type: project
 medium:
   - exhibition
 collaborator:
-- archive bomm
-- Min Guhong
+  - archive bomm
+  - Min Guhong
 year: ["2019"]
 media_two_beginning:
   - media:
-      path: /assets/media/flight-sim-seoul-00.png
+      path: /assets/media/flight-sim-seoul-poster.jpeg
       type: image
-      border: border
       alt: TBD
 media_two_ending:
   - media:
@@ -46,9 +45,10 @@ media_two_ending:
       size: small
       caption: Sleeping passengers
   - media:
-      path: /assets/media/flight-sim-seoul-poster.jpeg
+      path: /assets/media/flight-sim-seoul-00.png
       type: image
       alt: TBD
+      border: border
   # - media:
   #     path: /assets/media/flight-sim-seoul-11.jpg
   #     type: image
@@ -77,7 +77,7 @@ media_three:
       type: image
       size: small
       alt: TBD
-      caption: 'Reflection from passenger Hyerim Kim'
+      caption: "Reflection from passenger Hyerim Kim"
   # - media:
   #     path: /assets/media/flight-sim-seoul-03.jpg
   #     type: image
@@ -101,7 +101,6 @@ related_projects:
   - flight-simulator-pins.md
   - ways-to-pass-time-inside-this-room.md
   - the-cuteness-of-white-noise.md
-
 ---
 
 Exhibition of Flight Simulator at archive bomm in Seoul, August 2019. The exhibition closing was the duration of a red eye flight from Seoul to New York, lasting from evening until morning the next day — a "sleepover" flight in the gallery for eight passengers.

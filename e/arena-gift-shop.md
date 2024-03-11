@@ -4,17 +4,17 @@ title: Are.na Gift Shop
 selected: true
 selected_section: true
 # subtitle: gifts, conversations, events
-subtitle: Gift shop for Are.na, "What can a gift be?"
+subtitle: Gift shop, "What can a gift be?"
 publisher: Are.na
 collaborator:
-- Cab Broskoski
-- Meg Miller
-- Daniel Pianetti
+  - Cab Broskoski
+  - Meg Miller
+  - Daniel Pianetti
 date: 2022-10-09
 featured_image: /assets/media/catalogue-6up.png
 type: project
 medium:
-  - creative direction
+  - direction
 year: ["2022"]
 media_one:
   - media:
@@ -22,11 +22,10 @@ media_one:
       type: image
       alt: TBD
 related_projects:
-    - ways-to-pass-time-inside-this-room.md
-
+  - ways-to-pass-time-inside-this-room.md
 ---
 
-“A gift shop is a store primarily selling souvenirs, memorabilia, and other items relating to a particular topic or theme.” 
+“A gift shop is a store primarily selling souvenirs, memorabilia, and other items relating to a particular topic or theme.”
 
 — Wikipedia page for “<a href="https://en.wikipedia.org/wiki/Gift_shop" target="_blank">Gift Shop</a>”
 

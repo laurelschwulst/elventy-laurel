@@ -1,6 +1,6 @@
 ---
-title: Conversation with Tracy Ma
-subtitle: Pattern Recognition
+title: Pattern Recognition
+subtitle: Conversation with Tracy Ma
 draft: true
 publisher: Are.na Annual
 layout: layouts/e.njk

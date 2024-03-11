@@ -10,5 +10,6 @@ type: project
 medium:
   - website
 hyperlink: theportal.place
+link: http://portal.place
 year: ["2021"]
 ---

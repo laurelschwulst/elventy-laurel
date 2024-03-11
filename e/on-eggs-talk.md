@@ -8,6 +8,7 @@ date: 2023-08-11
 publisher: Naive Yearly
 location: Copengagen, Denmark
 venue: National Film School of Denmark
+talk_arena: https://www.are.na/laurel-schwulst/on-eggs
 media_two_beginning:
   - media:
       path: /assets/media/eggs-talk.jpg
@@ -25,7 +26,6 @@ year:
 arena_channel: https://www.are.na/laurel-schwulst/on-eggs
 related_projects:
   - on-eggs.md
-
 ---
 
 <div class="dont-break">

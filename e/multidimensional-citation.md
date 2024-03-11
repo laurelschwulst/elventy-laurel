@@ -11,6 +11,7 @@ link: https://www.servinglibrary.org/journal/17/multidimensional-citation
 type: writing
 medium:
   - writing
+subtype: essay
 year: ["2022"]
 collaborators:
   - Mindy Seu
