@@ -1,7 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Seasons in Motion
-subtitle: essay
+subtitle: essay on process
 publisher: Occupant Fonts
 date: 2022-05-09
 season: Spring
@@ -10,7 +10,9 @@ type: writing
 medium:
   - writing
   - teaching
-subtype: publication
+subtype:
+  - essay
+  - publication
 year: ["2022"]
 collaborator:
   - Marie Otsuka

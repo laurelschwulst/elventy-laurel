@@ -1,7 +1,7 @@
 ---
 title: Parallel Worlds
 hide_on_home: true
-subtitle: essay
+subtitle: "essay on “design fiction”"
 publisher: Art in America
 layout: layouts/e.njk
 date: 2014-10-01
@@ -14,7 +14,9 @@ type: writing
 medium:
   - writing
   - teaching
-subtype: publication
+subtype:
+  - essay
+  - publication
 year: ["2014"]
 context: "This is an adapted mirror of an essay written for <i>Art in America</i> originally published in the October 2014 print edition."
 footer: "Thanks to Matthew Shen Goodman and Will Smith for editing."

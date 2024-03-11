@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: Personal Voice
 link: https://www.artnews.com/art-in-america/features/personal-voice-63235
 draft: true
-subtitle: essay on design as fiction
+subtitle: essay on institutional identity
 publisher: Art in America
 date: 2017-01-26
 season: Winter
