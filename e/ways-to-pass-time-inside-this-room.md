@@ -6,7 +6,7 @@ selected_section: true
 subtitle: book of ideas
 world:
   - Flight Simulator
-publisher: Are.na Gift Shop
+publisher: Are.na
 date: 2019-07-28
 featured_image: /assets/media/waystopass-cover-cropped.jpg
 # featured_image: /assets/media/waystopass-sun-1a-cover.jpg

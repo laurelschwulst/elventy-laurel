@@ -37,6 +37,7 @@ media_two_ending:
 related_projects:
   - on-eggs-talk.md
   - wildness-knows-the-score.md
+  - perfume-area-totokaelo.md
 ---
 
 It was a mysterious beginning, full of potential —

@@ -46,6 +46,7 @@ media_three:
       alt: TBD
 related_projects:
   - perfume-area-book.md
+  - on-eggs.md
 ---
 
 For Totokaelo × Perfume Area: Four Fragrances, <a href="/medium/world/perfume-area">Perfume Area</a> (Laurel Schwulst & Sydney Shen) presented four new reviews, also printed on silk handkerchiefs, at Totokaelo's New York store (190 Bowery) on Saturday, December 2, 2017.

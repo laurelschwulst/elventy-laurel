@@ -1,8 +1,8 @@
 ---
 layout: layouts/e.njk
-title: Rite of Access
+title: "left gallery: Rite of Access"
 draft: true
-subtitle: exhibition by left gallery at Stroom Den Haag
+subtitle: exhibition at Stroom den Haag
 date: 2019-10-29
 # featured_image: /assets/media/sticker-key.jpg
 type: project
