@@ -188,7 +188,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "essay" %}
+              {% if "essay" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
@@ -273,7 +273,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "conversation" %}
+              {% if "conversation" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
@@ -359,7 +359,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "book" %}
+              {% if "book" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
@@ -445,7 +445,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "class" %}
+              {% if "class" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
@@ -502,7 +502,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "workshop" %}
+              {% if "workshop" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
@@ -559,7 +559,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "publication" %}
+              {% if "publication" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
@@ -616,7 +616,7 @@ permalink: "medium/{{ medium | slugify }}/"
 
         {% for e in collections.all | reverse %}
           {% if e.data.medium and e.data.medium.includes(medium) %}
-              {% if e.data.subtype == "other" %}
+              {% if "other" in e.data.subtype %}
                 <!-- start -->
                 <div class="list-item-container">
                 {% if e.data.draft == true %}
