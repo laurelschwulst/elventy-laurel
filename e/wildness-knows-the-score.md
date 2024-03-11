@@ -1,7 +1,7 @@
 ---
 title: Wildness Knows the Score
 link: https://www.are.na/editorial/the-wildness-knows-the-score
-subtitle: essay
+subtitle: essay on collection
 selected: true
 selected_section: true
 publisher: Are.na Editorial

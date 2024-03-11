@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: Pastel Club
 link: https://allmyfriendsatonce.com/#50
 draft: true
-subtitle: essay
+subtitle: essay on memory
 publisher: When All My Friends Are On At Once
 date: 2013-12-14
 season: Fall

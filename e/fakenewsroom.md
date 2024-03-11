@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Fake Newsroom
 draft: true
-subtitle: website for gallery
+subtitle: website for special project
 publisher: Minnesota Street Foundation
 date: 2017-03-12
 # featured_image: /assets/media/artists-space-01.png

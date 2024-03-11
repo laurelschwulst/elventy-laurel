@@ -1,6 +1,6 @@
 ---
 title: Kiki, Bouba, and Beyond
-subtitle: article
+subtitle: essay on phenomenon
 selected_section: true
 link: https://www.nytimes.com/interactive/2023/06/28/arts/kiki-bouba-effect.html
 publisher: The New York Times

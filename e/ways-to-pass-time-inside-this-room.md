@@ -75,9 +75,9 @@ Published by the Are.na Gift Shop, Fall 2022, in an edition of 177, 6.93 x 9.85 
 
 The book was originally orchestrated by Laurel Schwulst in concert with Webb Allen (co-writer), Ayami Konishi (illustrations), pal (translator), and pe hu (supporter).
 
-It began in a 2019 residency at pe hu in Osaka, Japan, which began with an exhibition of Flight Simulator. There was also an exhibition by Green People (Elliott Cost, Kazuma Sasajima, and Laurel Schwulst).
+It began in a 2019 residency at pe hu in Osaka, Japan, which began with an exhibition of [Flight Simulator](/medium/world/flight-simulator). There was also an exhibition by Green People (Elliott Cost, Kazuma Sasajima, and Laurel Schwulst).
 
-[Visit on the Are.na Gift Shop](https://store.are.na/products/ways-to-pass-time-inside-this-room) ↗
-[Learn about its origins on Are.na Editorial](https://www.are.na/editorial/gift-shop-talk) ↗
-[Visit on Wendy's Subwway](https://libby.ecuad.ca/publishingthepresent/catalog/ways-to-pass-time-inside-this-room-%e3%81%93%e3%81%ae%e9%83%a8%e5%b1%8b%e3%81%a7%e3%81%ae-%e6%99%82%e9%96%93%e3%81%ae%e3%81%a4%e3%81%b6%e3%81%97%e6%96%b9/) ↗
+[Visit on the Are.na Gift Shop](https://store.are.na/products/ways-to-pass-time-inside-this-room) ↗<br>
+[Learn about its origins on Are.na Editorial](https://www.are.na/editorial/gift-shop-talk) ↗<br>
+[Visit on Wendy's Subwway](https://libby.ecuad.ca/publishingthepresent/catalog/ways-to-pass-time-inside-this-room-%e3%81%93%e3%81%ae%e9%83%a8%e5%b1%8b%e3%81%a7%e3%81%ae-%e6%99%82%e9%96%93%e3%81%ae%e3%81%a4%e3%81%b6%e3%81%97%e6%96%b9/) ↗<br>
 [Visit residency page at pe hu](https://vg.pe.hu/2f/greenpeople.html) ↗

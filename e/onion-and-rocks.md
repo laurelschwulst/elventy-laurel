@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: Onion and Rocks
 link: https://www.are.na/editorial/onion-and-rocks
 draft: true
-subtitle: essay
+subtitle: essay on website anthologies
 publisher: Are.na Editorial
 date: 2020-05-26
 season: Summer

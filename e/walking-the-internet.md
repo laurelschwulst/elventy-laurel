@@ -11,6 +11,7 @@ medium:
   - teaching
   - website
 subtype: publication
+hyperlink: walkingtheinter.net
 year: ["2023"]
 season: Spring
 date_season: Spring 2023

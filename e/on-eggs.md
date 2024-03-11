@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: On Eggs
 selected_section: true
 selected: true
-subtitle: essay
+subtitle: essay on collection
 publisher: Are.na Editorial & Naive Yearly
 date: 2024-09-26
 season: Winter

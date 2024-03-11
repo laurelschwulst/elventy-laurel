@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Meg Miller
 draft: true
-subtitle: website for writer
+subtitle: website for writer & editor
 publisher: Meg Miller
 date: 2019-05-30
 featured_image: /assets/media/artists-space-01.png

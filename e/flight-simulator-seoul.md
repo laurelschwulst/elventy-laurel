@@ -103,7 +103,7 @@ related_projects:
   - the-cuteness-of-white-noise.md
 ---
 
-Exhibition of Flight Simulator at archive bomm in Seoul, August 2019. The exhibition closing was the duration of a red eye flight from Seoul to New York, lasting from evening until morning the next day — a "sleepover" flight in the gallery for eight passengers.
+Exhibition of [Flight Simulator](/medium/world/flight-simulator) at archive bomm in Seoul, August 2019. The exhibition closing was the duration of a red eye flight from Seoul to New York, lasting from evening until morning the next day — a "sleepover" flight in the gallery for eight passengers.
 
 <!-- [Visit residency page at pe hu](https://vg.pe.hu/2f/greenpeople.html) ↗<br>
 [Read more in pe hu's digital magazine](https://arena-attachments.s3.amazonaws.com/26427188/d914ea96dcf795ff740133c701e2eef0.pdf?1708288466) ↗ -->

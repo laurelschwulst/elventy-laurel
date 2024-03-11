@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: Ten Colors
 link: https://rhizome.org/editorial/2020/jan/06/laurel-schwulsts-decade-in-internet
 draft: true
-subtitle: list
+subtitle: essay with many hyperlinks
 publisher: Rhizome
 date: 2020-01-26
 season: Winter

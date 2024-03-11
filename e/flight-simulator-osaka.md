@@ -4,7 +4,7 @@ title: Flight Simulator in Osaka
 selected: true
 selected_section: true
 world:
-- Flight Simulator
+  - Flight Simulator
 subtitle: exhibition at pe hu
 publisher: pe hu
 date: 2019-07-28
@@ -13,7 +13,7 @@ type: project
 medium:
   - exhibition
 collaborator:
-- pe hu
+  - pe hu
 year: ["2019"]
 media_two_beginning:
   - media:
@@ -41,10 +41,10 @@ media_two_ending:
       alt: TBD
       size: small
       caption: Large poster of all 495 Airport Destinations in Flight Simulator
-#   - media:
-#       path: /assets/media/flight-sim-exhibition-osaka-08.jpg
-#       type: image
-#       alt: TBD
+  #   - media:
+  #       path: /assets/media/flight-sim-exhibition-osaka-08.jpg
+  #       type: image
+  #       alt: TBD
   - media:
       path: /assets/media/flight-sim-exhibition-osaka-07.jpg
       type: image
@@ -55,10 +55,9 @@ related_projects:
   - flight-simulator-app.md
   - flight-simulator-pins.md
   - ways-to-pass-time-inside-this-room.md
-
 ---
 
-Exhibition of Flight Simulator a pe hu in Osaka, Japan. July-August 2019.
+Exhibition of [Flight Simulator](/medium/world/flight-simulator) at pe hu in Osaka, Japan. July-August 2019.
 
 [Visit residency page at pe hu](https://vg.pe.hu/2f/greenpeople.html) ↗<br>
 [Read more in pe hu's digital magazine](/media/assets/pe-hu-digital-magazine-vol10-sep-20-2019.pdf) ↗

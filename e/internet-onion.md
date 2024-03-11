@@ -15,6 +15,7 @@ subtype: publication
 year: ["2020"]
 season: Summer
 date_season: Summer 2020
+hyperlink: the-life-and-death-of-an-internet-onion.com
 link: http://the-life-and-death-of-an-internet-onion.com
 ---
 

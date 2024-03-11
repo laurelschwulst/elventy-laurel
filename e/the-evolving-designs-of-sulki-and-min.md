@@ -2,7 +2,7 @@
 title: "(+.+) & ‹*_*›: The Evolving Designs of Sulki and Min"
 link: https://www.artnews.com/art-in-america/features/the-evolving-designs-of-sulki-min-60065
 selected_section: true
-subtitle: essay
+subtitle: essay as portrait
 publisher: Art in America
 layout: layouts/e.njk
 date: 2017-08-28

@@ -1,6 +1,6 @@
 ---
 title: The cuteness of white noise
-subtitle: essay
+subtitle: essay on aesthetics
 link: https://softspace.buffy.co/post/what-are-white-noise-machines-and-why-are-they-so-adorable
 selected: true
 selected_section: true

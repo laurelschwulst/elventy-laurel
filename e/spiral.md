@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: Spiral
 link: https://thecreativeindependent.com/notes/spiral
 draft: true
-subtitle: essay
+subtitle: essay on identity
 publisher: The Creative Independent
 date: 2016-10-14
 season: Fall

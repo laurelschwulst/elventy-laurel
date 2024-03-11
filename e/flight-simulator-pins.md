@@ -4,7 +4,7 @@ title: Flight Simulator Pins
 selected_section: true
 subtitle: enamel pins
 world:
-- Flight Simulator
+  - Flight Simulator
 date: 2019-02-02
 featured_image: /assets/media/fs-pins.jpg
 type: project
@@ -27,18 +27,17 @@ media_three:
       size: extra-large
       solar: solar
       alt: TBD
-media_three_code_after: '<iframe 
-        class="arena-iframe" 
-        src="https://www.are.na/laurel-schwulst/flight-simulator-pins-in-the-wild">
-      </iframe>'
+media_three_code_after: '<iframe
+  class="arena-iframe"
+  src="https://www.are.na/laurel-schwulst/flight-simulator-pins-in-the-wild">
+  </iframe>'
 related_projects:
-- flight-simulator-app.md
-- flight-simulator-seoul.md
-- flight-simulator-osaka.md
-
+  - flight-simulator-app.md
+  - flight-simulator-seoul.md
+  - flight-simulator-osaka.md
 ---
 
-[Flight Simulator](/e/flight-simulator-app) is an app for iOS and Android and an "ode to airplane mode." users put their phone in airplane mode for the duration of a real flight in order to "travel" to this location and earn pins for each airport visited.
+[Flight Simulator](/medium/world/flight-simulator) is an app for iOS and Android and an "ode to airplane mode." users put their phone in airplane mode for the duration of a real flight in order to "travel" to this location and earn pins for each airport visited.
 
 Aarati Akkapeddi was commissioned for the pin designs. They explain: "I created code to generate 500 pin designs based on data around the airports such as climate, timezone, number of routes, and altitude. The shape of the pins are according to the altitude (the spikier the higher), the color is a combination of different aspects of the climate, the bubbles on the outer edge symbolize the number of routes, and the size of the center bubble represents the timezone."
 
