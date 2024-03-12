@@ -1,7 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Multidimensional Citation
-subtitle: co-written essay on learning trees
+subtitle: essay on learning trees
 publisher: The Serving Library
 date: 2022-09-26
 draft: true
