@@ -1,74 +1,78 @@
 [
-    {
-        "name": "Taichi Wi",
-        "link": "https://taichi.pink"
-    },
-    {
-        "name": "Mark Beasley",
-        "link": "https://mark-beasley.com"
-    },
-    {
-        "name": "Soft",
-        "link": "https://soft.works"
-    },
-    {
-        "name": "Sydney Shen",
-        "link": "https://sydneyshen.info"
-    },
-    {
-        "name": "Bryce Wilner",
-        "link": "http://brycewilner.com"
-    },
-    {
-        "name": "Stephen Kwok",
-        "link": "http://kwokstephen.com"
-    },
-    {
-        "name": "Tracy Ma",
-        "link": "https://www.tracyma.com"
-    },
-    {
-        "name": "Meg Miller",
-        "link": "http://megmiller.world"
-    },
-    {
-        "name": "Austin Wade Smith",
-        "link": "http://www.austinwadesmith.com"
-    },
-    {
-        "name": "Aarati Akkapeddi",
-        "link": "https://aarati.online"
-    },
-    {
-        "name": "Mindy Seu",
-        "link": "https://mindyseu.com"
-    },
-    {
-        "name": "Laura Coombs",
-        "link": "http://www.lauracoombs.com"
-    },
-    {
-        "name": "Toby Shorin",
-        "link": "https://tobyshorin.com"
-    },
-    {
-        "name": "Marie Otsuka",
-        "link": "http://motsuka.com"
-    },
-    {
-        "name": "Elliott Cost",
-        "link": "https://elliott.computer"
-    },
-    {
-        "name": "John Provencher",
-        "link": "https://johnprovencher.com"
-    },
-    {
-        "name": "Kristoffer Tjalve",
-        "link": "https://www.naiveweekly.com"
-    },
-    {
-        "name": "Min Guhong",
-        "link": "https://minguhongmfg.com"
-    }
+  {
+    "name": "Taichi Wi",
+    "link": "https://taichi.pink"
+  },
+  {
+    "name": "Mark Beasley",
+    "link": "https://mark-beasley.com"
+  },
+  {
+    "name": "Soft",
+    "link": "https://soft.works"
+  },
+  {
+    "name": "Sydney Shen",
+    "link": "https://sydneyshen.info"
+  },
+  {
+    "name": "Bryce Wilner",
+    "link": "http://brycewilner.com"
+  },
+  {
+    "name": "Stephen Kwok",
+    "link": "http://kwokstephen.com"
+  },
+  {
+    "name": "Tracy Ma",
+    "link": "https://www.tracyma.com"
+  },
+  {
+    "name": "Meg Miller",
+    "link": "http://megmiller.world"
+  },
+  {
+    "name": "Austin Wade Smith",
+    "link": "http://www.austinwadesmith.com"
+  },
+  {
+    "name": "Aarati Akkapeddi",
+    "link": "https://aarati.online"
+  },
+  {
+    "name": "Mindy Seu",
+    "link": "https://mindyseu.com"
+  },
+  {
+    "name": "Laura Coombs",
+    "link": "http://www.lauracoombs.com"
+  },
+  {
+    "name": "Toby Shorin",
+    "link": "https://tobyshorin.com"
+  },
+  {
+    "name": "Marie Otsuka",
+    "link": "http://motsuka.com"
+  },
+  {
+    "name": "Elliott Cost",
+    "link": "https://elliott.computer"
+  },
+  {
+    "name": "John Provencher",
+    "link": "https://johnprovencher.com"
+  },
+  {
+    "name": "Kristoffer Tjalve",
+    "link": "https://www.naiveweekly.com"
+  },
+  {
+    "name": "Min Guhong",
+    "link": "https://minguhongmfg.com"
+  },
+  {
+    "name": "Peter Pelberg",
+    "link": "https://pelberg.com"
+  }
 ]
