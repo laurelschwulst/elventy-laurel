@@ -42,20 +42,20 @@ related_projects:
 
 It was a mysterious beginning, full of potential —
 
-That is, I was [invited](/e/on-eggs-talk/) to explore “egg” as an ongoing theme in my work and life, and I was feeling excited about the prospect.
+That is, I was [invited](/e/on-eggs-talk) to explore “egg” as an ongoing theme in my work and life, and I was feeling excited about the prospect.
 
 Kristoffer suggested this topic to me. He has been a keen observer of my practice for a long time now, so I had some guesses as to why he encouraged me to focus on “egg.”
 
-<figure class="non-solar">
+<!-- <figure class="non-solar">
   <img src="/assets/media/eggs-channel.png" alt="An Are.na channel with many pictures of eggs in various contexts and materials">
   <figcaption>
     <div>
       Laurel Schwulst’s “<a href="https://www.are.na/laurel-schwulst/eggs-in-art-and-design">Eggs in Art & Design</a>” Are.na Channel, 2014 –
     </div>
   </figcaption>
-</figure>
+</figure> -->
 
-On a literal level, I hypothesized he’s been curious about my popular Are.na Channel — “Eggs in Art & Design.” Like its title suggests, it catalogs eggs that appear in works of art or design. I’ve cultivated this collection for the past decade, with the generous contributions of many others.
+On a literal level, I hypothesized he’s been curious about my popular Are.na Channel — “<a href="https://www.are.na/laurel-schwulst/eggs-in-art-and-design" target="_blank">Eggs in Art & Design</a>.” Like its title suggests, it catalogs eggs that appear in works of art or design. I’ve cultivated this collection for the past decade, with the generous contributions of many others.
 
 I also imagined Kristoffer might also sense this mysterious resonance between my life and “egg,” although maybe I was projecting.
 
