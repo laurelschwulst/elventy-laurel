@@ -7,6 +7,8 @@ publisher: University of Tennessee
 date: 2024-02-25
 # featured_image: /assets/media/
 type: project
+collaborator:
+  - Peter Pelberg
 medium:
   - teaching
 subtype: workshop

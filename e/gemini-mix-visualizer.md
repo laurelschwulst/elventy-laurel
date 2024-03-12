@@ -8,6 +8,7 @@ featured_image: /assets/media/gemini09.png
 featured_solar: non-solar
 type: project
 collaborator:
+  - Peter Pelberg
   - Elliott Cost
 medium:
   - object
@@ -91,4 +92,4 @@ Typefaces featured include <a href="https://sharptype.co/typefaces/greenstone/">
 
 <a href="https://sharptype.co/news/sharp-fm-008-IanKimJudd-gemini-23" target="_blank">More on sharptype.co</a> ↗
 
-<div class="small-text">Thanks to Elliott Cost, who I adapted energy spheres from. Also to Theodore Jahng for inviting me to this project, and to Ian Kim Judd for the mix. See credits in video for full acknowledgements. Guiding texts are Korean proverb (via Chino Kim) and quote from C.S. Lewis.</div>
+<div class="small-text">Thanks to Elliott Cost, who I adapted energy spheres from. Also to Theodore Jahng for inviting me to this project, to Ian Kim Judd for the mix, and to Peter Pelberg for the guidance. See credits in video for full acknowledgements. Guiding texts are Korean proverb (via Chino Kim) and quote from C.S. Lewis.</div>
