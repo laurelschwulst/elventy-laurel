@@ -34,6 +34,7 @@ media_two_ending:
       caption: thecreativeindependent.com
 related_projects:
   - my-website-is-a-shifting-house.md
+  - spiral.md
 ---
 
 In 2016, I joined Kickstarter to launch “The Creative Independent,” a unique digital platform serving creative professionals.

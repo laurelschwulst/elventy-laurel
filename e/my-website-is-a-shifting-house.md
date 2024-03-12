@@ -27,6 +27,7 @@ footer: 'Special thanks to <a href="/with/meg-miller" class="collaborator">Meg M
 related_projects:
   - the-creative-independent.md
   - website-essay-in-world.md
+  - spiral.md
 ---
 
 ## What is a website?
