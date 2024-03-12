@@ -6,14 +6,21 @@
 
         {% if layout == "layouts/e.njk" %}
             <title>{{ title }} | Laurel Schwulst</title>
-            <meta property="og:title" content="{{ title }}">
+            <meta property="og:title" content="{{ title }} | Laurel Schwulst">
             <meta property="og:image" content="{{ featured_image }}">
+        {% elseif layout == "layouts/i.njk" %}
+            <title>{{ title }} | Laurel Schwulst</title>
+            <meta property="og:title" content="{{ title }} | Laurel Schwulst">
+            <meta property="og:image" content="{{ domain }}/assets/media/laurel-schwulst-photo-by-jason-fulford.jpg">
         {% else %}
             <title>Laurel Schwulst</title>
             <meta property="og:title" content="Laurel Schwulst">
             <meta property="og:image" content="{{ domain }}/assets/media/laurel-schwulst-photo-by-jason-fulford.jpg">
-            {# <meta property="og:image" content="{{ domain }}/assets/media/light-today.jpg"> #}
         {% endif %}
+
+        <meta name="Author" content="Laurel Schwulst" />
+        <meta name="Description" content="Laurel Schwulst is an artist, designer, writer, educator, and technologist." />
+        <meta name="Keywords" content="Laurel Schwulst artist designer writer educator technologist" />
 
         <link rel="stylesheet" href="/assets/css/style.css">
         <meta property="og:description" content="">
