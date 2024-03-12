@@ -20,6 +20,7 @@ context: "This is an adapted mirror of something I originally self-published on 
 footer: 'Thanks to <a href="http://motsuka.com" target="_blank">Marie Otsuka</a> and <a href="https://www.tiger.exposed" target="_blank">Tiger Dingsun</a> for collaborating on <a href="http://pentad.world" target="_blank">pentad.world</a> with me.'
 related_projects:
   - seasons-in-pentameter.md
+  - the-cuteness-of-white-noise.md
 ---
 
 <!-- May 9, 2022
