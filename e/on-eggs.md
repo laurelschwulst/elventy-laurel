@@ -6,6 +6,7 @@ selected: true
 subtitle: essay on collection
 publisher: Are.na Editorial & Naive Yearly
 date: 2024-09-26
+date_season: Winter 2024
 season: Winter
 featured_image: /assets/media/egg-gavin-turk.jpg
 link: https://naive-yearly.are.na/laurel-schwulst
@@ -16,7 +17,7 @@ medium:
 subtype: essay
 year: ["2024"]
 bottom_title: '<div style="font-size: 8vw;">🥚</div>'
-context: 'This essay began as a talk at <a href="http://naiveyearly.com">Naive Yearly</a>, a gathering organized by Kristoffer Tjalve. This written version is an adapted mirror of an essay published first in parts on my own newsletter, and then later published in full on <a href="https://naive-yearly.are.na/laurel-schwulst">Are.na Editorial</a> ↗ on March 7, 2024.'
+context: 'This essay began as a talk at <a href="http://naiveyearly.com">Naive Yearly</a>, a gathering organized by Kristoffer Tjalve. This written version is an adapted mirror of an essay published first in parts on my own newsletter, and then later published in full on <a href="https://naive-yearly.are.na/laurel-schwulst">Are.na Editorial</a> ↗ on March 7, 2024. Thanks to Meg Miller for editing.'
 footer: Thanks to Kristoffer Tjalve for inviting me to talk at Naive Yearly, to Meg Miller for editing this full piece, and to Are.na for the space to publish. And to the other contributors and guests of Naive Yearly, to whom I'm grateful for conversation and exchange of ideas, including Alice Yuan Zhang, Chia Amisola, Elliott Cost, Benjamin Earl, Tiana Dueck, Marty Bell, Maya Man, and Reuben Son.
 collaborator:
   - Kristoffer Tjalve
