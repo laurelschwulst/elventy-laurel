@@ -60,6 +60,6 @@ related_projects:
 Exhibition of [Flight Simulator](/medium/world/flight-simulator) at pe hu in Osaka, Japan. July-August 2019.
 
 [Visit residency page at pe hu](https://vg.pe.hu/2f/greenpeople.html) ↗<br>
-[Read more in pe hu's digital magazine](/media/assets/pe-hu-digital-magazine-vol10-sep-20-2019.pdf) ↗
+[Read more in pe hu's digital magazine](https://arena-attachments.s3.amazonaws.com/26427188/d914ea96dcf795ff740133c701e2eef0.pdf) ↗
 
 <div class="small-text">Thanks to Green People, pe hu, Ayami Konishi, Elliott Cost, Kazuma Sasajima, Aarati Akkapeddi, Dan Brewster.</div>

@@ -64,3 +64,7 @@ design by megan pai<br>
 [Item](https://store.are.na/products/a-catalogue-of-simple-pleasures-cards) ↗
 
 </div>
+
+<div class="small-text">
+Thanks to Cab Broskoski, Daniel Pianetti, Meg Miller, and all the collaborators on all the gift shop items.
+</div>
