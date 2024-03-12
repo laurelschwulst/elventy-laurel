@@ -1,5 +1,6 @@
 ---
 layout: layouts/e.njk
+hide_on_home: true
 title: Printed Matter Membership
 subtitle: icons for printedmatter.org
 date: 2012-05-29
@@ -18,6 +19,9 @@ media_one:
       type: image
       size: large
       alt: TBD
+related_projects:
+  - flight-simulator-pins.md
+  - gemini-mix-visualizer.md
 ---
 
 Icons for series of membership levels at Printed Matter, world's largest artist bookstore. They vaguely resemble cellular mitosis, but then grows into the form of a book.
