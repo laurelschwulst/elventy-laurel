@@ -79,7 +79,7 @@ Anyway, let’s begin.
     </figcaption>
 </figure>
 
-I began my egg research by opening <i>The Book of Symbols</i>. I found the page for “Egg” and read aloud:
+I began my egg research by opening <i>The Book of Symbols</i> by <a href="http://aras.org">ARAS</a>, the Archive for Research in Archetypal Symbolism. I found the page for “Egg” and read aloud:
 
 <blockquote class="large-quote" style="margin-bottom: 0;">The egg evokes the beginning, the simple, the source.</blockquote><a href="https://www.are.na/block/24526555" target="_blank" class="no-underline"><cite class="after-blockquote">✶✶</cite></a>
 
