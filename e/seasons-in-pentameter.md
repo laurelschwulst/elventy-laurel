@@ -398,6 +398,6 @@ This website explores the relationship between changing seasonality, poetry, and
 
 It displays the current phase of the 72 microseasons (kō) of Japan, each lasting five days. Also called 72 pentads, they originated in China and were adapted to better match the seasonality of Japan in the Edo period. The current version is from the abbreviated traditional calendar of 1874.
 
-The microseasons are displayed in a variable typeface “Pentameter,” designed by <a href="/with/marie-otsuka" class="collaborator">Marie Otsuka</a> of Occupant Fonts, which changes thickness as microseasons changes. The sounds were composed by Tiger Dingsun. The project was orchestrated and designed by Laurel Schwulst.
+The microseasons are displayed in a variable typeface “Pentameter,” designed by <a href="/with/marie-otsuka" class="collaborator">Marie Otsuka</a> of Occupant Fonts, which changes thickness as microseasons changes. The sounds were composed by <a href="/with/tiger-dingsun" class="collaborator">Tiger Dingsun</a>. The project was orchestrated and designed by Laurel Schwulst, and commissioned by <a href="/with/marie-otsuka" class="collaborator">Marie Otsuka</a> of Occupant Fonts.
 
 [Visit pentad.world](https://pentad.world) ↗
