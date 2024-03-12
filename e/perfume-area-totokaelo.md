@@ -1,7 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Four Fragrances
-subtitle: perfume reviews on silk handkerchiefs
+subtitle: reviews on silk handkerchiefs
 publisher: Totokaelo
 date: 2017-12-02
 selected_section: true

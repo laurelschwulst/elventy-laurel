@@ -16,11 +16,13 @@ year: ["2016"]
 related_projects:
   - the-creative-independent.md
   - my-website-is-a-shifting-house.md
-context: 'As creative director, I created the identity of The Creative Independent — an evolving spiral. After presenting internally at Kickstarter as to why, I published this <a href="https://thecreativeindependent.com/notes/spiral/" target="_blank">piece</a> ↗ as a "Note" on TCI on October 10, 2016 — two weeks after The Creative Independent launched to the world.'
-footer: "Special thanks to Yancey Strickler for encouraging me to publish this, and to the rest of the TCI team (at the time): Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, and Hannah Street Elliott."
+context: 'This is an adapted mirror of a note originally published on <a href="https://thecreativeindependent.com/notes/spiral/" target="_blank">The Creative Independent</a> ↗ on October 10, 2016 — two weeks after The Creative Independent launched to the world. This piece shares how I arrived at the spiral symbol for our identity.'
+footer: "Special thanks to Yancey Strickler for encouraging me to publish this, and to the rest of the The Creative Indepdnent team (at the time): Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, and Hannah Street Elliott."
 ---
 
-<p>If you’ve been observing our website, you’ve likely noticed it change a few times. It will continue to change. Our website is alive, just like all websites are alive. One thing that’s remained the same on ours, however, is our presentation of a spiral symbol:</p>
+If you’ve been observing our website — <a href="https://thecreativeindependent.com/">thecreativeindependent.com</a> — you’ve likely noticed it change a few times.
+
+It will continue to change. Our website is alive, just like all websites are alive. One thing that’s remained the same on ours, however, is our presentation of a spiral symbol:</p>
 
 <figure style="max-width: 100px;" class="border">
   <img src="/assets/media/spiral-hand.png">
