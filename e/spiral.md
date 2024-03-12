@@ -5,6 +5,7 @@ link: https://thecreativeindependent.com/notes/spiral
 subtitle: essay on identity
 publisher: The Creative Independent
 date: 2016-10-14
+date_season: Fall 2016
 season: Fall
 featured_image: /assets/media/snail-slime.jpg
 # featured_border: border
@@ -17,7 +18,7 @@ related_projects:
   - the-creative-independent.md
   - my-website-is-a-shifting-house.md
 context: 'This is an adapted mirror of a note originally published on <a href="https://thecreativeindependent.com/notes/spiral/" target="_blank">The Creative Independent</a> ↗ on October 10, 2016 — two weeks after The Creative Independent launched to the world. This piece shares how I arrived at the spiral symbol for our identity.'
-footer: "Special thanks to Yancey Strickler for encouraging me to publish this, and to the rest of the The Creative Indepdnent team (at the time): Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, and Hannah Street Elliott."
+footer: 'Originally published on <a href="https://thecreativeindependent.com/notes/spiral/" target="_blank">The Creative Independent</a> ↗ on October 10, 2016. Thanks to Yancey Strickler for encouraging me to publish this, and to the rest of the The Creative Indepdnent team (at the time): Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, and Hannah Street Elliott.'
 ---
 
 If you’ve been observing our website — <a href="https://thecreativeindependent.com/">thecreativeindependent.com</a> — you’ve likely noticed it change a few times.
@@ -58,7 +59,7 @@ It will continue to change. Our website is alive, just like all websites are ali
 
 <p>Snails (and other gastropods like slugs) excrete slime. They make this slime to move, so that their bodies don’t lose moisture to the rugged terrain beneath them. This slime is beautiful because it glimmers. It’s also beautiful because it’s a map of time recently spent by the snail. Where is the snail now? And where was it going in the first place?</p>
 
-<p>We think the snail is a good mascot for TCI, as it is biologically forced to leave its slime (process, path) everywhere. You could say our goal is to illuminate the (often hidden) slime of the artists we talk to. You could say we are a growing archive of slime. Perhaps it’s a worthy goal, as the snail’s trail doesn’t last long. Even slime evaporates.</p>
+<p>We think the snail is a good mascot for <a href="/e/the-creative-independent">The Creative Independent</a>, as it is biologically forced to leave its slime (process, path) everywhere. You could say our goal is to illuminate the (often hidden) slime of the artists we talk to. You could say we are a growing archive of slime. Perhaps it’s a worthy goal, as the snail’s trail doesn’t last long. Even slime evaporates.</p>
 
 <p>Snails are slow. Their only method of movement is flexing and releasing tension in their powerful stomach muscles, which happens to be a very slow process. We admire the snail’s slowness. We like to think this slowness helps it better navigate on its self-proclaimed journey. If a snail told you it wanted to be the “Wikipedia for the creative process,” would you believe it to follow through?</p>
 
