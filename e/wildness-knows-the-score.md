@@ -103,7 +103,7 @@ Sometimes I consider the titles of the news stories from my channel as a dystopi
 
 <blockquote>
 
-_Toyota Is Recalling More Than 800,00 Cars Because of Spiders_
+_Toyota Is Recalling More Than 800,000 Cars Because of Spiders_
 
 _Making the 9/11 Memorial Lights Bird-Safe_
 
@@ -145,7 +145,7 @@ In a speech given to physics teachers and later [reprinted](http://archives.chi
   <figcaption><div>Untitled (Good Times, Bad Times) (2007) by Anna Jermolaewa</div></figcaption>
 </figure>
 
-When artists use wild animals in their work, I like to think they are examining the state of the planet. In his film [_The Nightwatch_](https://www.are.na/block/418538), a fox roams London's National Portrait Gallery after hours. Through compiling footage from the museum's built-in security cameras that follow the fox's path, Francis Alÿs calls attention to the ubiquity of public surveillance in London, where the fox is a common urban cohabitant and the National Portrait Gallery is a well-known cultural landmark. In Anna Jermolaewa's three photographs [_Untitled (Good Times, Bad Times)_](https://www.are.na/block/725947), pigeons rest on a brutalist wall clock. It turns out the minute hand is more dependable for a rest than the hour, making the rest a relatively quick one.
+When artists use wild animals in their work, I like to think they are examining the state of the planet. In Francis Alÿs's film [_The Nightwatch_](https://www.are.na/block/418538), a fox roams London's National Portrait Gallery after hours. Through compiling footage from the museum's built-in security cameras that follow the fox's path, Alÿs calls attention to the ubiquity of public surveillance in London, where the fox is a common urban cohabitant and the National Portrait Gallery is a well-known cultural landmark. In Anna Jermolaewa's three photographs [_Untitled (Good Times, Bad Times)_](https://www.are.na/block/725947), pigeons rest on a brutalist wall clock. It turns out the minute hand is more dependable for a rest than the hour, making the rest a relatively quick one.
 
 ---
 
