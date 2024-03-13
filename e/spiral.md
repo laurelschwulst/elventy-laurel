@@ -17,6 +17,7 @@ year: ["2016"]
 related_projects:
   - the-creative-independent.md
   - my-website-is-a-shifting-house.md
+  - the-evolving-designs-of-sulki-and-min.md
 context: 'This is an adapted mirror of a note originally published on <a href="https://thecreativeindependent.com/notes/spiral/" target="_blank">The Creative Independent</a> ↗ on October 10, 2016 — two weeks after The Creative Independent launched to the world. This piece shares how I arrived at the spiral symbol for our identity.'
 footer: 'Originally published on <a href="https://thecreativeindependent.com/notes/spiral/" target="_blank">The Creative Independent</a> ↗ on October 10, 2016. Thanks to Yancey Strickler for encouraging me to publish this, and to the rest of the The Creative Indepdnent team (at the time): Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, and Hannah Street Elliott.'
 ---
