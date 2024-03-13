@@ -45,4 +45,4 @@ I built the site with evolution in mind — it’s constructed to grow every day
 
 <a href="https://thecreativeindependent.com" target="_blank">Visit thecreativeindependent.com</a> ↗
 
-<div class="small-text">Thanks to the visionary members of the TCI team — Yancey Strickler, Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, Hannah Street Elliott, and Elliott Cost. And thanks to Max Bittker for helping me write this description many years after.</div>
+<div class="small-text">Thanks to the visionary members of the TCI team — Yancey Strickler, Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, Hannah Street Elliott, and Elliott Cost. And thanks to Max Bittker for helping me write this description.</div>
