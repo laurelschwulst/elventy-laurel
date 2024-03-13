@@ -44,3 +44,5 @@ As creative director, I was involved in everything — from establishing our pri
 I built the site with evolution in mind — it’s constructed to grow every day and be gardened over time. The site has continued to grow and evolve like a living organism and today is a network of over 1500 interviews: a rich database of thought from writers, musicians, designers, visual artists, and others in six languages.
 
 <a href="https://thecreativeindependent.com" target="_blank">Visit thecreativeindependent.com</a> ↗
+
+<div class="small-text">Thanks to the visionary members of the TCI team — Yancey Strickler, Brandon Stosuy, T. Cole Rachel, Charlotte Zoller, Hannah Street Elliott, and Elliott Cost. And thanks to Max Bittker for helping me write this description many years after.</div>
