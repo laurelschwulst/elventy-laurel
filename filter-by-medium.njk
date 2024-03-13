@@ -202,7 +202,7 @@ permalink: "medium/{{ medium | slugify }}/"
                   </div>
                 {% elseif medium == "talk" %}
                   <div class="year-seasons">
-                    {{ e.data.date.getFullYear() }}-{% if e.data.date.getMonth() + 1 < 10 %}0{% endif %}{{ e.data.date.getMonth() + 1 }}-{% if e.data.date.getDate() < 9 %}0{% endif %}{{ e.data.date.getDate() + 1 }}
+                    {{ e.data.date.getFullYear() }}-{% if e.data.date.getMonth() + 1 < 10 %}0{% endif %}{{ e.data.date.getMonth() + 1 }}-{% if e.data.date.getDate() < 9 %}0{% endif %}{{ e.data.date.getDate() }}
                   </div>
                 {% else %}
                   <div class="year">
