@@ -21,6 +21,7 @@ footer: 'Thanks to <a href="http://motsuka.com" target="_blank">Marie Otsuka</a>
 related_projects:
   - seasons-in-pentameter.md
   - the-cuteness-of-white-noise.md
+  - serpentine-tam-dao.md
 ---
 
 <!-- May 9, 2022
