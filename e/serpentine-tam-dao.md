@@ -1,6 +1,5 @@
 ---
 layout: layouts/e.njk
-hide_on_home: true
 title: Serpentine & Tam Dao
 subtitle: synthetic voice reads fragrances
 publisher: left gallery
