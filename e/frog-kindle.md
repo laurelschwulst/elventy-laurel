@@ -1,6 +1,7 @@
 ---
 layout: layouts/e.njk
 title: Frog pond plop
+hide_on_home: true
 subtitle: visual poem translation
 publisher: Laurel Schwulst
 date: 2014-09-15
