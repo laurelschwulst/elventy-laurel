@@ -43,6 +43,19 @@ media_two_ending:
   - media:
       path: /assets/media/fs-left-03.png
       type: image
+  - media:
+      path: /assets/media/flight-sim-info2.png
+      type: image
+      size: small
+media_three:
+  - media:
+      path: /assets/media/flight-sim-info1.png
+      type: image
+  # - media:
+  #     path: /assets/media/flight-simulator-trailer.mp4
+  #     type: video
+  #     controls: true
+  #     alt: TBD
 related_projects:
   - flight-simulator-pins.md
   - the-cuteness-of-white-noise.md
