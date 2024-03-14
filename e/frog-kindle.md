@@ -23,6 +23,8 @@ media_two_ending:
       type: image
       alt: TBD
       caption: Dom Sylvester Houedard, concrete poet
+related_projects:
+  - beautiful-company-stickers.md
 ---
 
 Inspired by the <a href="https://www.bopsecrets.org/gateway/passages/basho-frog.htm">famous frog haiku</a> by Bashô, I wanted to create my own translation.

@@ -27,7 +27,8 @@ media_two_ending:
 #       type: image
 #       alt: TBD
 #       caption: Photo by Bryce Wilner
-
+related_projects:
+  - frog-kindle.md
 ---
 
 Beautiful Company was a newborn company in 2014. To welcome it into the world, we designed stickers. They were created instead of something more traditional, such as a business card. Through its stickiness, the sticker tries to live in the world just a little longer than the business card.
