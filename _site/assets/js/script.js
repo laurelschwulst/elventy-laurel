@@ -58,7 +58,24 @@ window.addEventListener("load", function () {
 // });
 
 // Function to get the current date in the format "February 8, 2024"
+// Function to get the current date in the format "March 15, 2024"
 function getCurrentDate() {
+  const currentDate = new Date();
+  const month = currentDate.getMonth();
+  const day = currentDate.getDate();
+  const year = currentDate.getFullYear();
+
+  // Check if the current date is March 15th
+  if (month === 2 && day === 15) {
+    // Note: JavaScript months are 0-indexed (0 = January, 1 = February, ...)
+    return `*<a class="birthday" href="https://you-are-laurel-right.neocities.org" target="_blank">March 15, ${year}</a>*`;
+  } else {
+    return `${getMonthName(month)} ${day}, ${year}`;
+  }
+}
+
+// Function to get month name
+function getMonthName(monthIndex) {
   const months = [
     "January",
     "February",
@@ -73,26 +90,11 @@ function getCurrentDate() {
     "November",
     "December",
   ];
-  const currentDate = new Date();
-  const month = months[currentDate.getMonth()];
-  const day = currentDate.getDate();
-  const year = currentDate.getFullYear();
-  return `${month} ${day}, ${year}`;
+  return months[monthIndex];
 }
 
 // Update the content of the div with id "todays-date"
-document.getElementById("todays-date").textContent = getCurrentDate();
-
-// Get the elements
-const todaysDateElement = document.getElementById("todays-date");
-// const updatedDateElement = document.getElementById("last-updated-date");
-const onElement = document.getElementById("on");
-
-// Compare the text content
-// if (todaysDateElement.textContent === updatedDateElement.textContent) {
-//   updatedDateElement.textContent = "earlier today";
-//   onElement.textContent = ""; // Clear content of the "on" element
-// }
+document.getElementById("todays-date").innerHTML = getCurrentDate();
 
 $(function () {
   // $('#menu-click').click(function(){

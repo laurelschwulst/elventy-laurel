@@ -1580,3 +1580,10 @@ h3.teaching {
   font-size: 1em;
   text-decoration: underline;
 }
+
+a.birthday {
+  /* color: forestgreen; */
+  /* border-bottom: 1px solid forestgreen; */
+  /* text-decoration: underline; */
+  border: 0;
+}
