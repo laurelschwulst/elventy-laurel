@@ -1,18 +1,18 @@
 ---
 layout: layouts/e.njk
-title: Designing for Decay
-link: https://fruitful.school/blog/2020-09-17.html
+title: Basics of CSS
+link: https://youtu.be/BUZIaTHm_oE?si=-4532C1dlyF6YtLH
 draft: true
-subtitle: essay on subtractive design
-publisher: Fruitful School
-date: 2020-09-17
+subtitle: tutorial video
+publisher: Laurel Schwulst
+date: 2021-09-17
 season: Fall
 featured_image: /assets/media/
-type: writing
+type: project
 medium:
-  - writing
-subtype: essay
-year: ["2020"]
+  - teaching
+subtype: publication
+year: ["2021"]
 media_one:
   # - media:
   #     path: /assets/media/tci-logo.png

@@ -3,7 +3,7 @@ layout: layouts/e.njk
 title: "The Life and Death of an Internet Onion"
 draft: true
 subtitle: perennial web anthology
-publisher: Yale School of Art & VCU
+publisher: Laurel Schwulst, Yale, VCU, & Are.na
 date: 2020-07-23
 featured_image: /assets/media/
 type: project
