@@ -61,7 +61,7 @@ design by companion–platform<br>
 by alex singh & co-contributors<br>
 design by megan pai<br>
 [Conversation](https://www.are.na/blog/an-unbound-book) ↗
-[Item](https://store.are.na/products/a-catalogue-of-simple-pleasures-cards) ↗
+[Item](https://store.are.na/products/a-catalogue-of-simple-pleasures-cards) ↗<br>
 
 </div>
 
