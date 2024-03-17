@@ -1584,6 +1584,6 @@ h3.teaching {
 a.birthday {
   /* color: forestgreen; */
   /* border-bottom: 1px solid forestgreen; */
-  /* text-decoration: underline; */
+  text-decoration: underline;
   border: 0;
 }

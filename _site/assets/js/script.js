@@ -68,7 +68,7 @@ function getCurrentDate() {
   // Check if the current date is March 15th
   if (month === 2 && day === 15) {
     // Note: JavaScript months are 0-indexed (0 = January, 1 = February, ...)
-    return `*<a class="birthday" href="https://you-are-laurel-right.neocities.org" target="_blank">March 15, ${year}</a>*`;
+    return `<a class="birthday" href="https://you-are-laurel-right.neocities.org" target="_blank">March 15, ${year}</a>`;
   } else {
     return `${getMonthName(month)} ${day}, ${year}`;
   }
