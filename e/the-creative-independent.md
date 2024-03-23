@@ -33,6 +33,7 @@ media_two_ending:
       alt: TBD
       caption: thecreativeindependent.com
 related_projects:
+  - tci-website.md
   - my-website-is-a-shifting-house.md
   - spiral.md
 ---

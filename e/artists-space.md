@@ -49,8 +49,9 @@ media_three:
 #       type: image
 #       alt: TBD
 related_projects:
+  - about-this-website-artists-space.md
+  - favicon-horse-for-as.md
   - alt-text-as-poetry.md
-  # - about-this-website-as.md
 ---
 
 Artists Space is a historic arts nonprofit in NYC. Its website, inspired by its updated physical location, provides multiple entrances and an accessible interface to its cultural programming and 50-year avant-garde archive. In collaboration with <a href="/with/taichi-wi" class="collaborator">Taichi Wi</a> and <a href="/with/mark-beasley" class="collaborator">Mark Beasley</a>.

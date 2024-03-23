@@ -12,6 +12,7 @@ collaborator:
   - Austin Wade Smith
   - Meg Miller
   - Elliott Cost
+  - Toby Shorin
 featured_image: /assets/media/kite.png
 type: project
 season: Spring
