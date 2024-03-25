@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Perfume Area
 selected: true
-selected_section: true
+# selected_section: true
 subtitle: book of fragrance reviews
 publisher: Ambient Works
 description: Testing 123

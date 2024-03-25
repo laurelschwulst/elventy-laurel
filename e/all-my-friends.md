@@ -44,13 +44,17 @@ The website’s layout recalls early web’s “frames” while also having mode
 
 <div class="small-text">
 
-"In general, the internet is so focused on the present that it’s difficult to recall what it looked like even a few years ago, a few months ago. It’s like remembering a dream, it doesn’t seem to have actually happened despite the fact that you experienced it.
+<blockquote style="border: 0; padding: 0; margin: 0;">
+
+In general, the internet is so focused on the present that it’s difficult to recall what it looked like even a few years ago, a few months ago. It’s like remembering a dream, it doesn’t seem to have actually happened despite the fact that you experienced it.
 
 Beyond that, culture doesn't provide imagery of “early memories” that account for the cyborg experience of being online. What are some of the cliches? Running around in nature, walking up the stairs of an old house, a first kiss—these are physical experiences, not virtual ones.
 
 And yet here we are—“we” being people young enough to have had our social, psychological, sexual, cultural, etc., etc., development massively impacted by the internet and its associated technologies.
 
-One of the contributing artists told me that working on this was like participating in group therapy."
+One of the contributing artists told me that working on this was like participating in group therapy.
+
+</blockquote>
 
 — Gene McHugh
 

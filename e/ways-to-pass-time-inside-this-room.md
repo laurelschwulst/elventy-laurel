@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Ways to Pass Time Inside This Room
 selected: true
-selected_section: true
+# selected_section: true
 subtitle: book of ideas
 world:
   - Flight Simulator
