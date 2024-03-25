@@ -9,12 +9,13 @@ type: project
 medium:
   - website
 hyperlink: laurelschwulst.com
-# collaborator:
-# - Jungsuh Rhee
-# - Reuben Son
-# - Megan Pai
-# - Jack Rieger
-# - Peter Pelberg
+collaborator:
+  - Jungsuh Rhee
+  - Reuben Son
+  - Megan Pai
+  - Jack Rieger
+  - Peter Pelberg
+  - Anthony Vine
 year: ["2024"]
 media_two_ending:
   - media:
@@ -63,5 +64,5 @@ It can be accessed at laurelschwulst.com and also laurel.world.
 It was launched on March 12, 2024.
 
 <div class="small-text">
-Thanks to Reuben Son, Jungsuh Rhee, Megan Pai, Jack Rieger, Peter Pelberg, Min Guhong, and AV for guidance. And to <a href="https://www.gradientretreat.com/">Gradient Retreat</a>, a beautiful place Galiano Island near Vancouver, where this website had space to take root, Summer 2023, which I shared with Kelin Zhang, Omar Rizwan, Minkyoung Kim, Marie Otsuka, and Ansh Shukla.
+Thanks to Reuben Son, Jungsuh Rhee, Megan Pai, Jack Rieger, Peter Pelberg, Min Guhong, and Anthony Vine for guidance. And to <a href="https://www.gradientretreat.com/">Gradient Retreat</a>, a beautiful place Galiano Island near Vancouver, where this website had space to take root, Summer 2023, which I shared with Kelin Zhang, Omar Rizwan, Minkyoung Kim, Marie Otsuka, and Ansh Shukla.
 </div>
