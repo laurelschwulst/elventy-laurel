@@ -9,13 +9,6 @@ type: project
 medium:
   - website
 hyperlink: laurelschwulst.com
-collaborator:
-  - Jungsuh Rhee
-  - Reuben Son
-  - Megan Pai
-  - Jack Rieger
-  - Peter Pelberg
-  - Anthony Vine
 year: ["2024"]
 media_two_ending:
   - media:
@@ -23,34 +16,6 @@ media_two_ending:
       type: image
       size: small
       alt: TBD
-  # - media:
-  #     path: /assets/media/ls1.webp
-  #     type: image
-  #     solar: non-solar
-  #     border: border
-  #     alt: TBD
-  # - media:
-  #     path: /assets/media/ls2.webp
-  #     type: image
-  #     solar: non-solar
-  #     border: border
-  #     size: medium
-  #     alt: TBD
-  # - media:
-  #     path: /assets/media/ls3.webp
-  #     type: image
-  #     solar: non-solar
-  #     border: border
-  #     size: medium
-  #     alt: TBD
-# media_two_ending:
-#   - media:
-#       path: /assets/media/seasons-all-site.png
-#       type: image
-#       alt: TBD
-# related_projects:
-#     - seasons-in-motion.md
-#     - gemini-mix-visualizer.md
 ---
 
 This website was designed to show the interconnectedness of my work.

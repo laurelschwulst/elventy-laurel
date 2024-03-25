@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: About this Website (artistsspace.org)
 link: https://allmyfriendsatonce.com/#50
-subtitle: text about website
+subtitle: essay about website
 publisher: artistsspace.org
 date: 2019-10-29
 season: Fall

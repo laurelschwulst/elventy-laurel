@@ -2,7 +2,7 @@
 layout: layouts/e.njk
 title: Pastel Club
 link: https://allmyfriendsatonce.com/#50
-subtitle: essay on memory
+subtitle: essay on early memories
 publisher: When All My Friends Are On At Once
 date: 2013-12-14
 season: Fall
@@ -13,7 +13,7 @@ medium:
   - writing
 subtype: essay
 year: ["2013"]
-context: 'This is a mirror of an <a href="https://allmyfriendsatonce.com/#50" target="_blank">essay</a> ↗ I wrote in 2013 for the project <a href="/e/all-my-friends">When all my friends are on at once</a> organized by curator Gene McHugh, collecting and organizing early internet memories from 48 artists.'
+context: 'In this essay, I share my formative moments on the internet as a young person, which all started with my love of horses. This is a mirror of a <a href="https://allmyfriendsatonce.com/#50" target="_blank">piece</a> ↗ I created in 2013 for the project "When all my friends are on at once" organized by curator Gene McHugh, collecting and organizing early internet memories from 48 artists. I also designed and have been hosting its <a href="/e/all-my-friends">website</a>.'
 footer: "Special thanks to Gene McHugh for inviting me to write, and for being open to collaborating on the whole project together."
 related_projects:
   - all-my-friends.md
